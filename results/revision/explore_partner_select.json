@@ -1,0 +1,72 @@
+{
+ "LENS-Net": {
+  "val_auc_fused": 98.80264467431253,
+  "val_auc_partner": 98.46491175814128,
+  "brier_members": 0.06179665477154795,
+  "ambiguity": 0.006715057883411646,
+  "gap_auc": 0.9617286333492956,
+  "rank_div": 0.1080803538245408,
+  "fused_brier": 0.05508159673897136,
+  "nine_set_fused (truth)": 87.60747659217552
+ },
+ "w/o motion": {
+  "val_auc_fused": 98.08539908799405,
+  "val_auc_partner": 97.94941631459677,
+  "brier_members": 0.06922205691728045,
+  "ambiguity": 0.0028177809435874224,
+  "gap_auc": 0.4462331898047817,
+  "rank_div": 0.04278188227731483,
+  "fused_brier": 0.06640427590854188,
+  "nine_set_fused (truth)": 85.57104981971011
+ },
+ "Motion probe": {
+  "val_auc_fused": 98.77921306324232,
+  "val_auc_partner": 97.91363346447092,
+  "brier_members": 0.06598581212941002,
+  "ambiguity": 0.008976045064628124,
+  "gap_auc": 0.4104503396789217,
+  "rank_div": 0.16599235717108796,
+  "fused_brier": 0.057009766900729224,
+  "nine_set_fused (truth)": 87.07954593137606
+ },
+ "VideoMAE-B FT (tuned)": {
+  "val_auc_fused": 99.12512718599059,
+  "val_auc_partner": 98.6145166376353,
+  "brier_members": 0.05884060082109818,
+  "ambiguity": 0.012391843734280499,
+  "gap_auc": 1.1113335128433117,
+  "rank_div": 0.19386782809460665,
+  "fused_brier": 0.04644875708681769,
+  "nine_set_fused (truth)": 89.17269197330002
+ },
+ "VideoMAE-B LoRA": {
+  "val_auc_fused": 99.3345819602012,
+  "val_auc_partner": 98.96019247281338,
+  "brier_members": 0.05617939403151998,
+  "ambiguity": 0.011060342632450976,
+  "gap_auc": 1.4570093480213775,
+  "rank_div": 0.2117872260979868,
+  "fused_brier": 0.04511905139906902,
+  "nine_set_fused (truth)": 89.25706930206542
+ },
+ "CLIP-FT": {
+  "val_auc_fused": 98.4083184602175,
+  "val_auc_partner": 97.74758674263275,
+  "brier_members": 0.06473803064291249,
+  "ambiguity": 0.008676734595238619,
+  "gap_auc": 0.24440361784075057,
+  "rank_div": 0.14227531759421708,
+  "fused_brier": 0.05606129604767387,
+  "nine_set_fused (truth)": 86.89190301075602
+ },
+ "VadCLIP": {
+  "val_auc_fused": 98.30819796613616,
+  "val_auc_partner": 98.44787419687161,
+  "brier_members": 0.06706265098742832,
+  "ambiguity": 0.010957763467921494,
+  "gap_auc": 0.9446910720796021,
+  "rank_div": 0.056953921304415935,
+  "fused_brier": 0.056104887519506826,
+  "nine_set_fused (truth)": 86.34248446853123
+ }
+}

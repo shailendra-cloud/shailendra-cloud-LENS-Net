@@ -1,0 +1,58 @@
+{
+  "LENS-Net": {
+    "Test": 97.94,
+    "XD": 85.11,
+    "UCF": 77.99,
+    "SCFD": 96.88,
+    "SCVD": 90.87,
+    "VioPeru": 83.46,
+    "AIRTLab": 78.54,
+    "CCTV-F": 85.32,
+    "Movies": 74.68,
+    "UBI-Fights": 88.44,
+    "mean9": 84.59,
+    "min9": 74.68
+  },
+  "CLIP probe": {
+    "Test": 96.98,
+    "XD": 90.07,
+    "UCF": 72.38,
+    "SCFD": 92.86,
+    "SCVD": 89.44,
+    "VioPeru": 79.78,
+    "AIRTLab": 84.95,
+    "CCTV-F": 76.14,
+    "Movies": 97.82,
+    "UBI-Fights": 91.59,
+    "mean9": 86.11,
+    "min9": 72.38
+  },
+  "A: average(probe, LENS-Net)": {
+    "Test": 98.27,
+    "XD": 90.42,
+    "UCF": 77.67,
+    "SCFD": 96.93,
+    "SCVD": 91.89,
+    "VioPeru": 83.68,
+    "AIRTLab": 82.11,
+    "CCTV-F": 83.85,
+    "Movies": 89.88,
+    "UBI-Fights": 92.03,
+    "mean9": 87.61,
+    "min9": 77.67
+  },
+  "B: bounded corrections (c on val)": {
+    "Test": 97.97,
+    "XD": 86.23,
+    "UCF": 77.81,
+    "SCFD": 97.07,
+    "SCVD": 90.98,
+    "VioPeru": 83.25,
+    "AIRTLab": 78.75,
+    "CCTV-F": 85.19,
+    "Movies": 76.02,
+    "UBI-Fights": 89.21,
+    "mean9": 84.94,
+    "min9": 76.02
+  }
+}

@@ -1,0 +1,962 @@
+{
+  "n_windows": {
+    "VioPeru": 1101,
+    "AIRTLab": 1145
+  },
+  "n_clusters": {
+    "VioPeru": 367,
+    "AIRTLab": 175
+  },
+  "models": {
+    "A1_r2plus1d_18": {
+      "seeds": 3,
+      "VioPeru": {
+        "mean": 72.14067812398119,
+        "sd": 0.3941452889258196
+      },
+      "AIRTLab": {
+        "mean": 70.95988495622278,
+        "sd": 0.22565582063929948
+      }
+    },
+    "A1_swin3d_t": {
+      "seeds": 3,
+      "VioPeru": {
+        "mean": 74.37310791299893,
+        "sd": 3.929736486902832
+      },
+      "AIRTLab": {
+        "mean": 73.95914974880414,
+        "sd": 0.8262473119065861
+      }
+    },
+    "A1_videomae": {
+      "seeds": 3,
+      "VioPeru": {
+        "mean": 78.14918960458293,
+        "sd": 2.422936915641139
+      },
+      "AIRTLab": {
+        "mean": 75.90375025142707,
+        "sd": 4.974176933306379
+      }
+    },
+    "A1_xclip_lr1e-05": {
+      "seeds": 1,
+      "VioPeru": {
+        "mean": 67.460877462624,
+        "sd": 0.0
+      },
+      "AIRTLab": {
+        "mean": 69.47640747137199,
+        "sd": 0.0
+      }
+    },
+    "A1_xclip_lr2e-05": {
+      "seeds": 1,
+      "VioPeru": {
+        "mean": 65.80847422104233,
+        "sd": 0.0
+      },
+      "AIRTLab": {
+        "mean": 71.14865755286905,
+        "sd": 0.0
+      }
+    },
+    "A1_xclip_lr5e-06": {
+      "seeds": 3,
+      "VioPeru": {
+        "mean": 68.23180103395278,
+        "sd": 0.8476587830369305
+      },
+      "AIRTLab": {
+        "mean": 70.33669263012361,
+        "sd": 1.1736404235758153
+      }
+    },
+    "A1_xclip": {
+      "seeds": 3,
+      "VioPeru": {
+        "mean": 56.87438871035351,
+        "sd": 4.385803867740004
+      },
+      "AIRTLab": {
+        "mean": 59.27043379549675,
+        "sd": 3.2990997375747213
+      }
+    },
+    "A2_r2plus1d_18": {
+      "seeds": 3,
+      "VioPeru": {
+        "mean": 73.78172884355642,
+        "sd": 3.660571158950537
+      },
+      "AIRTLab": {
+        "mean": 78.43125695036888,
+        "sd": 0.5457125317010398
+      }
+    },
+    "A2_swin3d_t": {
+      "seeds": 3,
+      "VioPeru": {
+        "mean": 78.20653439523078,
+        "sd": 4.302368415974571
+      },
+      "AIRTLab": {
+        "mean": 77.38196799766952,
+        "sd": 3.555205339806476
+      }
+    },
+    "A2_videomae": {
+      "seeds": 3,
+      "VioPeru": {
+        "mean": 78.25386567928832,
+        "sd": 0.3488194467317175
+      },
+      "AIRTLab": {
+        "mean": 76.3729073754251,
+        "sd": 0.7527741442898985
+      }
+    },
+    "MAST-Net": {
+      "seeds": 3,
+      "VioPeru": {
+        "mean": 62.40236831074472,
+        "sd": 3.23420959304647
+      },
+      "AIRTLab": {
+        "mean": 68.8387075146059,
+        "sd": 4.232629964390843
+      }
+    },
+    "XCLIP-ZS": {
+      "seeds": 1,
+      "VioPeru": {
+        "mean": 62.04712169903591,
+        "sd": 0.0
+      },
+      "AIRTLab": {
+        "mean": 58.580772245226356,
+        "sd": 0.0
+      }
+    },
+    "ZS": {
+      "seeds": 1,
+      "VioPeru": {
+        "mean": 72.76233058544082,
+        "sd": 0.0
+      },
+      "AIRTLab": {
+        "mean": 81.74327389250713,
+        "sd": 0.0
+      }
+    },
+    "b16_f8_v2_audited_LENS-M_vrex": {
+      "seeds": 3,
+      "VioPeru": {
+        "mean": 83.89665129709842,
+        "sd": 0.5509870164989045
+      },
+      "AIRTLab": {
+        "mean": 75.88149751116104,
+        "sd": 0.9538441154044461
+      }
+    },
+    "b16_f8_v2_std_std_rwf_LENS-M_vrex": {
+      "seeds": 3,
+      "VioPeru": {
+        "mean": 81.64209864468353,
+        "sd": 0.49182953333643165
+      },
+      "AIRTLab": {
+        "mean": 78.16977280241186,
+        "sd": 0.5216523956307992
+      }
+    },
+    "b16_v2_audited_LENS-M_vrex": {
+      "seeds": 3,
+      "VioPeru": {
+        "mean": 83.78661916072842,
+        "sd": 0.7883906406429189
+      },
+      "AIRTLab": {
+        "mean": 74.97566648402079,
+        "sd": 2.1041022785312578
+      }
+    },
+    "b16_v2_std_std_rwf_LENS-M_vrex": {
+      "seeds": 3,
+      "VioPeru": {
+        "mean": 81.6531600763821,
+        "sd": 0.5463047029213262
+      },
+      "AIRTLab": {
+        "mean": 78.19566690017594,
+        "sd": 0.4749345347976495
+      }
+    },
+    "f8_v2_audited_LENS-M_vrex": {
+      "seeds": 3,
+      "VioPeru": {
+        "mean": 83.78103022681756,
+        "sd": 0.5519956859529583
+      },
+      "AIRTLab": {
+        "mean": 77.00523199493215,
+        "sd": 1.876051749257544
+      }
+    },
+    "f8_v2_std_std_rwf_LENS-M_vrex": {
+      "seeds": 3,
+      "VioPeru": {
+        "mean": 82.26433328675887,
+        "sd": 1.232627341676021
+      },
+      "AIRTLab": {
+        "mean": 79.31419944466408,
+        "sd": 0.4444068460760957
+      }
+    },
+    "pbroad_ZS": {
+      "seeds": 1,
+      "VioPeru": {
+        "mean": 70.91833170322761,
+        "sd": 0.0
+      },
+      "AIRTLab": {
+        "mean": 85.18296954437947,
+        "sd": 0.0
+      }
+    },
+    "pbroad_v2_audited_LENS-M_vrex": {
+      "seeds": 3,
+      "VioPeru": {
+        "mean": 83.23506124540079,
+        "sd": 0.6090144422283879
+      },
+      "AIRTLab": {
+        "mean": 78.80510298683795,
+        "sd": 1.9575491659534066
+      }
+    },
+    "pbroad_v2_std_std_rwf_LENS-M_vrex": {
+      "seeds": 3,
+      "VioPeru": {
+        "mean": 82.08688463508919,
+        "sd": 1.170360302501236
+      },
+      "AIRTLab": {
+        "mean": 80.52243654212067,
+        "sd": 0.27794918530043566
+      }
+    },
+    "ppara_ZS": {
+      "seeds": 1,
+      "VioPeru": {
+        "mean": 72.49336314098086,
+        "sd": 0.0
+      },
+      "AIRTLab": {
+        "mean": 81.52722001428798,
+        "sd": 0.0
+      }
+    },
+    "ppara_v2_audited_LENS-M_vrex": {
+      "seeds": 3,
+      "VioPeru": {
+        "mean": 84.02484746867867,
+        "sd": 0.4769463093605717
+      },
+      "AIRTLab": {
+        "mean": 77.82424843537227,
+        "sd": 1.5699375128250037
+      }
+    },
+    "ppara_v2_std_std_rwf_LENS-M_vrex": {
+      "seeds": 3,
+      "VioPeru": {
+        "mean": 82.3298868240883,
+        "sd": 1.1777236662142756
+      },
+      "AIRTLab": {
+        "mean": 79.94270930869695,
+        "sd": 0.6857375002573561
+      }
+    },
+    "psurv_ZS": {
+      "seeds": 1,
+      "VioPeru": {
+        "mean": 70.87222299846303,
+        "sd": 0.0
+      },
+      "AIRTLab": {
+        "mean": 82.87244151286266,
+        "sd": 0.0
+      }
+    },
+    "psurv_v2_audited_LENS-M_vrex": {
+      "seeds": 3,
+      "VioPeru": {
+        "mean": 82.30927763029202,
+        "sd": 0.5672006444995636
+      },
+      "AIRTLab": {
+        "mean": 76.31302727434566,
+        "sd": 2.0406353862982396
+      }
+    },
+    "psurv_v2_std_std_rwf_LENS-M_vrex": {
+      "seeds": 3,
+      "VioPeru": {
+        "mean": 81.08320525359788,
+        "sd": 1.0314959042130438
+      },
+      "AIRTLab": {
+        "mean": 78.67239573579697,
+        "sd": 0.33601807689613183
+      }
+    },
+    "v2_audited_-G_vrex": {
+      "seeds": 3,
+      "VioPeru": {
+        "mean": 77.91753993759023,
+        "sd": 0.12851336108241987
+      },
+      "AIRTLab": {
+        "mean": 82.14601959165934,
+        "sd": 0.4816408176129953
+      }
+    },
+    "v2_audited_-Sp_vrex": {
+      "seeds": 3,
+      "VioPeru": {
+        "mean": 78.08008476549765,
+        "sd": 0.34585803514320357
+      },
+      "AIRTLab": {
+        "mean": 82.39201352041819,
+        "sd": 0.3942272804065152
+      }
+    },
+    "v2_audited_-T_vrex": {
+      "seeds": 3,
+      "VioPeru": {
+        "mean": 81.10917050905873,
+        "sd": 0.5395626453126489
+      },
+      "AIRTLab": {
+        "mean": 86.54998138861724,
+        "sd": 1.1885294487150377
+      }
+    },
+    "v2_audited_LENS-AG_vrex": {
+      "seeds": 3,
+      "VioPeru": {
+        "mean": 81.21012062782357,
+        "sd": 3.2701760080195386
+      },
+      "AIRTLab": {
+        "mean": 81.49727996374826,
+        "sd": 1.3300586597174515
+      }
+    },
+    "v2_audited_LENS-FG_vrex": {
+      "seeds": 3,
+      "VioPeru": {
+        "mean": 81.37254901960783,
+        "sd": 3.4073025287542764
+      },
+      "AIRTLab": {
+        "mean": 81.25296221542503,
+        "sd": 1.3043161544195405
+      }
+    },
+    "v2_audited_LENS-FGpost_vrex": {
+      "seeds": 3,
+      "VioPeru": {
+        "mean": 83.41693446974988,
+        "sd": 0.6905837064758421
+      },
+      "AIRTLab": {
+        "mean": 78.89677271686885,
+        "sd": 0.495408669103087
+      }
+    },
+    "v2_audited_LENS-M_vrex": {
+      "seeds": 3,
+      "VioPeru": {
+        "mean": 83.46362535513019,
+        "sd": 0.6938310949049834
+      },
+      "AIRTLab": {
+        "mean": 78.54142246451698,
+        "sd": 0.4786932868763912
+      }
+    },
+    "v2_audited_LP": {
+      "seeds": 3,
+      "VioPeru": {
+        "mean": 79.78261375809231,
+        "sd": 0.49947204616018154
+      },
+      "AIRTLab": {
+        "mean": 84.94500972184653,
+        "sd": 0.5374296024562569
+      }
+    },
+    "v2_audited_MP": {
+      "seeds": 3,
+      "VioPeru": {
+        "mean": 79.05465511620325,
+        "sd": 0.7241348973386812
+      },
+      "AIRTLab": {
+        "mean": 71.24552922218292,
+        "sd": 2.9126341860053935
+      }
+    },
+    "v2_audited_V2a": {
+      "seeds": 3,
+      "VioPeru": {
+        "mean": 78.21794513529876,
+        "sd": 0.05435347479613184
+      },
+      "AIRTLab": {
+        "mean": 81.28642802481208,
+        "sd": 0.266812629472688
+      }
+    },
+    "v2_audited_V2b": {
+      "seeds": 3,
+      "VioPeru": {
+        "mean": 77.91451259838853,
+        "sd": 0.6277929870050497
+      },
+      "AIRTLab": {
+        "mean": 82.74031225507535,
+        "sd": 0.6158325730625644
+      }
+    },
+    "v2_std_std_rwf_LENS-AG_vrex": {
+      "seeds": 3,
+      "VioPeru": {
+        "mean": 81.77448651669694,
+        "sd": 2.2653736862366163
+      },
+      "AIRTLab": {
+        "mean": 79.95831512654586,
+        "sd": 0.566371622514207
+      }
+    },
+    "v2_std_std_rwf_LENS-FG_vrex": {
+      "seeds": 3,
+      "VioPeru": {
+        "mean": 82.25781286386288,
+        "sd": 1.0951107818078527
+      },
+      "AIRTLab": {
+        "mean": 79.866183001912,
+        "sd": 0.42793894490539247
+      }
+    },
+    "v2_std_std_rwf_LENS-FGpost_vrex": {
+      "seeds": 3,
+      "VioPeru": {
+        "mean": 82.54832099110428,
+        "sd": 1.2485129605686123
+      },
+      "AIRTLab": {
+        "mean": 79.9098792918889,
+        "sd": 0.4021363877120854
+      }
+    },
+    "v2_std_std_rwf_LENS-M_vrex": {
+      "seeds": 3,
+      "VioPeru": {
+        "mean": 82.3146336919566,
+        "sd": 1.2272459953357437
+      },
+      "AIRTLab": {
+        "mean": 79.42401816286001,
+        "sd": 0.35808463582828987
+      }
+    },
+    "v2_std_std_rwf_LP": {
+      "seeds": 3,
+      "VioPeru": {
+        "mean": 77.41540915653673,
+        "sd": 0.2529672987040617
+      },
+      "AIRTLab": {
+        "mean": 85.3465994344914,
+        "sd": 0.3331706332950312
+      }
+    },
+    "v2_std_std_rwf_MP": {
+      "seeds": 3,
+      "VioPeru": {
+        "mean": 79.19007032741838,
+        "sd": 0.17880915396556318
+      },
+      "AIRTLab": {
+        "mean": 72.2686928798167,
+        "sd": 1.86756695577565
+      }
+    },
+    "v2_std_std_rwf_V2b": {
+      "seeds": 3,
+      "VioPeru": {
+        "mean": 75.64179591076338,
+        "sd": 0.24610561595541489
+      },
+      "AIRTLab": {
+        "mean": 83.71261250638683,
+        "sd": 0.2326751022493087
+      }
+    }
+  },
+  "primary": {
+    "H1 LENS-AG - LENS-M (P1)": {
+      "VioPeru": {
+        "diff": -1.7884588514740898,
+        "ci": [
+          -2.791185446864792,
+          -0.7657733560374284
+        ],
+        "better": false,
+        "worse": true,
+        "non_inferior": false
+      },
+      "AIRTLab": {
+        "diff": 3.0403601129167868,
+        "ci": [
+          2.084410796373788,
+          4.146142994078684
+        ],
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      }
+    },
+    "H1 LENS-AG - LENS-M (P3)": {
+      "VioPeru": {
+        "diff": 0.7901355316473229,
+        "ci": [
+          -0.32310512642534805,
+          1.9454910776216283
+        ],
+        "better": false,
+        "worse": false,
+        "non_inferior": true
+      },
+      "AIRTLab": {
+        "diff": 0.8239871824216038,
+        "ci": [
+          -0.16940296045148776,
+          1.7912245420184958
+        ],
+        "better": false,
+        "worse": false,
+        "non_inferior": true
+      }
+    },
+    "H2 L1 - LENS-M (P1)": {
+      "VioPeru": {
+        "diff": 0.40764286712308717,
+        "ci": [
+          -0.23121958206295723,
+          1.0384877865646247
+        ],
+        "better": false,
+        "worse": false,
+        "non_inferior": true
+      },
+      "AIRTLab": {
+        "diff": -1.4350416501938383,
+        "ci": [
+          -2.037170573706061,
+          -0.8279515975630956
+        ],
+        "better": false,
+        "worse": true,
+        "non_inferior": false
+      }
+    },
+    "H2 L1 - LENS-M (P3)": {
+      "VioPeru": {
+        "diff": -0.08348470029342536,
+        "ci": [
+          -0.3952230126111097,
+          0.23012881253518158
+        ],
+        "better": false,
+        "worse": false,
+        "non_inferior": true
+      },
+      "AIRTLab": {
+        "diff": -0.0957156828065564,
+        "ci": [
+          -0.43640878149287554,
+          0.21551458584082642
+        ],
+        "better": false,
+        "worse": false,
+        "non_inferior": true
+      }
+    },
+    "H2 L2 - LENS-M (P1)": {
+      "VioPeru": {
+        "diff": 0.6972195053793371,
+        "ci": [
+          -0.7647895892867368,
+          2.310744487667159
+        ],
+        "better": false,
+        "worse": false,
+        "non_inferior": true
+      },
+      "AIRTLab": {
+        "diff": -3.4357074984220617,
+        "ci": [
+          -4.8380265435591845,
+          -2.1338597195356646
+        ],
+        "better": false,
+        "worse": true,
+        "non_inferior": false
+      }
+    },
+    "H2 L2 - LENS-M (P3)": {
+      "VioPeru": {
+        "diff": -0.721671091239358,
+        "ci": [
+          -2.099023048361429,
+          0.7604841156299652
+        ],
+        "better": false,
+        "worse": false,
+        "non_inferior": false
+      },
+      "AIRTLab": {
+        "diff": -1.1614196439099231,
+        "ci": [
+          -2.381344842709928,
+          0.10369865461511472
+        ],
+        "better": false,
+        "worse": false,
+        "non_inferior": false
+      }
+    },
+    "H2 L3 - LENS-M (P1)": {
+      "VioPeru": {
+        "diff": 0.3674724046388036,
+        "ci": [
+          -0.9169510961771827,
+          1.8086168511345095
+        ],
+        "better": false,
+        "worse": false,
+        "non_inferior": true
+      },
+      "AIRTLab": {
+        "diff": -2.6009696414823225,
+        "ci": [
+          -3.9756519156182217,
+          -1.3263936903011164
+        ],
+        "better": false,
+        "worse": true,
+        "non_inferior": false
+      }
+    },
+    "H2 L3 - LENS-M (P3)": {
+      "VioPeru": {
+        "diff": -0.7167807740673595,
+        "ci": [
+          -2.0374289313004446,
+          0.7381343229612399
+        ],
+        "better": false,
+        "worse": false,
+        "non_inferior": false
+      },
+      "AIRTLab": {
+        "diff": -1.238755141249996,
+        "ci": [
+          -2.4881497882675587,
+          0.021519209678097156
+        ],
+        "better": false,
+        "worse": false,
+        "non_inferior": false
+      }
+    }
+  },
+  "secondary": {
+    "LENS-M - A1_r2plus1d_18": {
+      "VioPeru": {
+        "diff": 10.252549951096839,
+        "ci": [
+          5.290893482512394,
+          15.578050074365374
+        ],
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      },
+      "AIRTLab": {
+        "diff": 6.23677840432245,
+        "ci": [
+          1.4865602639952804,
+          11.11417395511713
+        ],
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      }
+    },
+    "LENS-M - A1_swin3d_t": {
+      "VioPeru": {
+        "diff": 6.290345116669016,
+        "ci": [
+          1.6326580683244558,
+          10.96927986660929
+        ],
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      },
+      "AIRTLab": {
+        "diff": 3.2286703149600697,
+        "ci": [
+          -0.07253208280173594,
+          6.448619764079731
+        ],
+        "better": false,
+        "worse": false,
+        "non_inferior": true
+      }
+    },
+    "LENS-M - A1_videomae": {
+      "VioPeru": {
+        "diff": 4.353779516557211,
+        "ci": [
+          0.8436065697437254,
+          7.989068261105408
+        ],
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      },
+      "AIRTLab": {
+        "diff": -0.20669038750980917,
+        "ci": [
+          -3.2693254678577848,
+          2.7601470307589584
+        ],
+        "better": false,
+        "worse": false,
+        "non_inferior": false
+      }
+    },
+    "LENS-M - A1_xclip_lr1e-05": {
+      "VioPeru": {
+        "diff": 16.272181081458726,
+        "ci": [
+          11.23049322733835,
+          21.216052815978436
+        ],
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      },
+      "AIRTLab": {
+        "diff": 9.134605380885986,
+        "ci": [
+          4.141854979648196,
+          13.986823846995764
+        ],
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      }
+    },
+    "LENS-M - A1_xclip_lr2e-05": {
+      "VioPeru": {
+        "diff": 17.924584323040392,
+        "ci": [
+          12.047615420934562,
+          24.024015023718817
+        ],
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      },
+      "AIRTLab": {
+        "diff": 7.462355299388918,
+        "ci": [
+          1.9572581280092833,
+          12.997233449465893
+        ],
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      }
+    },
+    "LENS-M - A1_xclip_lr5e-06": {
+      "VioPeru": {
+        "diff": 14.586418890596633,
+        "ci": [
+          9.760161246936315,
+          19.45426864596135
+        ],
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      },
+      "AIRTLab": {
+        "diff": 7.681183545225636,
+        "ci": [
+          3.434123896448824,
+          11.73261204493847
+        ],
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      }
+    },
+    "LENS-M - A1_xclip": {
+      "VioPeru": {
+        "diff": 24.911275674165175,
+        "ci": [
+          19.29387384393759,
+          30.566368754230375
+        ],
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      },
+      "AIRTLab": {
+        "diff": 16.91948091581874,
+        "ci": [
+          12.045125555980833,
+          21.73897739072481
+        ],
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      }
+    },
+    "LENS-M (P3) - A2_r2plus1d_18": {
+      "VioPeru": {
+        "diff": 8.23249965069165,
+        "ci": [
+          4.680146123615453,
+          11.644113201582838
+        ],
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      },
+      "AIRTLab": {
+        "diff": 0.06450404710876967,
+        "ci": [
+          -3.541671844635427,
+          3.5974851665720564
+        ],
+        "better": false,
+        "worse": false,
+        "non_inferior": false
+      }
+    },
+    "LENS-M (P3) - A2_swin3d_t": {
+      "VioPeru": {
+        "diff": 2.9310465278748126,
+        "ci": [
+          -0.5462298000493238,
+          6.198252446175009
+        ],
+        "better": false,
+        "worse": false,
+        "non_inferior": true
+      },
+      "AIRTLab": {
+        "diff": 0.9679075025836283,
+        "ci": [
+          -2.3922886732154276,
+          4.294111758800299
+        ],
+        "better": false,
+        "worse": false,
+        "non_inferior": false
+      }
+    },
+    "LENS-M (P3) - A2_videomae": {
+      "VioPeru": {
+        "diff": 2.972614223836814,
+        "ci": [
+          -0.5729774298087068,
+          6.3630579013639545
+        ],
+        "better": false,
+        "worse": false,
+        "non_inferior": true
+      },
+      "AIRTLab": {
+        "diff": 2.320064920202256,
+        "ci": [
+          -1.1327191128961505,
+          5.757501020588264
+        ],
+        "better": false,
+        "worse": false,
+        "non_inferior": false
+      }
+    },
+    "LENS-M - w/o motion": {
+      "VioPeru": {
+        "diff": 5.622816822691078,
+        "ci": [
+          2.2668448847627656,
+          9.187723155395307
+        ],
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      },
+      "AIRTLab": {
+        "diff": -4.220159942293179,
+        "ci": [
+          -6.214885179782073,
+          -2.368014175968327
+        ],
+        "better": false,
+        "worse": true,
+        "non_inferior": false
+      }
+    },
+    "LENS-M - CNN-BiGRU": {
+      "VioPeru": {
+        "diff": 19.93328210143916,
+        "ci": [
+          14.31782683892224,
+          25.380758259841173
+        ],
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      },
+      "AIRTLab": {
+        "diff": 8.791277388210304,
+        "ci": [
+          4.002923321477702,
+          13.370844260199862
+        ],
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      }
+    }
+  }
+}

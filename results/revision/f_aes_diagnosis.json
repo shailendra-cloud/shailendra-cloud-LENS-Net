@@ -1,0 +1,17 @@
+{
+ "XD sample A": {
+  "CLIP probe": 0.2812876093147722,
+  "VideoMAE-B LoRA": 0.38674892558762486,
+  "VideoMAE-B FT (tuned)": 0.4117583316132792
+ },
+ "AIE": {
+  "CLIP probe": 0.16690867865716053,
+  "VideoMAE-B LoRA": 0.3711551960165563,
+  "VideoMAE-B FT (tuned)": 0.40583264356373533
+ },
+ "XD sample B": {
+  "CLIP probe": 0.28036769220393437,
+  "VideoMAE-B LoRA": 0.3892663853955192,
+  "VideoMAE-B FT (tuned)": 0.41214423890704505
+ }
+}

@@ -1,0 +1,75 @@
+{
+ "labeller_count": 1,
+ "n_labelled": 200,
+ "definition": "same source = label 1 or 2",
+ "revision": "after a 12-pair consistency check, the labeller revisited 5 flagged pairs and changed 4 (P050,P076,P139,P191: 2->3, different hockey games); P177 kept; P035 added",
+ "strata": {
+  "cosine_0.90-0.95": {
+   "same": 12,
+   "n": 19,
+   "rate": 0.632,
+   "wilson95": [
+    0.41,
+    0.809
+   ]
+  },
+  "cosine_removed": {
+   "same": 58,
+   "n": 61,
+   "rate": 0.951,
+   "wilson95": [
+    0.865,
+    0.983
+   ]
+  },
+  "random_pair": {
+   "same": 0,
+   "n": 17,
+   "rate": 0.0,
+   "wilson95": [
+    0.0,
+    0.184
+   ]
+  },
+  "rejected_candidate": {
+   "same": 23,
+   "n": 44,
+   "rate": 0.523,
+   "wilson95": [
+    0.379,
+    0.662
+   ]
+  },
+  "verified_edge": {
+   "same": 59,
+   "n": 59,
+   "rate": 1.0,
+   "wilson95": [
+    0.939,
+    1.0
+   ]
+  }
+ },
+ "weighted": {
+  "N_verified": 132962,
+  "N_rejected": 2319,
+  "recall_verification_among_candidates": 0.991,
+  "recall_ci95_jeffreys": [
+   0.988,
+   0.993
+  ],
+  "precision_verified": 1.0,
+  "missed_links_crossing_train_test": "0 of 23",
+  "rejected_population_cross_split_share": 0.0746,
+  "sampled_cross_split_rejected": "3, all judged different source",
+  "population_cross_split_rejected": 173,
+  "population_cross_split_rejected_train_test": 60
+ },
+ "intra_rater": {
+  "n": 134,
+  "agree_same_source": 0.97,
+  "kappa_same_source": 0.92,
+  "agree_3class": 0.903,
+  "kappa_3class": 0.77
+ }
+}

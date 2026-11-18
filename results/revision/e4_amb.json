@@ -1,0 +1,146 @@
+{
+ "removed_by_filter": {
+  "CCTV-F": 34,
+  "UBI-Fights": 34
+ },
+ "sets": {
+  "CCTV-F": {
+   "n_labelled": 2147,
+   "n_ambiguous": 895,
+   "kendall_tau": 0.8857142857142857,
+   "best_labelled": "LENS-Net",
+   "best_with_ambiguous": "LENS-Net",
+   "models": {
+    "LENS-Net": {
+     "labelled": 85.32410065475464,
+     "with_ambiguous": 78.40514841423004
+    },
+    "CLIP probe": {
+     "labelled": 76.13994873311644,
+     "with_ambiguous": 70.5882820831818
+    },
+    "w/o motion": {
+     "labelled": 81.38059571654749,
+     "with_ambiguous": 74.40827755781618
+    },
+    "Motion probe": {
+     "labelled": 83.34235143332695,
+     "with_ambiguous": 76.41912299032452
+    },
+    "CLIP zero-shot": {
+     "labelled": 72.62539798528107,
+     "with_ambiguous": 67.88451514105472
+    },
+    "VadCLIP": {
+     "labelled": 78.20926921493235,
+     "with_ambiguous": 72.47431700572157
+    },
+    "X-CLIP FT": {
+     "labelled": 72.92598198699768,
+     "with_ambiguous": 67.47371079207026
+    },
+    "VideoMAE-B FT": {
+     "labelled": 83.19156648166513,
+     "with_ambiguous": 75.90293013561426
+    },
+    "Video Swin-T FT": {
+     "labelled": 80.1889451432747,
+     "with_ambiguous": 73.71711677064968
+    },
+    "R(2+1)D-18 FT": {
+     "labelled": 80.48517957907801,
+     "with_ambiguous": 74.42180731981747
+    },
+    "CNN-BiGRU": {
+     "labelled": 68.7869930580928,
+     "with_ambiguous": 63.582328833451875
+    },
+    "VideoMAE-B FT (tuned)": {
+     "labelled": 84.71814812881675,
+     "with_ambiguous": 76.85252327744583
+    },
+    "R(2+1)D-18 FT (tuned)": {
+     "labelled": 80.54743636585069,
+     "with_ambiguous": 74.79388349731992
+    },
+    "VideoMAE-B LoRA": {
+     "labelled": 84.698966543139,
+     "with_ambiguous": 76.30620507937537
+    },
+    "LENS-Net-A": {
+     "labelled": 83.85359941077881,
+     "with_ambiguous": 77.01322781354567
+    }
+   }
+  },
+  "UBI-Fights": {
+   "n_labelled": 7758,
+   "n_ambiguous": 667,
+   "kendall_tau": 1.0,
+   "best_labelled": "LENS-Net-A",
+   "best_with_ambiguous": "LENS-Net-A",
+   "models": {
+    "LENS-Net": {
+     "labelled": 88.43973747016706,
+     "with_ambiguous": 85.57691793493014
+    },
+    "CLIP probe": {
+     "labelled": 91.59122210419339,
+     "with_ambiguous": 88.33201266790252
+    },
+    "w/o motion": {
+     "labelled": 90.43780838863061,
+     "with_ambiguous": 87.31596272944792
+    },
+    "Motion probe": {
+     "labelled": 84.17873779666239,
+     "with_ambiguous": 81.59101964284048
+    },
+    "CLIP zero-shot": {
+     "labelled": 86.1882044366576,
+     "with_ambiguous": 83.37996032026896
+    },
+    "VadCLIP": {
+     "labelled": 89.3598967171125,
+     "with_ambiguous": 86.28383045193391
+    },
+    "X-CLIP FT": {
+     "labelled": 86.10258851012367,
+     "with_ambiguous": 83.32841295021768
+    },
+    "VideoMAE-B FT": {
+     "labelled": 83.9804033826755,
+     "with_ambiguous": 81.38318129690289
+    },
+    "Video Swin-T FT": {
+     "labelled": 83.80578586505167,
+     "with_ambiguous": 81.26290060490567
+    },
+    "R(2+1)D-18 FT": {
+     "labelled": 78.31604000257516,
+     "with_ambiguous": 76.21127931114427
+    },
+    "CNN-BiGRU": {
+     "labelled": 81.01780894045369,
+     "with_ambiguous": 78.53211681120587
+    },
+    "VideoMAE-B FT (tuned)": {
+     "labelled": 81.63278128032152,
+     "with_ambiguous": 79.33802156454239
+    },
+    "R(2+1)D-18 FT (tuned)": {
+     "labelled": 79.96274906764891,
+     "with_ambiguous": 77.77077599658337
+    },
+    "VideoMAE-B LoRA": {
+     "labelled": 84.92362711014847,
+     "with_ambiguous": 82.27793081558615
+    },
+    "LENS-Net-A": {
+     "labelled": 92.02720257885322,
+     "with_ambiguous": 88.83972175744657
+    }
+   }
+  }
+ }
+}

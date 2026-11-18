@@ -1,0 +1,309 @@
+{
+ "n_videos": {
+  "XD sample A": 600,
+  "AIE": 647,
+  "XD sample B": 326
+ },
+ "n_violent": {
+  "XD sample A": 300,
+  "AIE": 347,
+  "XD sample B": 163
+ },
+ "n_clusters": {
+  "XD sample A": 318,
+  "AIE": 647,
+  "XD sample B": 205
+ },
+ "auc_max": {
+  "AES": {
+   "XD sample A": 89.37333333333333,
+   "AIE": 86.45821325648416,
+   "XD sample B": 90.34338263891503
+  },
+  "LENS-Net-A": {
+   "XD sample A": 90.67740740740742,
+   "AIE": 83.81588216458533,
+   "XD sample B": 91.10115799114256
+  },
+  "anchor + LoRA": {
+   "XD sample A": 89.65074074074073,
+   "AIE": 85.59814281139931,
+   "XD sample B": 90.16648475039834
+  },
+  "CLIP probe": {
+   "XD sample A": 89.81444444444445,
+   "AIE": 80.87383925712457,
+   "XD sample B": 92.37582646442597
+  },
+  "LENS-Net": {
+   "XD sample A": 87.6511111111111,
+   "AIE": 81.00352225424272,
+   "XD sample B": 88.14784146938162
+  },
+  "w/o motion": {
+   "XD sample A": 88.54074074074076,
+   "AIE": 85.4716618635927,
+   "XD sample B": 90.20035881415686
+  },
+  "VideoMAE-B LoRA": {
+   "XD sample A": 83.70555555555556,
+   "AIE": 81.84854306756324,
+   "XD sample B": 84.81061889169082
+  },
+  "VideoMAE-B FT (tuned)": {
+   "XD sample A": 85.66222222222223,
+   "AIE": 82.5821325648415,
+   "XD sample B": 86.8995194901326
+  },
+  "CLIP zero-shot": {
+   "XD sample A": 92.65,
+   "AIE": 76.24495677233429,
+   "XD sample B": 94.18871617298355
+  }
+ },
+ "claims_max": {
+  "F1 AES - LENS-Net-A on XD sample A (better)": {
+   "diff": -1.3040740740740802,
+   "ci": [
+    -2.883577336591547,
+    0.3303191492014343
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.9445277361319341,
+   "p_two_sided": 0.111944027986007,
+   "p": 0.9445277361319341,
+   "delta0": 0.0,
+   "holm_threshold": 0.05,
+   "holds_after_holm": false
+  },
+  "F2 AES - LENS-Net-A on AIE (better)": {
+   "diff": 2.642331091898825,
+   "ci": [
+    0.4187387538212243,
+    4.809692884090447
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.009995002498750625,
+   "p_two_sided": 0.01999000499750125,
+   "p": 0.009995002498750625,
+   "delta0": 0.0,
+   "holm_threshold": 0.01,
+   "holds_after_holm": true
+  },
+  "F3 AES - LENS-Net-A on XD sample B (better)": {
+   "diff": -0.7577753522275259,
+   "ci": [
+    -2.82711261177063,
+    1.2009928818998319
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.7816091954022989,
+   "p_two_sided": 0.43778110944527737,
+   "p": 0.7816091954022989,
+   "delta0": 0.0,
+   "holm_threshold": 0.025,
+   "holds_after_holm": false
+  },
+  "F4 AES - CLIP probe on XD sample A (non-inferior)": {
+   "diff": -0.44111111111111256,
+   "ci": [
+    -2.7578112239418275,
+    1.6718188262302027
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.3293353323338331,
+   "p_two_sided": 0.6586706646676662,
+   "p": 0.3293353323338331,
+   "delta0": -1.0,
+   "holm_threshold": 0.0125,
+   "holds_after_holm": false
+  },
+  "F5 AES - CLIP probe on AIE (non-inferior)": {
+   "diff": 5.584373999359585,
+   "ci": [
+    2.6753851272515865,
+    8.482114205923303
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624,
+   "p": 0.0004997501249375312,
+   "delta0": -1.0,
+   "holm_threshold": 0.008333333333333333,
+   "holds_after_holm": true
+  },
+  "F6 AES - CLIP probe on XD sample B (non-inferior)": {
+   "diff": -2.0324438255109385,
+   "ci": [
+    -5.116618744122818,
+    0.8266580123365397
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.7396301849075462,
+   "p_two_sided": 0.5217391304347826,
+   "p": 0.7396301849075462,
+   "delta0": -1.0,
+   "holm_threshold": 0.016666666666666666,
+   "holds_after_holm": false
+  }
+ },
+ "confirmed_max": false,
+ "auc_top3": {
+  "AES": {
+   "XD sample A": 89.15518518518519,
+   "AIE": 86.50464297150177,
+   "XD sample B": 89.95571279812312
+  },
+  "LENS-Net-A": {
+   "XD sample A": 90.77481481481482,
+   "AIE": 83.26352865834134,
+   "XD sample B": 90.90293198840754
+  },
+  "anchor + LoRA": {
+   "XD sample A": 89.68925925925926,
+   "AIE": 85.55651617034903,
+   "XD sample B": 89.94316684858295
+  },
+  "CLIP probe": {
+   "XD sample A": 91.00407407407408,
+   "AIE": 80.38712776176753,
+   "XD sample B": 92.34320699562146
+  },
+  "LENS-Net": {
+   "XD sample A": 87.0411111111111,
+   "AIE": 80.577009285943,
+   "XD sample B": 87.49921587815373
+  },
+  "w/o motion": {
+   "XD sample A": 89.07925925925925,
+   "AIE": 86.55267371117515,
+   "XD sample B": 90.66204975723588
+  },
+  "VideoMAE-B LoRA": {
+   "XD sample A": 83.30740740740741,
+   "AIE": 81.71918027537625,
+   "XD sample B": 83.94369377846363
+  },
+  "VideoMAE-B FT (tuned)": {
+   "XD sample A": 85.78592592592592,
+   "AIE": 82.3567082933077,
+   "XD sample B": 86.54446911814522
+  },
+  "CLIP zero-shot": {
+   "XD sample A": 93.25111111111111,
+   "AIE": 75.65417867435158,
+   "XD sample B": 94.23388159132824
+  }
+ },
+ "claims_top3": {
+  "F1 AES - LENS-Net-A on XD sample A (better)": {
+   "diff": -1.6196296296296282,
+   "ci": [
+    -3.1297833575929137,
+    -0.20184559790191256
+   ],
+   "better": false,
+   "worse": true,
+   "non_inferior": false,
+   "p_one_sided": 0.9855072463768116,
+   "p_two_sided": 0.029985007496251874,
+   "p": 0.9855072463768116,
+   "delta0": 0.0,
+   "holm_threshold": 0.05,
+   "holds_after_holm": false
+  },
+  "F2 AES - LENS-Net-A on AIE (better)": {
+   "diff": 3.2411143131604234,
+   "ci": [
+    1.1309528693543314,
+    5.305732077007353
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.001999000499750125,
+   "p_two_sided": 0.00399800099950025,
+   "p": 0.001999000499750125,
+   "delta0": 0.0,
+   "holm_threshold": 0.01,
+   "holds_after_holm": true
+  },
+  "F3 AES - LENS-Net-A on XD sample B (better)": {
+   "diff": -0.9472191902844287,
+   "ci": [
+    -2.9330577513648852,
+    0.8546567995778064
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.824087956021989,
+   "p_two_sided": 0.35282358820589704,
+   "p": 0.824087956021989,
+   "delta0": 0.0,
+   "holm_threshold": 0.025,
+   "holds_after_holm": false
+  },
+  "F4 AES - CLIP probe on XD sample A (non-inferior)": {
+   "diff": -1.8488888888888937,
+   "ci": [
+    -4.062996011932899,
+    0.2237637261118406
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.7726136931534233,
+   "p_two_sided": 0.45577211394302847,
+   "p": 0.7726136931534233,
+   "delta0": -1.0,
+   "holm_threshold": 0.0125,
+   "holds_after_holm": false
+  },
+  "F5 AES - CLIP probe on AIE (non-inferior)": {
+   "diff": 6.117515209734236,
+   "ci": [
+    3.4112112696456793,
+    8.87244282062967
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624,
+   "p": 0.0004997501249375312,
+   "delta0": -1.0,
+   "holm_threshold": 0.008333333333333333,
+   "holds_after_holm": true
+  },
+  "F6 AES - CLIP probe on XD sample B (non-inferior)": {
+   "diff": -2.3874941974983415,
+   "ci": [
+    -5.332580854539272,
+    0.365368535526435
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.823088455772114,
+   "p_two_sided": 0.3548225887056472,
+   "p": 0.823088455772114,
+   "delta0": -1.0,
+   "holm_threshold": 0.016666666666666666,
+   "holds_after_holm": false
+  }
+ },
+ "confirmed_top3": false
+}

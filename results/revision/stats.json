@@ -1,0 +1,5093 @@
+{
+ "pairwise": {
+  "LENS-Net - CLIP probe | Test": {
+   "diff": 0.9536757478915519,
+   "ci": [
+    0.03800615246912784,
+    2.065352788628475
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.01999000499750125,
+   "p_two_sided": 0.0399800099950025
+  },
+  "LENS-Net - CLIP probe | XD": {
+   "diff": -4.962320603889921,
+   "ci": [
+    -7.123098278196326,
+    -2.970735972466605
+   ],
+   "better": false,
+   "worse": true,
+   "non_inferior": false,
+   "p_one_sided": 1.0,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - CLIP probe | UCF": {
+   "diff": 5.6119128466327055,
+   "ci": [
+    -2.476985019058076,
+    13.650408136306382
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.08745627186406797,
+   "p_two_sided": 0.17491254372813594
+  },
+  "LENS-Net - CLIP probe | SCFD": {
+   "diff": 4.021696252465475,
+   "ci": [
+    1.3080684643460525,
+    6.892647428945372
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0014992503748125937,
+   "p_two_sided": 0.0029985007496251873
+  },
+  "LENS-Net - CLIP probe | SCVD": {
+   "diff": 1.4235398771300538,
+   "ci": [
+    -0.8533756760746168,
+    3.515666023790228
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.111944027986007,
+   "p_two_sided": 0.223888055972014
+  },
+  "LENS-Net - CLIP probe | VioPeru": {
+   "diff": 3.6810115970378803,
+   "ci": [
+    -0.015975217156905662,
+    7.55420108245248
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.026486756621689155,
+   "p_two_sided": 0.05297351324337831
+  },
+  "LENS-Net - CLIP probe | AIRTLab": {
+   "diff": -6.403587257329534,
+   "ci": [
+    -9.24644748847943,
+    -3.6405826537168853
+   ],
+   "better": false,
+   "worse": true,
+   "non_inferior": false,
+   "p_one_sided": 1.0,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - CLIP probe | CCTV-F": {
+   "diff": 9.184151921638218,
+   "ci": [
+    7.430173579941833,
+    10.880791121154807
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - CLIP probe | Movies": {
+   "diff": -23.145214521452147,
+   "ci": [
+    -30.851225204799892,
+    -15.531518151815172
+   ],
+   "better": false,
+   "worse": true,
+   "non_inferior": false,
+   "p_one_sided": 1.0,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - CLIP probe | UBI-Fights": {
+   "diff": -3.1514846340263176,
+   "ci": [
+    -4.915121677799005,
+    -1.4796391207585204
+   ],
+   "better": false,
+   "worse": true,
+   "non_inferior": false,
+   "p_one_sided": 1.0,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - w/o motion | Test": {
+   "diff": 0.6180490570553729,
+   "ci": [
+    -0.21681672565216203,
+    1.445712558138178
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.06046976511744128,
+   "p_two_sided": 0.12093953023488256
+  },
+  "LENS-Net - w/o motion | XD": {
+   "diff": -4.198618429222947,
+   "ci": [
+    -6.196772642652831,
+    -2.3718971435909806
+   ],
+   "better": false,
+   "worse": true,
+   "non_inferior": false,
+   "p_one_sided": 1.0,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - w/o motion | UCF": {
+   "diff": 1.199419920769671,
+   "ci": [
+    -5.898633952289899,
+    7.437349428662087
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.33183408295852074,
+   "p_two_sided": 0.6636681659170415
+  },
+  "LENS-Net - w/o motion | SCFD": {
+   "diff": 1.9368836291912999,
+   "ci": [
+    -0.13243424104929102,
+    4.110841355874127
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.03298350824587706,
+   "p_two_sided": 0.06596701649175413
+  },
+  "LENS-Net - w/o motion | SCVD": {
+   "diff": 2.445445195007352,
+   "ci": [
+    0.18585256739898706,
+    4.537308515046512
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.015992003998001,
+   "p_two_sided": 0.031984007996002
+  },
+  "LENS-Net - w/o motion | VioPeru": {
+   "diff": 5.549112756741678,
+   "ci": [
+    2.137987057770244,
+    9.106384376778202
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0009995002498750624,
+   "p_two_sided": 0.001999000499750125
+  },
+  "LENS-Net - w/o motion | AIRTLab": {
+   "diff": -4.198889790558354,
+   "ci": [
+    -6.356191523107016,
+    -1.9883859433266469
+   ],
+   "better": false,
+   "worse": true,
+   "non_inferior": false,
+   "p_one_sided": 1.0,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - w/o motion | CCTV-F": {
+   "diff": 3.9435049382071696,
+   "ci": [
+    2.6222695175417563,
+    5.304270307012463
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - w/o motion | Movies": {
+   "diff": 45.05610561056105,
+   "ci": [
+    34.07417825115845,
+    56.01858518150723
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - w/o motion | UBI-Fights": {
+   "diff": -1.9980709184635401,
+   "ci": [
+    -3.5825841902670073,
+    -0.5260834671339657
+   ],
+   "better": false,
+   "worse": true,
+   "non_inferior": false,
+   "p_one_sided": 0.9945027486256871,
+   "p_two_sided": 0.01199400299850075
+  },
+  "LENS-Net - Motion probe | Test": {
+   "diff": 0.4084491292500161,
+   "ci": [
+    -0.07717544513153704,
+    0.92650543010636
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.053973013493253376,
+   "p_two_sided": 0.10794602698650675
+  },
+  "LENS-Net - Motion probe | XD": {
+   "diff": 5.8386389791749025,
+   "ci": [
+    4.389617020921581,
+    7.336260383247116
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - Motion probe | UCF": {
+   "diff": 2.2990945104697147,
+   "ci": [
+    -1.167501154739064,
+    6.094218134197403
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.10794602698650675,
+   "p_two_sided": 0.2158920539730135
+  },
+  "LENS-Net - Motion probe | SCFD": {
+   "diff": 1.6370808678500737,
+   "ci": [
+    -0.055599651635874985,
+    3.697696683554349
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.030484757621189407,
+   "p_two_sided": 0.06096951524237881
+  },
+  "LENS-Net - Motion probe | SCVD": {
+   "diff": 2.7882022628081984,
+   "ci": [
+    1.1574885662800027,
+    4.520027600652452
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0014992503748125937,
+   "p_two_sided": 0.0029985007496251873
+  },
+  "LENS-Net - Motion probe | VioPeru": {
+   "diff": 4.4089702389269405,
+   "ci": [
+    1.8624713133477375,
+    6.954879519481845
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0009995002498750624,
+   "p_two_sided": 0.001999000499750125
+  },
+  "LENS-Net - Motion probe | AIRTLab": {
+   "diff": 7.295893242334074,
+   "ci": [
+    3.964053914450843,
+    10.680353912605318
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - Motion probe | CCTV-F": {
+   "diff": 1.9817492214277053,
+   "ci": [
+    0.8324445805918277,
+    3.226376082177829
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0009995002498750624,
+   "p_two_sided": 0.001999000499750125
+  },
+  "LENS-Net - Motion probe | Movies": {
+   "diff": 12.435643564356432,
+   "ci": [
+    4.281775883773957,
+    21.1957896890919
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - Motion probe | UBI-Fights": {
+   "diff": 4.260999673504685,
+   "ci": [
+    2.8328438583696176,
+    5.652502716065603
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - CLIP zero-shot | Test": {
+   "diff": 3.3348046918681007,
+   "ci": [
+    1.903136539126932,
+    5.027385256921246
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - CLIP zero-shot | XD": {
+   "diff": 1.0737923398468041,
+   "ci": [
+    -1.1913572036862443,
+    3.17033096359284
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.17091454272863568,
+   "p_two_sided": 0.34182908545727136
+  },
+  "LENS-Net - CLIP zero-shot | UCF": {
+   "diff": 8.531762874929257,
+   "ci": [
+    -0.01103332620636476,
+    17.307091813566778
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.025987006496751622,
+   "p_two_sided": 0.051974012993503245
+  },
+  "LENS-Net - CLIP zero-shot | SCFD": {
+   "diff": 5.347140039447723,
+   "ci": [
+    2.465001608636214,
+    8.623624393987923
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - CLIP zero-shot | SCVD": {
+   "diff": 4.613682484085274,
+   "ci": [
+    1.7721155727662352,
+    7.378968622940375
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0009995002498750624,
+   "p_two_sided": 0.001999000499750125
+  },
+  "LENS-Net - CLIP zero-shot | VioPeru": {
+   "diff": 10.701294769689369,
+   "ci": [
+    6.620854653076091,
+    14.869356029760269
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - CLIP zero-shot | AIRTLab": {
+   "diff": -3.2018514279901353,
+   "ci": [
+    -5.933739524557342,
+    -0.3870553427400435
+   ],
+   "better": false,
+   "worse": true,
+   "non_inferior": false,
+   "p_one_sided": 0.9890054972513743,
+   "p_two_sided": 0.022988505747126436
+  },
+  "LENS-Net - CLIP zero-shot | CCTV-F": {
+   "diff": 12.69870266947359,
+   "ci": [
+    10.91134181565791,
+    14.55250581640871
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - CLIP zero-shot | Movies": {
+   "diff": -9.768976897689782,
+   "ci": [
+    -16.168432498723902,
+    -3.4458798821058427
+   ],
+   "better": false,
+   "worse": true,
+   "non_inferior": false,
+   "p_one_sided": 0.9985007496251874,
+   "p_two_sided": 0.00399800099950025
+  },
+  "LENS-Net - CLIP zero-shot | UBI-Fights": {
+   "diff": 2.2515330335094603,
+   "ci": [
+    0.313757032154907,
+    4.240239603369795
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.01649175412293853,
+   "p_two_sided": 0.03298350824587706
+  },
+  "LENS-Net - VadCLIP | Test": {
+   "diff": 0.2840114334367172,
+   "ci": [
+    -0.6301741045856112,
+    1.2227922429540936
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.25337331334332835,
+   "p_two_sided": 0.5067466266866567
+  },
+  "LENS-Net - VadCLIP | XD": {
+   "diff": -3.003532943433683,
+   "ci": [
+    -5.81474819349096,
+    -0.4317637537590162
+   ],
+   "better": false,
+   "worse": true,
+   "non_inferior": false,
+   "p_one_sided": 0.9890054972513743,
+   "p_two_sided": 0.022988505747126436
+  },
+  "LENS-Net - VadCLIP | UCF": {
+   "diff": 3.7595500848896393,
+   "ci": [
+    -4.814022917260068,
+    11.849795191076698
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.19390304847576212,
+   "p_two_sided": 0.38780609695152424
+  },
+  "LENS-Net - VadCLIP | SCFD": {
+   "diff": 6.249506903353051,
+   "ci": [
+    2.9525599852344113,
+    9.734570430754642
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - VadCLIP | SCVD": {
+   "diff": 0.8678453284407652,
+   "ci": [
+    -1.8740394615496918,
+    3.674458993937883
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.28235882058970513,
+   "p_two_sided": 0.5647176411794103
+  },
+  "LENS-Net - VadCLIP | VioPeru": {
+   "diff": 2.4296143635601624,
+   "ci": [
+    -1.9003340057313494,
+    7.200734475546812
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.1409295352323838,
+   "p_two_sided": 0.2818590704647676
+  },
+  "LENS-Net - VadCLIP | AIRTLab": {
+   "diff": -5.688378405247249,
+   "ci": [
+    -10.256545017826186,
+    -1.0668320079214388
+   ],
+   "better": false,
+   "worse": true,
+   "non_inferior": false,
+   "p_one_sided": 0.9940029985007496,
+   "p_two_sided": 0.012993503248375811
+  },
+  "LENS-Net - VadCLIP | CCTV-F": {
+   "diff": 7.1148314398222965,
+   "ci": [
+    5.528627137139558,
+    8.7718759230066
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - VadCLIP | Movies": {
+   "diff": 2.8250825082508157,
+   "ci": [
+    -24.096574106815446,
+    43.90688011245389
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.40429785107446276,
+   "p_two_sided": 0.8085957021489255
+  },
+  "LENS-Net - VadCLIP | UBI-Fights": {
+   "diff": -0.9201592469454312,
+   "ci": [
+    -2.8661905710240405,
+    1.077100676166849
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.8395802098950524,
+   "p_two_sided": 0.3218390804597701
+  },
+  "LENS-Net - X-CLIP FT | Test": {
+   "diff": 2.8135317901725188,
+   "ci": [
+    1.4673854449691508,
+    4.486905726308606
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - X-CLIP FT | XD": {
+   "diff": 5.371485837143609,
+   "ci": [
+    0.8373033575269219,
+    9.952249242679773
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.013493253373313344,
+   "p_two_sided": 0.026986506746626688
+  },
+  "LENS-Net - X-CLIP FT | UCF": {
+   "diff": 16.018852574985857,
+   "ci": [
+    6.019764816196685,
+    26.14343129713433
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - X-CLIP FT | SCFD": {
+   "diff": 9.938856015779066,
+   "ci": [
+    6.015455840455851,
+    14.060132611129747
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - X-CLIP FT | SCVD": {
+   "diff": 10.151947293803687,
+   "ci": [
+    6.801994044182546,
+    13.804999893620346
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - X-CLIP FT | VioPeru": {
+   "diff": 15.231824321177413,
+   "ci": [
+    10.541189088049185,
+    20.150837158215882
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - X-CLIP FT | AIRTLab": {
+   "diff": 8.204729834393362,
+   "ci": [
+    3.8229934775015906,
+    12.515042034468253
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - X-CLIP FT | CCTV-F": {
+   "diff": 12.398118667756947,
+   "ci": [
+    10.24528947666418,
+    14.546940560982506
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - X-CLIP FT | Movies": {
+   "diff": 4.815181518151803,
+   "ci": [
+    -8.152882890286866,
+    16.951701570857114
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.2383808095952024,
+   "p_two_sided": 0.4767616191904048
+  },
+  "LENS-Net - X-CLIP FT | UBI-Fights": {
+   "diff": 2.3371489600434217,
+   "ci": [
+    0.4602650274428246,
+    4.327808015508283
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.01199400299850075,
+   "p_two_sided": 0.0239880059970015
+  },
+  "LENS-Net - VideoMAE-B FT | Test": {
+   "diff": 0.671959633769049,
+   "ci": [
+    -0.38871171454510006,
+    1.7747611621060762
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.10394802598700649,
+   "p_two_sided": 0.20789605197401298
+  },
+  "LENS-Net - VideoMAE-B FT | XD": {
+   "diff": 4.333311101094793,
+   "ci": [
+    1.9734887004350885,
+    6.844441988405541
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - VideoMAE-B FT | UCF": {
+   "diff": 4.17922325976231,
+   "ci": [
+    -1.8147860614689726,
+    10.422548865372297
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.08595702148925537,
+   "p_two_sided": 0.17191404297851073
+  },
+  "LENS-Net - VideoMAE-B FT | SCFD": {
+   "diff": 0.7337278106508762,
+   "ci": [
+    -1.29231672932329,
+    2.9439027714345607
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.2683658170914543,
+   "p_two_sided": 0.5367316341829086
+  },
+  "LENS-Net - VideoMAE-B FT | SCVD": {
+   "diff": 2.9987212631695854,
+   "ci": [
+    0.6145237286794369,
+    5.431905837838722
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0079960019990005,
+   "p_two_sided": 0.015992003998001
+  },
+  "LENS-Net - VideoMAE-B FT | VioPeru": {
+   "diff": 5.314435750547261,
+   "ci": [
+    1.030445273902681,
+    9.761682833299572
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.009995002498750625,
+   "p_two_sided": 0.01999000499750125
+  },
+  "LENS-Net - VideoMAE-B FT | AIRTLab": {
+   "diff": 2.637672213089928,
+   "ci": [
+    -2.907690264408235,
+    7.905076486612153
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.18940529735132433,
+   "p_two_sided": 0.37881059470264866
+  },
+  "LENS-Net - VideoMAE-B FT | CCTV-F": {
+   "diff": 2.132534173089539,
+   "ci": [
+    0.6384978698119703,
+    3.588851592411764
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0024987506246876563,
+   "p_two_sided": 0.004997501249375313
+  },
+  "LENS-Net - VideoMAE-B FT | Movies": {
+   "diff": 25.544554455445542,
+   "ci": [
+    9.453880785097228,
+    40.81270557175308
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0009995002498750624,
+   "p_two_sided": 0.001999000499750125
+  },
+  "LENS-Net - VideoMAE-B FT | UBI-Fights": {
+   "diff": 4.45933408749157,
+   "ci": [
+    2.434322146142844,
+    6.441219290329996
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - Video Swin-T FT | Test": {
+   "diff": 0.8771651040839004,
+   "ci": [
+    -0.3085911968429052,
+    2.30305508865252
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.07746126936531735,
+   "p_two_sided": 0.1549225387306347
+  },
+  "LENS-Net - Video Swin-T FT | XD": {
+   "diff": 6.816669845735163,
+   "ci": [
+    4.371649838914868,
+    9.275323931741323
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - Video Swin-T FT | UCF": {
+   "diff": 5.220005659309564,
+   "ci": [
+    -4.576756162315586,
+    14.991787949474306
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.14292853573213393,
+   "p_two_sided": 0.28585707146426786
+  },
+  "LENS-Net - Video Swin-T FT | SCFD": {
+   "diff": 3.9487179487179276,
+   "ci": [
+    0.855351840737811,
+    7.2902053357313985
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.004997501249375313,
+   "p_two_sided": 0.009995002498750625
+  },
+  "LENS-Net - Video Swin-T FT | SCVD": {
+   "diff": 8.648819948294545,
+   "ci": [
+    5.823895772671529,
+    11.657195236106135
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - Video Swin-T FT | VioPeru": {
+   "diff": 9.090517442131272,
+   "ci": [
+    3.194047893431069,
+    15.130905927973492
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.001999000499750125,
+   "p_two_sided": 0.00399800099950025
+  },
+  "LENS-Net - Video Swin-T FT | AIRTLab": {
+   "diff": 4.582272715712861,
+   "ci": [
+    1.0924914978173035,
+    8.088180027072056
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.005497251374312844,
+   "p_two_sided": 0.010994502748625687
+  },
+  "LENS-Net - Video Swin-T FT | CCTV-F": {
+   "diff": 5.135155511479965,
+   "ci": [
+    3.532941268422933,
+    6.691288899701942
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - Video Swin-T FT | Movies": {
+   "diff": 5.201320132013194,
+   "ci": [
+    -7.244000629954245,
+    16.809891999782355
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.19640179910044978,
+   "p_two_sided": 0.39280359820089955
+  },
+  "LENS-Net - Video Swin-T FT | UBI-Fights": {
+   "diff": 4.633951605115399,
+   "ci": [
+    2.2915518578594263,
+    7.2749623714943255
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0009995002498750624,
+   "p_two_sided": 0.001999000499750125
+  },
+  "LENS-Net - R(2+1)D-18 FT | Test": {
+   "diff": 1.6958682290532465,
+   "ci": [
+    0.6096013602080997,
+    3.0239000283576187
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0014992503748125937,
+   "p_two_sided": 0.0029985007496251873
+  },
+  "LENS-Net - R(2+1)D-18 FT | XD": {
+   "diff": 8.268127027364201,
+   "ci": [
+    5.389487997017606,
+    11.204063288764626
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - R(2+1)D-18 FT | UCF": {
+   "diff": 8.648132427843805,
+   "ci": [
+    0.9341989373106468,
+    16.987561626482023
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.013493253373313344,
+   "p_two_sided": 0.026986506746626688
+  },
+  "LENS-Net - R(2+1)D-18 FT | SCFD": {
+   "diff": 4.761341222879665,
+   "ci": [
+    1.754167951389207,
+    8.126835255191805
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - R(2+1)D-18 FT | SCVD": {
+   "diff": 5.798404358824655,
+   "ci": [
+    3.17236826174466,
+    8.581590585428396
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - R(2+1)D-18 FT | VioPeru": {
+   "diff": 11.322947231149001,
+   "ci": [
+    6.601775636696397,
+    16.368997803222022
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - R(2+1)D-18 FT | AIRTLab": {
+   "diff": 7.581537508294218,
+   "ci": [
+    2.9301690781371805,
+    12.259551403646276
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - R(2+1)D-18 FT | CCTV-F": {
+   "diff": 4.838921075676652,
+   "ci": [
+    3.1441268727185228,
+    6.582880500316318
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - R(2+1)D-18 FT | Movies": {
+   "diff": 9.96369636963695,
+   "ci": [
+    -4.362594682665566,
+    24.365905647160655
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.08245877061469266,
+   "p_two_sided": 0.16491754122938532
+  },
+  "LENS-Net - R(2+1)D-18 FT | UBI-Fights": {
+   "diff": 10.12369746759191,
+   "ci": [
+    6.5480244491402875,
+    14.101301593788547
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - CNN-BiGRU | Test": {
+   "diff": 1.837766046145731,
+   "ci": [
+    0.6203626615475695,
+    3.347111068938068
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0024987506246876563,
+   "p_two_sided": 0.004997501249375313
+  },
+  "LENS-Net - CNN-BiGRU | XD": {
+   "diff": 8.36810483760766,
+   "ci": [
+    5.903432196011417,
+    11.000417711317306
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - CNN-BiGRU | UCF": {
+   "diff": 25.538695529145436,
+   "ci": [
+    16.60363954032061,
+    34.9946523916951
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - CNN-BiGRU | SCFD": {
+   "diff": 13.278106508875723,
+   "ci": [
+    8.503176206677184,
+    18.273341745204508
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - CNN-BiGRU | SCVD": {
+   "diff": 12.565785450198746,
+   "ci": [
+    8.715567951015537,
+    16.84668125894541
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - CNN-BiGRU | VioPeru": {
+   "diff": 21.06125704438547,
+   "ci": [
+    15.161324825857657,
+    26.719214588215436
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - CNN-BiGRU | AIRTLab": {
+   "diff": 9.702714949911112,
+   "ci": [
+    3.54514607164117,
+    15.64367576983224
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0014992503748125937,
+   "p_two_sided": 0.0029985007496251873
+  },
+  "LENS-Net - CNN-BiGRU | CCTV-F": {
+   "diff": 16.537107596661855,
+   "ci": [
+    14.572415677320812,
+    18.596324781904848
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - CNN-BiGRU | Movies": {
+   "diff": 58.11551155115511,
+   "ci": [
+    46.70469368464486,
+    69.6705138366026
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - CNN-BiGRU | UBI-Fights": {
+   "diff": 7.421928529713384,
+   "ci": [
+    4.511114347818304,
+    10.331969779773516
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - CLIP probe | Test": {
+   "diff": 1.2879291707619558,
+   "ci": [
+    0.598773496147048,
+    2.20224128332742
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - CLIP probe | XD": {
+   "diff": 0.34773628373547183,
+   "ci": [
+    -0.8523613809641851,
+    1.511024655389146
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.28735632183908044,
+   "p_two_sided": 0.5747126436781609
+  },
+  "LENS-Net-A - CLIP probe | UCF": {
+   "diff": 5.286856253537067,
+   "ci": [
+    0.6286919980160811,
+    10.248854060363456
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.01199400299850075,
+   "p_two_sided": 0.0239880059970015
+  },
+  "LENS-Net-A - CLIP probe | SCFD": {
+   "diff": 4.072978303747547,
+   "ci": [
+    2.098294440097903,
+    6.257291782563639
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - CLIP probe | SCVD": {
+   "diff": 2.44969838489979,
+   "ci": [
+    1.092564190134724,
+    3.827769865203507
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - CLIP probe | VioPeru": {
+   "diff": 3.9022402310092588,
+   "ci": [
+    1.724793203302135,
+    6.385109130544331
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - CLIP probe | AIRTLab": {
+   "diff": -2.8386404673884584,
+   "ci": [
+    -4.728181460295768,
+    -1.0560648952557548
+   ],
+   "better": false,
+   "worse": true,
+   "non_inferior": false,
+   "p_one_sided": 0.9995002498750625,
+   "p_two_sided": 0.001999000499750125
+  },
+  "LENS-Net-A - CLIP probe | CCTV-F": {
+   "diff": 7.713650677662372,
+   "ci": [
+    6.597401078967294,
+    8.914235372339425
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - CLIP probe | Movies": {
+   "diff": -7.937293729372925,
+   "ci": [
+    -12.372565614015812,
+    -4.24920991817805
+   ],
+   "better": false,
+   "worse": true,
+   "non_inferior": false,
+   "p_one_sided": 1.0,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - CLIP probe | UBI-Fights": {
+   "diff": 0.4359804746598286,
+   "ci": [
+    -0.3062445203382172,
+    1.2425238154351619
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.13693153423288357,
+   "p_two_sided": 0.27386306846576713
+  },
+  "LENS-Net-A - w/o motion | Test": {
+   "diff": 0.9523024799257769,
+   "ci": [
+    0.36167390676641026,
+    1.621811426277903
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0014992503748125937,
+   "p_two_sided": 0.0029985007496251873
+  },
+  "LENS-Net-A - w/o motion | XD": {
+   "diff": 1.1114384584024464,
+   "ci": [
+    -0.23513377019611603,
+    2.3764844575858093
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.049475262368815595,
+   "p_two_sided": 0.09895052473763119
+  },
+  "LENS-Net-A - w/o motion | UCF": {
+   "diff": 0.8743633276740326,
+   "ci": [
+    -4.347813103094074,
+    5.796949597267222
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.34132933533233384,
+   "p_two_sided": 0.6826586706646677
+  },
+  "LENS-Net-A - w/o motion | SCFD": {
+   "diff": 1.9881656804733723,
+   "ci": [
+    0.41422982720725016,
+    3.759034762864784
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.009495252373813094,
+   "p_two_sided": 0.01899050474762619
+  },
+  "LENS-Net-A - w/o motion | SCVD": {
+   "diff": 3.471603702777088,
+   "ci": [
+    1.9553104649414994,
+    5.117450251582895
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - w/o motion | VioPeru": {
+   "diff": 5.770341390713057,
+   "ci": [
+    2.7618152086796455,
+    8.787015128844947
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - w/o motion | AIRTLab": {
+   "diff": -0.633943000617279,
+   "ci": [
+    -2.3317727011689686,
+    0.9817962234125132
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.769615192403798,
+   "p_two_sided": 0.4617691154422789
+  },
+  "LENS-Net-A - w/o motion | CCTV-F": {
+   "diff": 2.4730036942313234,
+   "ci": [
+    1.3947329417175065,
+    3.6311844117449397
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - w/o motion | Movies": {
+   "diff": 60.26402640264027,
+   "ci": [
+    50.120618621312786,
+    69.5033273140717
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - w/o motion | UBI-Fights": {
+   "diff": 1.589394190222606,
+   "ci": [
+    0.750358283145595,
+    2.4306724147798766
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - Motion probe | Test": {
+   "diff": 0.74270255212042,
+   "ci": [
+    0.10374957401495877,
+    1.390362560453971
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.008995502248875561,
+   "p_two_sided": 0.017991004497751123
+  },
+  "LENS-Net-A - Motion probe | XD": {
+   "diff": 11.148695866800296,
+   "ci": [
+    9.440636186148078,
+    12.891559146729008
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - Motion probe | UCF": {
+   "diff": 1.9740379173740763,
+   "ci": [
+    -4.178445795289982,
+    8.074819225315109
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.2463768115942029,
+   "p_two_sided": 0.4927536231884058
+  },
+  "LENS-Net-A - Motion probe | SCFD": {
+   "diff": 1.688362919132146,
+   "ci": [
+    -0.29522902322272415,
+    3.953236277251192
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0544727636181909,
+   "p_two_sided": 0.1089455272363818
+  },
+  "LENS-Net-A - Motion probe | SCVD": {
+   "diff": 3.8143607705779345,
+   "ci": [
+    1.9662945025948013,
+    5.800139269280766
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - Motion probe | VioPeru": {
+   "diff": 4.630198872898319,
+   "ci": [
+    0.7920817624727384,
+    8.43651838783914
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0074962518740629685,
+   "p_two_sided": 0.014992503748125937
+  },
+  "LENS-Net-A - Motion probe | AIRTLab": {
+   "diff": 10.86084003227515,
+   "ci": [
+    7.163779942661542,
+    14.52419264692443
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - Motion probe | CCTV-F": {
+   "diff": 0.511247977451859,
+   "ci": [
+    -0.9258948774787676,
+    2.0508474864613957
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.25737131434282856,
+   "p_two_sided": 0.5147426286856571
+  },
+  "LENS-Net-A - Motion probe | Movies": {
+   "diff": 27.643564356435654,
+   "ci": [
+    19.384826382009113,
+    36.44530594276966
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - Motion probe | UBI-Fights": {
+   "diff": 7.848464782190831,
+   "ci": [
+    6.088830501301066,
+    9.695327637923715
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - CLIP zero-shot | Test": {
+   "diff": 3.6690581147385046,
+   "ci": [
+    2.3186278751384206,
+    5.263868218347699
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - CLIP zero-shot | XD": {
+   "diff": 6.383849227472197,
+   "ci": [
+    4.460144492318445,
+    8.240149160315092
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - CLIP zero-shot | UCF": {
+   "diff": 8.206706281833618,
+   "ci": [
+    1.4868056099475182,
+    15.368774274091779
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.00849575212393803,
+   "p_two_sided": 0.01699150424787606
+  },
+  "LENS-Net-A - CLIP zero-shot | SCFD": {
+   "diff": 5.398422090729795,
+   "ci": [
+    3.007498840874763,
+    8.280774242983561
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - CLIP zero-shot | SCVD": {
+   "diff": 5.63984099185501,
+   "ci": [
+    3.515147188210674,
+    7.817319349145172
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - CLIP zero-shot | VioPeru": {
+   "diff": 10.922523403660747,
+   "ci": [
+    7.805564938090786,
+    14.227169983013882
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - CLIP zero-shot | AIRTLab": {
+   "diff": 0.36309536195093983,
+   "ci": [
+    -1.4812317127217003,
+    2.226298778974234
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.3523238380809595,
+   "p_two_sided": 0.704647676161919
+  },
+  "LENS-Net-A - CLIP zero-shot | CCTV-F": {
+   "diff": 11.228201425497744,
+   "ci": [
+    9.856111331890007,
+    12.736596519974448
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - CLIP zero-shot | Movies": {
+   "diff": 5.438943894389439,
+   "ci": [
+    1.341306489663447,
+    9.530561349769803
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0034982508745627187,
+   "p_two_sided": 0.0069965017491254375
+  },
+  "LENS-Net-A - CLIP zero-shot | UBI-Fights": {
+   "diff": 5.8389981421956065,
+   "ci": [
+    4.377113123153562,
+    7.346033965982596
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - VadCLIP | Test": {
+   "diff": 0.6182648563071211,
+   "ci": [
+    -0.06636374104835348,
+    1.3780579621728288
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.044977511244377814,
+   "p_two_sided": 0.08995502248875563
+  },
+  "LENS-Net-A - VadCLIP | XD": {
+   "diff": 2.30652394419171,
+   "ci": [
+    -0.07742241141534797,
+    4.550481179954858
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.027486256871564217,
+   "p_two_sided": 0.054972513743128434
+  },
+  "LENS-Net-A - VadCLIP | UCF": {
+   "diff": 3.434493491794001,
+   "ci": [
+    -3.0471837415422383,
+    9.609185073498422
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.13993003498250875,
+   "p_two_sided": 0.2798600699650175
+  },
+  "LENS-Net-A - VadCLIP | SCFD": {
+   "diff": 6.300788954635124,
+   "ci": [
+    3.557019461380701,
+    9.32769609330201
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - VadCLIP | SCVD": {
+   "diff": 1.8940038362105014,
+   "ci": [
+    -0.3451268461321931,
+    4.311256617320008
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.05247376311844078,
+   "p_two_sided": 0.10494752623688156
+  },
+  "LENS-Net-A - VadCLIP | VioPeru": {
+   "diff": 2.650842997531541,
+   "ci": [
+    -0.5248999443002826,
+    6.444482606457927
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.06546726636681659,
+   "p_two_sided": 0.13093453273363317
+  },
+  "LENS-Net-A - VadCLIP | AIRTLab": {
+   "diff": -2.123431615306174,
+   "ci": [
+    -6.429297724396844,
+    2.1623167194843305
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.8385807096451774,
+   "p_two_sided": 0.3238380809595202
+  },
+  "LENS-Net-A - VadCLIP | CCTV-F": {
+   "diff": 5.64433019584645,
+   "ci": [
+    4.371599324039881,
+    6.980729529864782
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - VadCLIP | Movies": {
+   "diff": 18.033003300330037,
+   "ci": [
+    -7.157277570260863,
+    59.46220532904692
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.2818590704647676,
+   "p_two_sided": 0.5637181409295352
+  },
+  "LENS-Net-A - VadCLIP | UBI-Fights": {
+   "diff": 2.667305861740715,
+   "ci": [
+    1.4542406096602285,
+    4.02829688295351
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - X-CLIP FT | Test": {
+   "diff": 3.1477852130429227,
+   "ci": [
+    1.8673944018768107,
+    4.77592596469668
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - X-CLIP FT | XD": {
+   "diff": 10.681542724769002,
+   "ci": [
+    6.203198963915443,
+    15.068968847116157
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - X-CLIP FT | UCF": {
+   "diff": 15.693795981890219,
+   "ci": [
+    6.6816652784812405,
+    24.808196750734055
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - X-CLIP FT | SCFD": {
+   "diff": 9.990138067061139,
+   "ci": [
+    6.179285583644128,
+    14.148036605561012
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - X-CLIP FT | SCVD": {
+   "diff": 11.178105801573423,
+   "ci": [
+    7.98461439405757,
+    14.593903766808717
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - X-CLIP FT | VioPeru": {
+   "diff": 15.453052955148792,
+   "ci": [
+    10.578093161292994,
+    20.640331580791045
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - X-CLIP FT | AIRTLab": {
+   "diff": 11.769676624334437,
+   "ci": [
+    7.507624409363707,
+    15.615759359226047
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - X-CLIP FT | CCTV-F": {
+   "diff": 10.9276174237811,
+   "ci": [
+    8.753983172815584,
+    13.127803535939972
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - X-CLIP FT | Movies": {
+   "diff": 20.023102310231025,
+   "ci": [
+    8.267129225520339,
+    31.567730547564565
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0009995002498750624,
+   "p_two_sided": 0.001999000499750125
+  },
+  "LENS-Net-A - X-CLIP FT | UBI-Fights": {
+   "diff": 5.924614068729568,
+   "ci": [
+    4.409233977359114,
+    7.501749852919914
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - VideoMAE-B FT | Test": {
+   "diff": 1.006213056639453,
+   "ci": [
+    -0.0032586408437694533,
+    2.0825054329048425
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.026986506746626688,
+   "p_two_sided": 0.053973013493253376
+  },
+  "LENS-Net-A - VideoMAE-B FT | XD": {
+   "diff": 9.643367988720186,
+   "ci": [
+    7.4708696367926155,
+    11.99578627797403
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - VideoMAE-B FT | UCF": {
+   "diff": 3.8541666666666714,
+   "ci": [
+    -2.693778914825789,
+    11.156023358433721
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.11944027986006997,
+   "p_two_sided": 0.23888055972013994
+  },
+  "LENS-Net-A - VideoMAE-B FT | SCFD": {
+   "diff": 0.7850098619329486,
+   "ci": [
+    -1.2899938538501015,
+    3.133970289978589
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.25837081459270367,
+   "p_two_sided": 0.5167416291854073
+  },
+  "LENS-Net-A - VideoMAE-B FT | SCVD": {
+   "diff": 4.024879770939322,
+   "ci": [
+    1.616412706811802,
+    6.559019643860971
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - VideoMAE-B FT | VioPeru": {
+   "diff": 5.53566438451864,
+   "ci": [
+    1.0055375568911546,
+    10.20422778818145
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.00849575212393803,
+   "p_two_sided": 0.01699150424787606
+  },
+  "LENS-Net-A - VideoMAE-B FT | AIRTLab": {
+   "diff": 6.202619003031003,
+   "ci": [
+    0.5778580746903154,
+    11.534317353445006
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.014492753623188406,
+   "p_two_sided": 0.028985507246376812
+  },
+  "LENS-Net-A - VideoMAE-B FT | CCTV-F": {
+   "diff": 0.6620329291136926,
+   "ci": [
+    -0.9800072782651739,
+    2.3434869135983147
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.21739130434782608,
+   "p_two_sided": 0.43478260869565216
+  },
+  "LENS-Net-A - VideoMAE-B FT | Movies": {
+   "diff": 40.752475247524764,
+   "ci": [
+    25.142903874447793,
+    55.206280756884496
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - VideoMAE-B FT | UBI-Fights": {
+   "diff": 8.046799196177716,
+   "ci": [
+    6.312879859487394,
+    9.996223025157931
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - Video Swin-T FT | Test": {
+   "diff": 1.2114185269543043,
+   "ci": [
+    0.06593186263873178,
+    2.5705260586265157
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.01649175412293853,
+   "p_two_sided": 0.03298350824587706
+  },
+  "LENS-Net-A - Video Swin-T FT | XD": {
+   "diff": 12.126726733360556,
+   "ci": [
+    9.941728443821015,
+    14.30717514701959
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - Video Swin-T FT | UCF": {
+   "diff": 4.8949490662139254,
+   "ci": [
+    -4.589389729709544,
+    14.532322160895973
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.13843078460769614,
+   "p_two_sided": 0.2768615692153923
+  },
+  "LENS-Net-A - Video Swin-T FT | SCFD": {
+   "diff": 4.0,
+   "ci": [
+    1.0424130379268313,
+    7.234013502387637
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.005497251374312844,
+   "p_two_sided": 0.010994502748625687
+  },
+  "LENS-Net-A - Video Swin-T FT | SCVD": {
+   "diff": 9.67497845606428,
+   "ci": [
+    6.874464034851715,
+    12.844058065800176
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - Video Swin-T FT | VioPeru": {
+   "diff": 9.31174607610265,
+   "ci": [
+    3.5417992253476704,
+    15.62273381426814
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0014992503748125937,
+   "p_two_sided": 0.0029985007496251873
+  },
+  "LENS-Net-A - Video Swin-T FT | AIRTLab": {
+   "diff": 8.147219505653936,
+   "ci": [
+    4.53443802510143,
+    11.564118555126237
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - Video Swin-T FT | CCTV-F": {
+   "diff": 3.664654267504119,
+   "ci": [
+    2.085282704905763,
+    5.277319181560528
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - Video Swin-T FT | Movies": {
+   "diff": 20.409240924092416,
+   "ci": [
+    9.58091599035077,
+    30.843610723819047
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - Video Swin-T FT | UBI-Fights": {
+   "diff": 8.221416713801545,
+   "ci": [
+    5.999784309507923,
+    10.682286702247708
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - R(2+1)D-18 FT | Test": {
+   "diff": 2.0301216519236505,
+   "ci": [
+    0.9304817787943911,
+    3.340752011489559
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - R(2+1)D-18 FT | XD": {
+   "diff": 13.578183914989594,
+   "ci": [
+    10.837979463050228,
+    16.384129675466127
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - R(2+1)D-18 FT | UCF": {
+   "diff": 8.323075834748167,
+   "ci": [
+    1.886964595904638,
+    16.115213519433265
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0069965017491254375,
+   "p_two_sided": 0.013993003498250875
+  },
+  "LENS-Net-A - R(2+1)D-18 FT | SCFD": {
+   "diff": 4.812623274161737,
+   "ci": [
+    1.5979968155755373,
+    8.301357465573426
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0009995002498750624,
+   "p_two_sided": 0.001999000499750125
+  },
+  "LENS-Net-A - R(2+1)D-18 FT | SCVD": {
+   "diff": 6.824562866594391,
+   "ci": [
+    4.211576900498626,
+    9.629307127172815
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - R(2+1)D-18 FT | VioPeru": {
+   "diff": 11.54417586512038,
+   "ci": [
+    7.169403771027271,
+    16.428904460834712
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - R(2+1)D-18 FT | AIRTLab": {
+   "diff": 11.146484298235293,
+   "ci": [
+    6.6264871918560795,
+    15.805478449114622
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - R(2+1)D-18 FT | CCTV-F": {
+   "diff": 3.3684198317008054,
+   "ci": [
+    1.56793431929737,
+    5.157220411649411
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0009995002498750624,
+   "p_two_sided": 0.001999000499750125
+  },
+  "LENS-Net-A - R(2+1)D-18 FT | Movies": {
+   "diff": 25.17161716171617,
+   "ci": [
+    12.485659941280412,
+    38.17978538901828
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0009995002498750624,
+   "p_two_sided": 0.001999000499750125
+  },
+  "LENS-Net-A - R(2+1)D-18 FT | UBI-Fights": {
+   "diff": 13.711162576278056,
+   "ci": [
+    10.052038184862141,
+    17.791813148068393
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - CNN-BiGRU | Test": {
+   "diff": 2.172019469016135,
+   "ci": [
+    0.9483625282821698,
+    3.6090397674833405
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - CNN-BiGRU | XD": {
+   "diff": 13.678161725233053,
+   "ci": [
+    11.473214849518657,
+    15.968128929651948
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - CNN-BiGRU | UCF": {
+   "diff": 25.213638936049797,
+   "ci": [
+    16.30739179688444,
+    34.33952073278028
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - CNN-BiGRU | SCFD": {
+   "diff": 13.329388560157795,
+   "ci": [
+    8.7612018644681,
+    18.322575292880085
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - CNN-BiGRU | SCVD": {
+   "diff": 13.591943957968482,
+   "ci": [
+    10.017236679245581,
+    17.733311286037342
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - CNN-BiGRU | VioPeru": {
+   "diff": 21.28248567835685,
+   "ci": [
+    15.582141220579404,
+    27.129804043483205
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - CNN-BiGRU | AIRTLab": {
+   "diff": 13.267661739852187,
+   "ci": [
+    7.181335952366377,
+    19.15188113372983
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - CNN-BiGRU | CCTV-F": {
+   "diff": 15.066606352686009,
+   "ci": [
+    12.981899847983879,
+    17.316385469374303
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - CNN-BiGRU | Movies": {
+   "diff": 73.32343234323433,
+   "ci": [
+    63.30146621755498,
+    82.95778019945841
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - CNN-BiGRU | UBI-Fights": {
+   "diff": 11.00939363839953,
+   "ci": [
+    8.330543853599593,
+    13.688093425187592
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  }
+ },
+ "pairwise_seed_averaged": {
+  "LENS-Net - CLIP probe | Test": {
+   "diff": 1.0152373889859945,
+   "ci": [
+    0.10045036030862989,
+    2.139661711188462
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.014992503748125937,
+   "p_two_sided": 0.029985007496251874
+  },
+  "LENS-Net - CLIP probe | XD": {
+   "diff": -4.804478790656859,
+   "ci": [
+    -6.596360155466204,
+    -3.047043742494918
+   ],
+   "better": false,
+   "worse": true,
+   "non_inferior": false,
+   "p_one_sided": 1.0,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - CLIP probe | UCF": {
+   "diff": 5.882852292020374,
+   "ci": [
+    -2.0095033289426,
+    13.879646761442016
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.07496251874062969,
+   "p_two_sided": 0.14992503748125938
+  },
+  "LENS-Net - CLIP probe | SCFD": {
+   "diff": 4.218934911242613,
+   "ci": [
+    1.651234629681115,
+    7.094123173910417
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - CLIP probe | SCVD": {
+   "diff": 1.5251438578934113,
+   "ci": [
+    -0.5575778750091785,
+    3.4729470988444096
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0769615192403798,
+   "p_two_sided": 0.1539230384807596
+  },
+  "LENS-Net - CLIP probe | VioPeru": {
+   "diff": 3.956615900516965,
+   "ci": [
+    0.32304562839122114,
+    7.8231512167563695
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.017491254372813594,
+   "p_two_sided": 0.03498250874562719
+  },
+  "LENS-Net - CLIP probe | AIRTLab": {
+   "diff": -6.365092906635596,
+   "ci": [
+    -9.082893071425852,
+    -3.678896060247481
+   ],
+   "better": false,
+   "worse": true,
+   "non_inferior": false,
+   "p_one_sided": 1.0,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - CLIP probe | CCTV-F": {
+   "diff": 9.374271447709518,
+   "ci": [
+    7.743057976579913,
+    11.076845170941485
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - CLIP probe | Movies": {
+   "diff": -22.34653465346534,
+   "ci": [
+    -29.52072907159323,
+    -15.411969192323081
+   ],
+   "better": false,
+   "worse": true,
+   "non_inferior": false,
+   "p_one_sided": 1.0,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - CLIP probe | UBI-Fights": {
+   "diff": -3.020869259315461,
+   "ci": [
+    -4.697655932214495,
+    -1.409150923496021
+   ],
+   "better": false,
+   "worse": true,
+   "non_inferior": false,
+   "p_one_sided": 1.0,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - w/o motion | Test": {
+   "diff": 0.6488102594887835,
+   "ci": [
+    -0.2013771426837085,
+    1.4792826064835614
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.05247376311844078,
+   "p_two_sided": 0.10494752623688156
+  },
+  "LENS-Net - w/o motion | XD": {
+   "diff": -4.495698486664267,
+   "ci": [
+    -6.123821446294068,
+    -3.044266771931126
+   ],
+   "better": false,
+   "worse": true,
+   "non_inferior": false,
+   "p_one_sided": 1.0,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - w/o motion | UCF": {
+   "diff": 1.3953735144312418,
+   "ci": [
+    -5.457390758793283,
+    7.593954380121985
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.3118440779610195,
+   "p_two_sided": 0.623688155922039
+  },
+  "LENS-Net - w/o motion | SCFD": {
+   "diff": 2.0650887573964525,
+   "ci": [
+    0.1394742202761286,
+    4.277024878843294
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.01999000499750125,
+   "p_two_sided": 0.0399800099950025
+  },
+  "LENS-Net - w/o motion | SCVD": {
+   "diff": 2.4932032357601486,
+   "ci": [
+    0.5651116149751776,
+    4.43156629224006
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.004997501249375313,
+   "p_two_sided": 0.009995002498750625
+  },
+  "LENS-Net - w/o motion | VioPeru": {
+   "diff": 5.622816822691064,
+   "ci": [
+    2.268355860344814,
+    9.096684147376644
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - w/o motion | AIRTLab": {
+   "diff": -4.220159942293151,
+   "ci": [
+    -6.313172772542087,
+    -2.1458249587736486
+   ],
+   "better": false,
+   "worse": true,
+   "non_inferior": false,
+   "p_one_sided": 1.0,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - w/o motion | CCTV-F": {
+   "diff": 4.0637994328165945,
+   "ci": [
+    2.75332532098588,
+    5.36681611369624
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - w/o motion | Movies": {
+   "diff": 47.366336633663366,
+   "ci": [
+    38.42156410156896,
+    56.31802383316781
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - w/o motion | UBI-Fights": {
+   "diff": -1.9531260777794728,
+   "ci": [
+    -3.410410323188489,
+    -0.6069027883842817
+   ],
+   "better": false,
+   "worse": true,
+   "non_inferior": false,
+   "p_one_sided": 0.9970014992503748,
+   "p_two_sided": 0.0069965017491254375
+  },
+  "LENS-Net - Motion probe | Test": {
+   "diff": 0.2955665024630463,
+   "ci": [
+    -0.15941959483755497,
+    0.7590843685100795
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.09495252373813093,
+   "p_two_sided": 0.18990504747626186
+  },
+  "LENS-Net - Motion probe | XD": {
+   "diff": 5.474058588604038,
+   "ci": [
+    4.3350366886838065,
+    6.699548618147606
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - Motion probe | UCF": {
+   "diff": 2.228353140916809,
+   "ci": [
+    -0.9582500905344986,
+    5.89086551144559
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0814592703648176,
+   "p_two_sided": 0.1629185407296352
+  },
+  "LENS-Net - Motion probe | SCFD": {
+   "diff": 1.3195266272189343,
+   "ci": [
+    0.01833972565379619,
+    2.8196480528260013
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.02348825587206397,
+   "p_two_sided": 0.04697651174412794
+  },
+  "LENS-Net - Motion probe | SCVD": {
+   "diff": 2.5317321324326514,
+   "ci": [
+    1.1375186662071926,
+    4.022591331693531
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0009995002498750624,
+   "p_two_sided": 0.001999000499750125
+  },
+  "LENS-Net - Motion probe | VioPeru": {
+   "diff": 4.306622886684352,
+   "ci": [
+    1.978210057444008,
+    6.737249162088074
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0009995002498750624,
+   "p_two_sided": 0.001999000499750125
+  },
+  "LENS-Net - Motion probe | AIRTLab": {
+   "diff": 6.925168369434786,
+   "ci": [
+    5.049476766344684,
+    8.815374330428588
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - Motion probe | CCTV-F": {
+   "diff": 1.6789324425422336,
+   "ci": [
+    0.6171001323126916,
+    2.6876812163495845
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0009995002498750624,
+   "p_two_sided": 0.001999000499750125
+  },
+  "LENS-Net - Motion probe | Movies": {
+   "diff": 12.782178217821787,
+   "ci": [
+    6.124478027440844,
+    19.40279774751912
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - Motion probe | UBI-Fights": {
+   "diff": 3.850811179935704,
+   "ci": [
+    2.768718333829799,
+    4.9407313139902875
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - CLIP zero-shot | Test": {
+   "diff": 3.4082549099234285,
+   "ci": [
+    1.95762898547714,
+    5.124619059493865
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - CLIP zero-shot | XD": {
+   "diff": 1.2645293697075317,
+   "ci": [
+    -0.9108864517732567,
+    3.1611745679525622
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.11594202898550725,
+   "p_two_sided": 0.2318840579710145
+  },
+  "LENS-Net - CLIP zero-shot | UCF": {
+   "diff": 8.835950764006796,
+   "ci": [
+    0.504208773686521,
+    17.423691575897685
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.01899050474762619,
+   "p_two_sided": 0.03798100949525238
+  },
+  "LENS-Net - CLIP zero-shot | SCFD": {
+   "diff": 5.550295857988175,
+   "ci": [
+    2.673458648871807,
+    8.840348781653121
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - CLIP zero-shot | SCVD": {
+   "diff": 4.763239095988652,
+   "ci": [
+    2.0933941176867368,
+    7.398236146537287
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - CLIP zero-shot | VioPeru": {
+   "diff": 10.970727958641888,
+   "ci": [
+    6.824701393061492,
+    15.188796900390084
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - CLIP zero-shot | AIRTLab": {
+   "diff": -3.1322610402491478,
+   "ci": [
+    -5.854079442383021,
+    -0.3554528571806522
+   ],
+   "better": false,
+   "worse": true,
+   "non_inferior": false,
+   "p_one_sided": 0.9885057471264368,
+   "p_two_sided": 0.0239880059970015
+  },
+  "LENS-Net - CLIP zero-shot | CCTV-F": {
+   "diff": 12.927953790211731,
+   "ci": [
+    11.125388545526352,
+    14.693261003650704
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - CLIP zero-shot | Movies": {
+   "diff": -9.168316831683171,
+   "ci": [
+    -14.642033203471946,
+    -3.7926052926053013
+   ],
+   "better": false,
+   "worse": true,
+   "non_inferior": false,
+   "p_one_sided": 0.9995002498750625,
+   "p_two_sided": 0.001999000499750125
+  },
+  "LENS-Net - CLIP zero-shot | UBI-Fights": {
+   "diff": 2.4192527625643123,
+   "ci": [
+    0.5113468800301515,
+    4.345335254717569
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.009495252373813094,
+   "p_two_sided": 0.01899050474762619
+  },
+  "LENS-Net - VadCLIP | Test": {
+   "diff": 0.08804609472016978,
+   "ci": [
+    -0.7105391101456086,
+    0.9618109879556249
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.41529235382308843,
+   "p_two_sided": 0.8305847076461769
+  },
+  "LENS-Net - VadCLIP | XD": {
+   "diff": -3.860422891162429,
+   "ci": [
+    -5.4505159771897915,
+    -2.2074511093870353
+   ],
+   "better": false,
+   "worse": true,
+   "non_inferior": false,
+   "p_one_sided": 1.0,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - VadCLIP | UCF": {
+   "diff": 3.0645161290322562,
+   "ci": [
+    -4.930211759699204,
+    11.206120808645931
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.2383808095952024,
+   "p_two_sided": 0.4767616191904048
+  },
+  "LENS-Net - VadCLIP | SCFD": {
+   "diff": 5.698224852071007,
+   "ci": [
+    2.6377883151855688,
+    9.18244161462686
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - VadCLIP | SCVD": {
+   "diff": 0.5907764156450668,
+   "ci": [
+    -1.6009899065202233,
+    2.7612105027463465
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.30834582708645675,
+   "p_two_sided": 0.6166916541729135
+  },
+  "LENS-Net - VadCLIP | VioPeru": {
+   "diff": 3.708606958222717,
+   "ci": [
+    -0.6108325697389844,
+    8.163636667899342
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.050474762618690654,
+   "p_two_sided": 0.10094952523738131
+  },
+  "LENS-Net - VadCLIP | AIRTLab": {
+   "diff": -6.4389604444536985,
+   "ci": [
+    -9.191990508056971,
+    -3.9265894321047785
+   ],
+   "better": false,
+   "worse": true,
+   "non_inferior": false,
+   "p_one_sided": 1.0,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - VadCLIP | CCTV-F": {
+   "diff": 6.421873097064903,
+   "ci": [
+    4.925606093524265,
+    7.984439024733186
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - VadCLIP | Movies": {
+   "diff": -16.15841584158416,
+   "ci": [
+    -23.394179340614475,
+    -8.940204457222746
+   ],
+   "better": false,
+   "worse": true,
+   "non_inferior": false,
+   "p_one_sided": 1.0,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - VadCLIP | UBI-Fights": {
+   "diff": -1.2096651813428707,
+   "ci": [
+    -2.776407671541068,
+    0.44990701131093624
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.9290354822588706,
+   "p_two_sided": 0.14292853573213393
+  },
+  "LENS-Net - X-CLIP FT | Test": {
+   "diff": 1.2306442784751965,
+   "ci": [
+    0.14271471385208656,
+    2.410245655558374
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.013493253373313344,
+   "p_two_sided": 0.026986506746626688
+  },
+  "LENS-Net - X-CLIP FT | XD": {
+   "diff": 0.75082659321248,
+   "ci": [
+    -1.089194863228779,
+    2.6603272096643344
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.2143928035982009,
+   "p_two_sided": 0.4287856071964018
+  },
+  "LENS-Net - X-CLIP FT | UCF": {
+   "diff": 14.771859083191856,
+   "ci": [
+    5.4751470751583655,
+    24.73508718155297
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - X-CLIP FT | SCFD": {
+   "diff": 7.455621301775153,
+   "ci": [
+    4.076684268682576,
+    11.052547238654359
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - X-CLIP FT | SCVD": {
+   "diff": 8.332749562171628,
+   "ci": [
+    5.508794064734685,
+    11.45062198238715
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - X-CLIP FT | VioPeru": {
+   "diff": 14.586418890596619,
+   "ci": [
+    9.844691616643223,
+    19.480564443022445
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - X-CLIP FT | AIRTLab": {
+   "diff": 7.68118354522565,
+   "ci": [
+    3.2750548653681957,
+    11.626423028053797
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - X-CLIP FT | CCTV-F": {
+   "diff": 10.441741914156964,
+   "ci": [
+    8.717461107658062,
+    12.195374885996289
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - X-CLIP FT | Movies": {
+   "diff": 10.019801980198025,
+   "ci": [
+    0.36552859308071184,
+    19.55521251049835
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.022488755622188907,
+   "p_two_sided": 0.044977511244377814
+  },
+  "LENS-Net - X-CLIP FT | UBI-Fights": {
+   "diff": -0.04567198256239635,
+   "ci": [
+    -1.623786433844813,
+    1.5280015194846055
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.5162418790604698,
+   "p_two_sided": 0.9685157421289355
+  },
+  "LENS-Net - VideoMAE-B FT | Test": {
+   "diff": -0.31239884410074126,
+   "ci": [
+    -1.0865813875338564,
+    0.3985578903758281
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.8040979510244878,
+   "p_two_sided": 0.39280359820089955
+  },
+  "LENS-Net - VideoMAE-B FT | XD": {
+   "diff": 2.427866652449353,
+   "ci": [
+    0.6594730777414064,
+    4.275900572771376
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.004997501249375313,
+   "p_two_sided": 0.009995002498750625
+  },
+  "LENS-Net - VideoMAE-B FT | UCF": {
+   "diff": 2.6655348047538183,
+   "ci": [
+    -2.4121497202942144,
+    8.288328311303292
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.1519240379810095,
+   "p_two_sided": 0.303848075962019
+  },
+  "LENS-Net - VideoMAE-B FT | SCFD": {
+   "diff": -0.7041420118343211,
+   "ci": [
+    -2.332723797483596,
+    0.8460685569191645
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.816591704147926,
+   "p_two_sided": 0.3698150924537731
+  },
+  "LENS-Net - VideoMAE-B FT | SCVD": {
+   "diff": 1.1827203736135345,
+   "ci": [
+    -0.793430779220666,
+    3.308174242391597
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.13393303348325838,
+   "p_two_sided": 0.26786606696651677
+  },
+  "LENS-Net - VideoMAE-B FT | VioPeru": {
+   "diff": 4.353779516557211,
+   "ci": [
+    0.8249114600556939,
+    8.202314370230022
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.005997001499250375,
+   "p_two_sided": 0.01199400299850075
+  },
+  "LENS-Net - VideoMAE-B FT | AIRTLab": {
+   "diff": -0.20669038750979496,
+   "ci": [
+    -3.2817426206607796,
+    2.7247329202151445
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.5692153923038481,
+   "p_two_sided": 0.863568215892054
+  },
+  "LENS-Net - VideoMAE-B FT | CCTV-F": {
+   "diff": 0.026445360752987312,
+   "ci": [
+    -1.3928556716886404,
+    1.4407108515727347
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.47876061969015493,
+   "p_two_sided": 0.9575212393803099
+  },
+  "LENS-Net - VideoMAE-B FT | Movies": {
+   "diff": 34.24752475247525,
+   "ci": [
+    22.201288678591286,
+    45.725010348009675
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - VideoMAE-B FT | UBI-Fights": {
+   "diff": 2.226140549339874,
+   "ci": [
+    0.42271632398491404,
+    4.12166104884171
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.009495252373813094,
+   "p_two_sided": 0.01899050474762619
+  },
+  "LENS-Net - Video Swin-T FT | Test": {
+   "diff": 0.026131327577374464,
+   "ci": [
+    -0.8621974254188505,
+    0.8962053983883032
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.47876061969015493,
+   "p_two_sided": 0.9575212393803099
+  },
+  "LENS-Net - Video Swin-T FT | XD": {
+   "diff": 5.314559977977339,
+   "ci": [
+    3.3673171355056737,
+    7.367758919184656
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - Video Swin-T FT | UCF": {
+   "diff": 2.8331918505942326,
+   "ci": [
+    -6.27236081654493,
+    12.518888775454537
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.2688655672163918,
+   "p_two_sided": 0.5377311344327836
+  },
+  "LENS-Net - Video Swin-T FT | SCFD": {
+   "diff": 2.757396449704146,
+   "ci": [
+    0.24798841179888456,
+    5.456092076454223
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.018490754622688656,
+   "p_two_sided": 0.03698150924537731
+  },
+  "LENS-Net - Video Swin-T FT | SCVD": {
+   "diff": 7.564673505128837,
+   "ci": [
+    5.074203384021313,
+    10.411115579473122
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - Video Swin-T FT | VioPeru": {
+   "diff": 6.290345116668988,
+   "ci": [
+    1.4348017858989721,
+    11.279646135637648
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.005997001499250375,
+   "p_two_sided": 0.01199400299850075
+  },
+  "LENS-Net - Video Swin-T FT | AIRTLab": {
+   "diff": 3.228670314960084,
+   "ci": [
+    -0.14388954069734328,
+    6.386046432012965
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.030484757621189407,
+   "p_two_sided": 0.06096951524237881
+  },
+  "LENS-Net - Video Swin-T FT | CCTV-F": {
+   "diff": 3.6091828035561946,
+   "ci": [
+    2.12776690066805,
+    5.050808921459832
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - Video Swin-T FT | Movies": {
+   "diff": 9.485148514851488,
+   "ci": [
+    -1.6753104349554657,
+    21.796425024826217
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.059470264867566215,
+   "p_two_sided": 0.11894052973513243
+  },
+  "LENS-Net - Video Swin-T FT | UBI-Fights": {
+   "diff": 2.193841654365613,
+   "ci": [
+    0.3513684250008325,
+    4.054865837309375
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.010994502748625687,
+   "p_two_sided": 0.021989005497251374
+  },
+  "LENS-Net - R(2+1)D-18 FT | Test": {
+   "diff": 0.5312192853905771,
+   "ci": [
+    -0.3455769154911483,
+    1.5943932601048234
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.1359320339830085,
+   "p_two_sided": 0.271864067966017
+  },
+  "LENS-Net - R(2+1)D-18 FT | XD": {
+   "diff": 5.921712499771658,
+   "ci": [
+    3.833098867702993,
+    8.261461924388774
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - R(2+1)D-18 FT | UCF": {
+   "diff": 6.8548387096774235,
+   "ci": [
+    -0.4784456844983996,
+    14.61897204825543
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.033483258370814596,
+   "p_two_sided": 0.06696651674162919
+  },
+  "LENS-Net - R(2+1)D-18 FT | SCFD": {
+   "diff": 3.094674556213022,
+   "ci": [
+    0.4013547226734755,
+    6.214319080555976
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.01199400299850075,
+   "p_two_sided": 0.0239880059970015
+  },
+  "LENS-Net - R(2+1)D-18 FT | SCVD": {
+   "diff": 4.29271953965474,
+   "ci": [
+    1.9267971414562588,
+    6.648330208824912
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - R(2+1)D-18 FT | VioPeru": {
+   "diff": 10.252549951096825,
+   "ci": [
+    5.329225717759016,
+    15.821517516912957
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - R(2+1)D-18 FT | AIRTLab": {
+   "diff": 6.2367784043224646,
+   "ci": [
+    1.5923807836061665,
+    10.94546916816186
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.005497251374312844,
+   "p_two_sided": 0.010994502748625687
+  },
+  "LENS-Net - R(2+1)D-18 FT | CCTV-F": {
+   "diff": 3.1356020669137195,
+   "ci": [
+    1.4829839386802017,
+    4.698108420177783
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - R(2+1)D-18 FT | Movies": {
+   "diff": 6.059405940594061,
+   "ci": [
+    -6.339074045555152,
+    18.785047289557607
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.17491254372813594,
+   "p_two_sided": 0.3498250874562719
+  },
+  "LENS-Net - R(2+1)D-18 FT | UBI-Fights": {
+   "diff": 7.095703367500377,
+   "ci": [
+    4.451193020437517,
+    9.601496040084255
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - CNN-BiGRU | Test": {
+   "diff": 1.5001971620436478,
+   "ci": [
+    0.3758413597341228,
+    2.828572105242991
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.005497251374312844,
+   "p_two_sided": 0.010994502748625687
+  },
+  "LENS-Net - CNN-BiGRU | XD": {
+   "diff": 7.697714341790501,
+   "ci": [
+    5.422045873393275,
+    10.093996575265699
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - CNN-BiGRU | UCF": {
+   "diff": 25.22601867572157,
+   "ci": [
+    15.747792109239851,
+    34.787035447622785
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - CNN-BiGRU | SCFD": {
+   "diff": 12.112426035502963,
+   "ci": [
+    7.595831879773037,
+    17.2311148328447
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - CNN-BiGRU | SCVD": {
+   "diff": 12.264865315653395,
+   "ci": [
+    8.756181336209863,
+    16.04336893546566
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - CNN-BiGRU | VioPeru": {
+   "diff": 19.933282101439147,
+   "ci": [
+    14.519229466327277,
+    25.0816702328481
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - CNN-BiGRU | AIRTLab": {
+   "diff": 8.791277388210318,
+   "ci": [
+    4.155022075636028,
+    13.31087646568052
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - CNN-BiGRU | CCTV-F": {
+   "diff": 15.884179758860057,
+   "ci": [
+    13.920957924377333,
+    17.816629151877375
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - CNN-BiGRU | Movies": {
+   "diff": 67.24752475247526,
+   "ci": [
+    58.43688469397233,
+    75.87135876376527
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net - CNN-BiGRU | UBI-Fights": {
+   "diff": 6.51197800985004,
+   "ci": [
+    4.180796279360191,
+    8.973553148687936
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - CLIP probe | Test": {
+   "diff": 1.3022111576060382,
+   "ci": [
+    0.613168752170844,
+    2.1897305539252643
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - CLIP probe | XD": {
+   "diff": 0.39845977317169456,
+   "ci": [
+    -0.5044682880178847,
+    1.269550868909869
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.19390304847576212,
+   "p_two_sided": 0.38780609695152424
+  },
+  "LENS-Net-A - CLIP probe | UCF": {
+   "diff": 5.299235993208825,
+   "ci": [
+    0.7340732636093613,
+    9.979422828586777
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.01199400299850075,
+   "p_two_sided": 0.0239880059970015
+  },
+  "LENS-Net-A - CLIP probe | SCFD": {
+   "diff": 4.124260355029591,
+   "ci": [
+    2.1616489627582216,
+    6.298258104048164
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - CLIP probe | SCVD": {
+   "diff": 2.4760236844299897,
+   "ci": [
+    1.196099993212884,
+    3.7844497673556323
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - CLIP probe | VioPeru": {
+   "diff": 4.078873829816956,
+   "ci": [
+    2.0046651172104055,
+    6.314488532909003
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - CLIP probe | AIRTLab": {
+   "diff": -2.822572254936645,
+   "ci": [
+    -4.6260694639273385,
+    -1.132065823677783
+   ],
+   "better": false,
+   "worse": true,
+   "non_inferior": false,
+   "p_one_sided": 0.999000499750125,
+   "p_two_sided": 0.0029985007496251873
+  },
+  "LENS-Net-A - CLIP probe | CCTV-F": {
+   "diff": 7.766149938236168,
+   "ci": [
+    6.663066168954342,
+    8.954346119076718
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - CLIP probe | Movies": {
+   "diff": -8.603960396039597,
+   "ci": [
+    -12.968328840970361,
+    -4.711813594248594
+   ],
+   "better": false,
+   "worse": true,
+   "non_inferior": false,
+   "p_one_sided": 1.0,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - CLIP probe | UBI-Fights": {
+   "diff": 0.46844606619119133,
+   "ci": [
+    -0.24966159624088463,
+    1.2396740448752235
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.10844577711144428,
+   "p_two_sided": 0.21689155422288856
+  },
+  "LENS-Net-A - w/o motion | Test": {
+   "diff": 0.9357840281088272,
+   "ci": [
+    0.3449774221819876,
+    1.583498022565613
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.001999000499750125,
+   "p_two_sided": 0.00399800099950025
+  },
+  "LENS-Net-A - w/o motion | XD": {
+   "diff": 0.7072400771642862,
+   "ci": [
+    -0.22007507775034582,
+    1.6117780282955059
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.06796601699150424,
+   "p_two_sided": 0.1359320339830085
+  },
+  "LENS-Net-A - w/o motion | UCF": {
+   "diff": 0.8117572156196928,
+   "ci": [
+    -4.348392939752707,
+    5.660619655573779
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.35132433783108447,
+   "p_two_sided": 0.7026486756621689
+  },
+  "LENS-Net-A - w/o motion | SCFD": {
+   "diff": 1.9704142011834307,
+   "ci": [
+    0.35392154335864423,
+    3.7117875852725004
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0079960019990005,
+   "p_two_sided": 0.015992003998001
+  },
+  "LENS-Net-A - w/o motion | SCVD": {
+   "diff": 3.444083062296727,
+   "ci": [
+    1.9483801689476443,
+    5.030751465800371
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - w/o motion | VioPeru": {
+   "diff": 5.745074751991055,
+   "ci": [
+    2.9131794335556007,
+    8.61442111491332
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - w/o motion | AIRTLab": {
+   "diff": -0.6776392905942004,
+   "ci": [
+    -2.285060187005701,
+    0.8837672029165973
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.7996001999000499,
+   "p_two_sided": 0.4027986006996502
+  },
+  "LENS-Net-A - w/o motion | CCTV-F": {
+   "diff": 2.455677923343245,
+   "ci": [
+    1.3646568245820845,
+    3.5553824432836785
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - w/o motion | Movies": {
+   "diff": 61.10891089108911,
+   "ci": [
+    52.702762792130216,
+    68.98167594644623
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - w/o motion | UBI-Fights": {
+   "diff": 1.5361892477271795,
+   "ci": [
+    0.7239891321792346,
+    2.321007730575071
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0009995002498750624,
+   "p_two_sided": 0.001999000499750125
+  },
+  "LENS-Net-A - Motion probe | Test": {
+   "diff": 0.58254027108309,
+   "ci": [
+    -0.03431786204457232,
+    1.170704845355868
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.029985007496251874,
+   "p_two_sided": 0.05997001499250375
+  },
+  "LENS-Net-A - Motion probe | XD": {
+   "diff": 10.676997152432591,
+   "ci": [
+    9.162379846553579,
+    12.3720405736791
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - Motion probe | UCF": {
+   "diff": 1.6447368421052602,
+   "ci": [
+    -4.356025247960281,
+    7.489269129469416
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.272863568215892,
+   "p_two_sided": 0.545727136431784
+  },
+  "LENS-Net-A - Motion probe | SCFD": {
+   "diff": 1.2248520710059125,
+   "ci": [
+    -0.5496717587963544,
+    3.1493472326415017
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0769615192403798,
+   "p_two_sided": 0.1539230384807596
+  },
+  "LENS-Net-A - Motion probe | SCVD": {
+   "diff": 3.4826119589692297,
+   "ci": [
+    1.6899345990994483,
+    5.3822053868704725
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - Motion probe | VioPeru": {
+   "diff": 4.428880815984343,
+   "ci": [
+    0.8399913151874312,
+    8.163139779437307
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.010494752623688156,
+   "p_two_sided": 0.020989505247376312
+  },
+  "LENS-Net-A - Motion probe | AIRTLab": {
+   "diff": 10.467689021133737,
+   "ci": [
+    7.930363042578389,
+    12.934090234304957
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - Motion probe | CCTV-F": {
+   "diff": 0.0708109330688842,
+   "ci": [
+    -1.2911981747056391,
+    1.4561159512786146
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.4592703648175912,
+   "p_two_sided": 0.9185407296351824
+  },
+  "LENS-Net-A - Motion probe | Movies": {
+   "diff": 26.52475247524753,
+   "ci": [
+    19.302232272452898,
+    34.151251356064854
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - Motion probe | UBI-Fights": {
+   "diff": 7.340126505442356,
+   "ci": [
+    5.702666480074301,
+    8.998291164897017
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - CLIP zero-shot | Test": {
+   "diff": 3.6952286785434723,
+   "ci": [
+    2.340758148025057,
+    5.287368012239618
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - CLIP zero-shot | XD": {
+   "diff": 6.467467933536085,
+   "ci": [
+    4.624466218014232,
+    8.28832345468711
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - CLIP zero-shot | UCF": {
+   "diff": 8.252334465195247,
+   "ci": [
+    1.6331348693105405,
+    15.313527787240995
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.006496751624187906,
+   "p_two_sided": 0.012993503248375811
+  },
+  "LENS-Net-A - CLIP zero-shot | SCFD": {
+   "diff": 5.455621301775153,
+   "ci": [
+    3.118944639256791,
+    8.228005470922836
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - CLIP zero-shot | SCVD": {
+   "diff": 5.7141189225252305,
+   "ci": [
+    3.633890725466966,
+    7.844570453257151
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - CLIP zero-shot | VioPeru": {
+   "diff": 11.092985887941879,
+   "ci": [
+    8.107538761000264,
+    14.267421476106929
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - CLIP zero-shot | AIRTLab": {
+   "diff": 0.4102596114498027,
+   "ci": [
+    -1.4421497477511724,
+    2.2570766931499286
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.3313343328335832,
+   "p_two_sided": 0.6626686656671664
+  },
+  "LENS-Net-A - CLIP zero-shot | CCTV-F": {
+   "diff": 11.319832280738382,
+   "ci": [
+    9.951595042739656,
+    12.836444564204
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - CLIP zero-shot | Movies": {
+   "diff": 4.574257425742573,
+   "ci": [
+    1.1000531856221634,
+    8.27190228063792
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.004497751124437781,
+   "p_two_sided": 0.008995502248875561
+  },
+  "LENS-Net-A - CLIP zero-shot | UBI-Fights": {
+   "diff": 5.908568088070965,
+   "ci": [
+    4.45839465308511,
+    7.414541378974391
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - VadCLIP | Test": {
+   "diff": 0.37501986334021353,
+   "ci": [
+    -0.23039585099399887,
+    1.0484912061743887
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.1199400299850075,
+   "p_two_sided": 0.239880059970015
+  },
+  "LENS-Net-A - VadCLIP | XD": {
+   "diff": 1.3425156726661243,
+   "ci": [
+    0.36912307952595536,
+    2.4270859380752925
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.005497251374312844,
+   "p_two_sided": 0.010994502748625687
+  },
+  "LENS-Net-A - VadCLIP | UCF": {
+   "diff": 2.4808998302207073,
+   "ci": [
+    -3.6106176185116334,
+    8.540436001042739
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.2063968015992004,
+   "p_two_sided": 0.4127936031984008
+  },
+  "LENS-Net-A - VadCLIP | SCFD": {
+   "diff": 5.6035502958579855,
+   "ci": [
+    3.0701382030031037,
+    8.43372553521207
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - VadCLIP | SCVD": {
+   "diff": 1.541656242181645,
+   "ci": [
+    -0.1825824015860199,
+    3.3308877900665843
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.03948025987006497,
+   "p_two_sided": 0.07896051974012994
+  },
+  "LENS-Net-A - VadCLIP | VioPeru": {
+   "diff": 3.830864887522708,
+   "ci": [
+    0.6034238925232768,
+    7.239987586642729
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.009495252373813094,
+   "p_two_sided": 0.01899050474762619
+  },
+  "LENS-Net-A - VadCLIP | AIRTLab": {
+   "diff": -2.896439792754748,
+   "ci": [
+    -4.991272749208573,
+    -1.1436160176034673
+   ],
+   "better": false,
+   "worse": true,
+   "non_inferior": false,
+   "p_one_sided": 0.9985007496251874,
+   "p_two_sided": 0.00399800099950025
+  },
+  "LENS-Net-A - VadCLIP | CCTV-F": {
+   "diff": 4.813751587591554,
+   "ci": [
+    3.7002113494186526,
+    6.030955786650711
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - VadCLIP | Movies": {
+   "diff": -2.4158415841584144,
+   "ci": [
+    -7.111292135606315,
+    2.417597131379978
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.8365817091454273,
+   "p_two_sided": 0.3288355822088955
+  },
+  "LENS-Net-A - VadCLIP | UBI-Fights": {
+   "diff": 2.2796501441637815,
+   "ci": [
+    1.3009340037472321,
+    3.3546261815122946
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - X-CLIP FT | Test": {
+   "diff": 1.5176180470952403,
+   "ci": [
+    0.5697495450059626,
+    2.56405681884039
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0014992503748125937,
+   "p_two_sided": 0.0029985007496251873
+  },
+  "LENS-Net-A - X-CLIP FT | XD": {
+   "diff": 5.953765157041033,
+   "ci": [
+    4.35817183702938,
+    7.576479764986548
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - X-CLIP FT | UCF": {
+   "diff": 14.188242784380307,
+   "ci": [
+    5.468282819630333,
+    23.91191913169816
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - X-CLIP FT | SCFD": {
+   "diff": 7.360946745562131,
+   "ci": [
+    3.9770566184906087,
+    11.0194802774145
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - X-CLIP FT | SCVD": {
+   "diff": 9.283629388708206,
+   "ci": [
+    6.712123974385248,
+    12.141287291636718
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - X-CLIP FT | VioPeru": {
+   "diff": 14.70867681989661,
+   "ci": [
+    9.942791015660454,
+    19.864788583127392
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - X-CLIP FT | AIRTLab": {
+   "diff": 11.2237041969246,
+   "ci": [
+    6.982744910958695,
+    14.854111334957318
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - X-CLIP FT | CCTV-F": {
+   "diff": 8.833620404683614,
+   "ci": [
+    7.100360749836828,
+    10.59656265698963
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - X-CLIP FT | Movies": {
+   "diff": 23.76237623762377,
+   "ci": [
+    14.494903629557086,
+    33.14788033000567
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - X-CLIP FT | UBI-Fights": {
+   "diff": 3.443643342944256,
+   "ci": [
+    2.2868768292049633,
+    4.63377919416043
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - VideoMAE-B FT | Test": {
+   "diff": -0.0254250754806975,
+   "ci": [
+    -0.7211885131626659,
+    0.6278444393290843
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.5432283858070964,
+   "p_two_sided": 0.9145427286356822
+  },
+  "LENS-Net-A - VideoMAE-B FT | XD": {
+   "diff": 7.630805216277906,
+   "ci": [
+    5.880760961546282,
+    9.507825173077231
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - VideoMAE-B FT | UCF": {
+   "diff": 2.0819185059422693,
+   "ci": [
+    -4.381003696976605,
+    9.00783654135786
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.25337331334332835,
+   "p_two_sided": 0.5067466266866567
+  },
+  "LENS-Net-A - VideoMAE-B FT | SCFD": {
+   "diff": -0.7988165680473429,
+   "ci": [
+    -2.629185217060292,
+    0.8423423196645397
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.8315842078960519,
+   "p_two_sided": 0.3408295852073963
+  },
+  "LENS-Net-A - VideoMAE-B FT | SCVD": {
+   "diff": 2.133600200150113,
+   "ci": [
+    0.01768155465517902,
+    4.4111690207103535
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.02498750624687656,
+   "p_two_sided": 0.04997501249375312
+  },
+  "LENS-Net-A - VideoMAE-B FT | VioPeru": {
+   "diff": 4.476037445857202,
+   "ci": [
+    0.6505296657988684,
+    8.575274368101772
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.013493253373313344,
+   "p_two_sided": 0.026986506746626688
+  },
+  "LENS-Net-A - VideoMAE-B FT | AIRTLab": {
+   "diff": 3.3358302641891555,
+   "ci": [
+    0.16347436394688658,
+    6.372897954655883
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.019490254872563718,
+   "p_two_sided": 0.038980509745127435
+  },
+  "LENS-Net-A - VideoMAE-B FT | CCTV-F": {
+   "diff": -1.581676148720362,
+   "ci": [
+    -3.1949603971191998,
+    0.0491152067264197
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.9725137431284357,
+   "p_two_sided": 0.0559720139930035
+  },
+  "LENS-Net-A - VideoMAE-B FT | Movies": {
+   "diff": 47.990099009900995,
+   "ci": [
+    37.47634046485211,
+    58.79440302157932
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - VideoMAE-B FT | UBI-Fights": {
+   "diff": 5.715455874846526,
+   "ci": [
+    4.092401763370809,
+    7.540206706496945
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - Video Swin-T FT | Test": {
+   "diff": 0.3131050961974182,
+   "ci": [
+    -0.47486061443056293,
+    1.1101657674439818
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.22988505747126436,
+   "p_two_sided": 0.45977011494252873
+  },
+  "LENS-Net-A - Video Swin-T FT | XD": {
+   "diff": 10.517498541805892,
+   "ci": [
+    8.709486291709593,
+    12.509923714244634
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - Video Swin-T FT | UCF": {
+   "diff": 2.2495755517826836,
+   "ci": [
+    -6.73152859606281,
+    12.153964064365065
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.31784107946026985,
+   "p_two_sided": 0.6356821589205397
+  },
+  "LENS-Net-A - Video Swin-T FT | SCFD": {
+   "diff": 2.662721893491124,
+   "ci": [
+    0.034831386476592036,
+    5.487916265687607
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.02448775612193903,
+   "p_two_sided": 0.04897551224387806
+  },
+  "LENS-Net-A - Video Swin-T FT | SCVD": {
+   "diff": 8.515553331665416,
+   "ci": [
+    5.858166082102068,
+    11.483857601777798
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - Video Swin-T FT | VioPeru": {
+   "diff": 6.412603045968979,
+   "ci": [
+    1.8306767450033132,
+    11.109958834054204
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.005997001499250375,
+   "p_two_sided": 0.01199400299850075
+  },
+  "LENS-Net-A - Video Swin-T FT | AIRTLab": {
+   "diff": 6.771190966659034,
+   "ci": [
+    3.465505544529607,
+    10.073524986663475
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - Video Swin-T FT | CCTV-F": {
+   "diff": 2.001061294082845,
+   "ci": [
+    0.5022239611586524,
+    3.550347710825435
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.00399800099950025,
+   "p_two_sided": 0.0079960019990005
+  },
+  "LENS-Net-A - Video Swin-T FT | Movies": {
+   "diff": 23.227722772277232,
+   "ci": [
+    12.765862635887123,
+    34.206928838951306
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - Video Swin-T FT | UBI-Fights": {
+   "diff": 5.683156979872265,
+   "ci": [
+    3.9621255768175194,
+    7.521922287133708
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - R(2+1)D-18 FT | Test": {
+   "diff": 0.8181930540106208,
+   "ci": [
+    -0.0250718758041053,
+    1.8218376549813429
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.030484757621189407,
+   "p_two_sided": 0.06096951524237881
+  },
+  "LENS-Net-A - R(2+1)D-18 FT | XD": {
+   "diff": 11.124651063600211,
+   "ci": [
+    9.207227012273012,
+    13.306893850503394
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - R(2+1)D-18 FT | UCF": {
+   "diff": 6.2712224108658745,
+   "ci": [
+    -0.10805961688309433,
+    13.557205174106617
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.02848575712143928,
+   "p_two_sided": 0.05697151424287856
+  },
+  "LENS-Net-A - R(2+1)D-18 FT | SCFD": {
+   "diff": 3.0,
+   "ci": [
+    0.0913180826240936,
+    6.184539378226744
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.020989505247376312,
+   "p_two_sided": 0.041979010494752625
+  },
+  "LENS-Net-A - R(2+1)D-18 FT | SCVD": {
+   "diff": 5.243599366191319,
+   "ci": [
+    2.897928758612019,
+    7.782373725507416
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - R(2+1)D-18 FT | VioPeru": {
+   "diff": 10.374807880396816,
+   "ci": [
+    6.042237268061393,
+    15.351842156285363
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - R(2+1)D-18 FT | AIRTLab": {
+   "diff": 9.779299056021415,
+   "ci": [
+    5.173875268901166,
+    14.477002951354198
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - R(2+1)D-18 FT | CCTV-F": {
+   "diff": 1.52748055744037,
+   "ci": [
+    -0.20738350629860705,
+    3.1883315838473654
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.04097951024487756,
+   "p_two_sided": 0.08195902048975512
+  },
+  "LENS-Net-A - R(2+1)D-18 FT | Movies": {
+   "diff": 19.801980198019805,
+   "ci": [
+    8.88210359901536,
+    31.307276293667098
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - R(2+1)D-18 FT | UBI-Fights": {
+   "diff": 10.58501869300703,
+   "ci": [
+    8.112302354280189,
+    13.233436371407395
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - CNN-BiGRU | Test": {
+   "diff": 1.7871709306636916,
+   "ci": [
+    0.6814449843297539,
+    3.0578965374390306
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - CNN-BiGRU | XD": {
+   "diff": 12.900652905619054,
+   "ci": [
+    10.85220406021776,
+    15.122010165806913
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - CNN-BiGRU | UCF": {
+   "diff": 24.64240237691002,
+   "ci": [
+    14.916617275618872,
+    34.393490162886
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - CNN-BiGRU | SCFD": {
+   "diff": 12.017751479289942,
+   "ci": [
+    7.602992416478777,
+    17.066579268913546
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - CNN-BiGRU | SCVD": {
+   "diff": 13.215745142189974,
+   "ci": [
+    9.872996484965341,
+    16.8958798133016
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - CNN-BiGRU | VioPeru": {
+   "diff": 20.055540030739138,
+   "ci": [
+    14.76843734511419,
+    25.01061165261205
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - CNN-BiGRU | AIRTLab": {
+   "diff": 12.333798039909269,
+   "ci": [
+    7.67540254678539,
+    16.8639949690187
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - CNN-BiGRU | CCTV-F": {
+   "diff": 14.276058249386708,
+   "ci": [
+    12.274822664656911,
+    16.323094156842007
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - CNN-BiGRU | Movies": {
+   "diff": 80.990099009901,
+   "ci": [
+    73.41022702787409,
+    87.87181900008183
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "LENS-Net-A - CNN-BiGRU | UBI-Fights": {
+   "diff": 10.001293335356692,
+   "ci": [
+    7.814462909412707,
+    12.287515461623515
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  }
+ },
+ "primary": {
+  "H1 CLIP probe - VideoMAE-B FT (nine-set mean)": {
+   "diff": 7.341534292903889,
+   "ci": [
+    4.7745528684644185,
+    9.705597987595448
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624,
+   "p": 0.0009995002498750624,
+   "holm_threshold": 0.0071428571428571435,
+   "holds_after_holm": true
+  },
+  "H2 CLIP probe - LENS-Net (nine-set mean)": {
+   "diff": 1.5266993913103986,
+   "ci": [
+    0.12976293793776564,
+    2.8461961444730473
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.014492753623188406,
+   "p_two_sided": 0.028985507246376812,
+   "p": 0.028985507246376812,
+   "holm_threshold": 0.025,
+   "holds_after_holm": false
+  },
+  "H3 LENS-Net - VideoMAE-B FT (nine-set mean)": {
+   "diff": 5.814834901593489,
+   "ci": [
+    3.3565775823625694,
+    8.03849428059206
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624,
+   "p": 0.0009995002498750624,
+   "holm_threshold": 0.008333333333333333,
+   "holds_after_holm": true
+  },
+  "H4 LENS-Net - w/o motion on SCFD (better)": {
+   "diff": 1.9368836291912999,
+   "ci": [
+    -0.13243424104929102,
+    4.110841355874127
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.03298350824587706,
+   "p_two_sided": 0.06596701649175413,
+   "p": 0.03298350824587706,
+   "holm_threshold": 0.05,
+   "holds_after_holm": false
+  },
+  "H5 LENS-Net - w/o motion on SCVD (better)": {
+   "diff": 2.445445195007352,
+   "ci": [
+    0.18585256739898706,
+    4.537308515046512
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.015992003998001,
+   "p_two_sided": 0.031984007996002,
+   "p": 0.015992003998001,
+   "holm_threshold": 0.0125,
+   "holds_after_holm": false
+  },
+  "K1 LENS-Net-A - LENS-Net on XD-train (better)": {
+   "diff": 2.6088888888888846,
+   "ci": [
+    1.4236804867291013,
+    3.8765734565934737
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624,
+   "p": 0.0004997501249375312,
+   "delta0": 0.0,
+   "holm_threshold": 0.005555555555555556,
+   "holds_after_holm": true
+  },
+  "K2 LENS-Net-A - LENS-Net on AIE (non-inferior)": {
+   "diff": 2.8430995837335757,
+   "ci": [
+    1.1705076169160744,
+    4.597487730453584
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624,
+   "p": 0.0004997501249375312,
+   "delta0": -1.0,
+   "holm_threshold": 0.00625,
+   "holds_after_holm": true
+  },
+  "K3 LENS-Net-A - CLIP probe on XD-train (non-inferior)": {
+   "diff": 0.4455555555555435,
+   "ci": [
+    -0.9113730221904311,
+    1.8253186807756177
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.01999000499750125,
+   "p_two_sided": 0.0399800099950025,
+   "p": 0.01999000499750125,
+   "delta0": -1.0,
+   "holm_threshold": 0.016666666666666666,
+   "holds_after_holm": false
+  },
+  "K4 LENS-Net-A - CLIP probe on AIE (better)": {
+   "diff": 2.972782580851728,
+   "ci": [
+    0.7125690618222393,
+    5.349027391920561
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.004997501249375313,
+   "p_two_sided": 0.009995002498750625,
+   "p": 0.004997501249375313,
+   "delta0": 0.0,
+   "holm_threshold": 0.01,
+   "holds_after_holm": true
+  }
+ },
+ "symmetric_fusion": {
+  "LENS-Net-A": {
+   "XD": 90.42,
+   "UCF": 77.67,
+   "SCFD": 96.93,
+   "SCVD": 91.89,
+   "VioPeru": 83.68,
+   "AIRTLab": 82.11,
+   "CCTV-F": 83.85,
+   "Movies": 89.88,
+   "UBI-Fights": 92.03,
+   "mean9": 87.61,
+   "min9": 77.67
+  },
+  "LENS-Net": {
+   "XD": 85.11,
+   "UCF": 77.99,
+   "SCFD": 96.88,
+   "SCVD": 90.87,
+   "VioPeru": 83.46,
+   "AIRTLab": 78.54,
+   "CCTV-F": 85.32,
+   "Movies": 74.68,
+   "UBI-Fights": 88.44,
+   "mean9": 84.59,
+   "min9": 74.68
+  },
+  "CLIP probe": {
+   "XD": 90.07,
+   "UCF": 72.38,
+   "SCFD": 92.86,
+   "SCVD": 89.44,
+   "VioPeru": 79.78,
+   "AIRTLab": 84.95,
+   "CCTV-F": 76.14,
+   "Movies": 97.82,
+   "UBI-Fights": 91.59,
+   "mean9": 86.11,
+   "min9": 72.38
+  },
+  "SYM:VadCLIP": {
+   "XD": 90.06,
+   "UCF": 74.38,
+   "SCFD": 92.54,
+   "SCVD": 90.7,
+   "VioPeru": 80.55,
+   "AIRTLab": 84.8,
+   "CCTV-F": 77.86,
+   "Movies": 95.11,
+   "UBI-Fights": 91.08,
+   "mean9": 86.34,
+   "min9": 74.38
+  },
+  "SYM:X-CLIP FT": {
+   "XD": 89.3,
+   "UCF": 67.91,
+   "SCFD": 92.81,
+   "SCVD": 87.02,
+   "VioPeru": 76.57,
+   "AIRTLab": 77.88,
+   "CCTV-F": 77.19,
+   "Movies": 82.88,
+   "UBI-Fights": 91.14,
+   "mean9": 82.52,
+   "min9": 67.91
+  },
+  "SYM:VideoMAE-B FT": {
+   "XD": 90.53,
+   "UCF": 77.23,
+   "SCFD": 97.1,
+   "SCVD": 92.06,
+   "VioPeru": 81.89,
+   "AIRTLab": 83.01,
+   "CCTV-F": 84.2,
+   "Movies": 80.48,
+   "UBI-Fights": 92.0,
+   "mean9": 86.5,
+   "min9": 77.23
+  },
+  "SYM:Video Swin-T FT": {
+   "XD": 89.01,
+   "UCF": 77.65,
+   "SCFD": 95.09,
+   "SCVD": 88.88,
+   "VioPeru": 80.55,
+   "AIRTLab": 81.48,
+   "CCTV-F": 81.8,
+   "Movies": 83.83,
+   "UBI-Fights": 92.03,
+   "mean9": 85.59,
+   "min9": 77.65
+  },
+  "SYM:R(2+1)D-18 FT": {
+   "XD": 88.83,
+   "UCF": 73.75,
+   "SCFD": 96.19,
+   "SCVD": 90.79,
+   "VioPeru": 80.12,
+   "AIRTLab": 79.55,
+   "CCTV-F": 82.42,
+   "Movies": 81.97,
+   "UBI-Fights": 91.5,
+   "mean9": 85.01,
+   "min9": 73.75
+  },
+  "SYM:CNN-BiGRU": {
+   "XD": 86.56,
+   "UCF": 66.7,
+   "SCFD": 91.02,
+   "SCVD": 86.14,
+   "VioPeru": 75.98,
+   "AIRTLab": 78.36,
+   "CCTV-F": 74.86,
+   "Movies": 73.6,
+   "UBI-Fights": 89.92,
+   "mean9": 80.35,
+   "min9": 66.7
+  },
+  "SYM:w/o motion": {
+   "XD": 90.59,
+   "UCF": 75.9,
+   "SCFD": 95.15,
+   "SCVD": 89.81,
+   "VioPeru": 79.93,
+   "AIRTLab": 84.34,
+   "CCTV-F": 80.34,
+   "Movies": 82.18,
+   "UBI-Fights": 91.9,
+   "mean9": 85.57,
+   "min9": 75.9
+  },
+  "SYM:Motion probe": {
+   "XD": 88.83,
+   "UCF": 77.49,
+   "SCFD": 96.39,
+   "SCVD": 91.75,
+   "VioPeru": 83.38,
+   "AIRTLab": 79.43,
+   "CCTV-F": 83.92,
+   "Movies": 90.83,
+   "UBI-Fights": 91.69,
+   "mean9": 87.08,
+   "min9": 77.49
+  }
+ },
+ "per_seed_means": {}
+}

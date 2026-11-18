@@ -1,0 +1,33 @@
+{
+  "rows": {
+    "HockeyFights": {
+      "n": 90,
+      "MAST-Net": 85.95555555555556,
+      "LENS": 96.97777777777779,
+      "LP": 100.0
+    },
+    "RLVS": {
+      "n": 851,
+      "MAST-Net": 89.16249488888153,
+      "LENS": 95.2414105581894,
+      "LP": 97.2681762424162
+    },
+    "RWF2000": {
+      "n": 879,
+      "MAST-Net": 75.51693432319655,
+      "LENS": 87.41548369728409,
+      "LP": 90.80079520392633
+    }
+  },
+  "mean_heldout_val_auc": {
+    "MAST-Net": 83.54499492254455,
+    "LENS": 93.21155734441709,
+    "LP": 96.02299048211417
+  },
+  "audited_val_auc_LENS": 97.22216265032966,
+  "criterion_1": "mean LENS 93.21 >= MAST-Net 83.54 + 5",
+  "criterion_1_pass": true,
+  "criterion_2": "audited val LENS 97.22 >= 94.69 (MAST-Net 3-seed mean 95.69 - 1.0)",
+  "criterion_2_pass": true,
+  "decision": "GO"
+}

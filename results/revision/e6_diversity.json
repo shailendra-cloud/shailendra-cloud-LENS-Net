@@ -1,0 +1,904 @@
+{
+ "n_points": 81,
+ "spearman_D1_gain": 0.08355916892502258,
+ "perm_p_one_sided": 9.999000099990002e-05,
+ "spearman_D2_gain": 0.17841011743450766,
+ "spearman_D3_gain": 0.14365645309964525,
+ "ols_b1_D1": 4.387960531074466,
+ "ols_b1_ci": [
+  -1.5717257697795965,
+  10.728283105872904
+ ],
+ "ols_b2_gap": -0.2257747143562453,
+ "ols_b2_ci": [
+  -0.5659855937199969,
+  -0.15193599088545567
+ ],
+ "krogh_vedelsby_max_abs_error": 1.1102230246251565e-16,
+ "pairs": {
+  "CLIP probe + CLIP-FT": {
+   "D1": 0.2045,
+   "D2": 0.0126,
+   "D3": 0.1414,
+   "gain": -0.4819,
+   "gap": 3.0621,
+   "auc_fused": 86.8919
+  },
+  "CLIP probe + LENS-Net": {
+   "D1": 0.2611,
+   "D2": 0.0113,
+   "D3": 0.1547,
+   "gain": -1.1655,
+   "gap": 6.8428,
+   "auc_fused": 87.6075
+  },
+  "CLIP probe + Motion probe": {
+   "D1": 0.4296,
+   "D2": 0.0151,
+   "D3": 0.1908,
+   "gain": -0.4687,
+   "gap": 9.1651,
+   "auc_fused": 87.0795
+  },
+  "CLIP probe + VadCLIP": {
+   "D1": 0.1766,
+   "D2": 0.0168,
+   "D3": 0.1285,
+   "gain": -0.6095,
+   "gap": 4.7158,
+   "auc_fused": 86.3425
+  },
+  "CLIP probe + VideoMAE-B FT (tuned)": {
+   "D1": 0.4631,
+   "D2": 0.0217,
+   "D3": 0.1881,
+   "gain": 0.4757,
+   "gap": 8.5704,
+   "auc_fused": 89.1727
+  },
+  "CLIP probe + VideoMAE-B LoRA": {
+   "D1": 0.4163,
+   "D2": 0.018,
+   "D3": 0.1849,
+   "gain": 0.5927,
+   "gap": 6.4729,
+   "auc_fused": 89.2571
+  },
+  "CLIP probe + w/o motion": {
+   "D1": 0.2484,
+   "D2": 0.0067,
+   "D3": 0.1321,
+   "gain": -1.8602,
+   "gap": 9.6854,
+   "auc_fused": 85.571
+  },
+  "LENS-Net + VideoMAE-B FT (tuned)": {
+   "D1": 0.328,
+   "D2": 0.0113,
+   "D3": 0.1088,
+   "gain": -0.5486,
+   "gap": 3.9716,
+   "auc_fused": 85.0857
+  },
+  "LENS-Net + VideoMAE-B LoRA": {
+   "D1": 0.2681,
+   "D2": 0.0083,
+   "D3": 0.0966,
+   "gain": 0.1294,
+   "gap": 3.2948,
+   "auc_fused": 86.4413
+  }
+ },
+ "points": [
+  {
+   "D1": 0.25494,
+   "D2": 0.01183,
+   "D3": 0.16947,
+   "gain": 0.34774,
+   "gap": 4.96232,
+   "auc_fused": 90.4155,
+   "pair": "CLIP probe + LENS-Net",
+   "set": "XD"
+  },
+  {
+   "D1": 0.40741,
+   "D2": 0.01353,
+   "D3": 0.18202,
+   "gain": -0.32506,
+   "gap": 5.61191,
+   "auc_fused": 77.66978,
+   "pair": "CLIP probe + LENS-Net",
+   "set": "UCF"
+  },
+  {
+   "D1": 0.14925,
+   "D2": 0.01036,
+   "D3": 0.15256,
+   "gain": 0.05128,
+   "gap": 4.0217,
+   "auc_fused": 96.93097,
+   "pair": "CLIP probe + LENS-Net",
+   "set": "SCFD"
+  },
+  {
+   "D1": 0.15663,
+   "D2": 0.00974,
+   "D3": 0.15997,
+   "gain": 1.02616,
+   "gap": 1.42354,
+   "auc_fused": 91.89453,
+   "pair": "CLIP probe + LENS-Net",
+   "set": "SCVD"
+  },
+  {
+   "D1": 0.2961,
+   "D2": 0.00967,
+   "D3": 0.10475,
+   "gain": 0.22123,
+   "gap": 3.68101,
+   "auc_fused": 83.68485,
+   "pair": "CLIP probe + LENS-Net",
+   "set": "VioPeru"
+  },
+  {
+   "D1": 0.16007,
+   "D2": 0.01601,
+   "D3": 0.30771,
+   "gain": -2.83864,
+   "gap": 6.40359,
+   "auc_fused": 82.10637,
+   "pair": "CLIP probe + LENS-Net",
+   "set": "AIRTLab"
+  },
+  {
+   "D1": 0.27369,
+   "D2": 0.01298,
+   "D3": 0.21565,
+   "gain": -1.4705,
+   "gap": 9.18415,
+   "auc_fused": 83.8536,
+   "pair": "CLIP probe + LENS-Net",
+   "set": "CCTV-F"
+  },
+  {
+   "D1": 0.31219,
+   "D2": 0.00918,
+   "D3": 0.00166,
+   "gain": -7.93729,
+   "gap": 23.14521,
+   "auc_fused": 89.88449,
+   "pair": "CLIP probe + LENS-Net",
+   "set": "Movies"
+  },
+  {
+   "D1": 0.33952,
+   "D2": 0.00866,
+   "D3": 0.09814,
+   "gain": 0.43598,
+   "gap": 3.15148,
+   "auc_fused": 92.0272,
+   "pair": "CLIP probe + LENS-Net",
+   "set": "UBI-Fights"
+  },
+  {
+   "D1": 0.08962,
+   "D2": 0.00327,
+   "D3": 0.0989,
+   "gain": 0.41789,
+   "gap": 0.98134,
+   "auc_fused": 90.59447,
+   "pair": "CLIP probe + w/o motion",
+   "set": "XD"
+  },
+  {
+   "D1": 0.25179,
+   "D2": 0.00731,
+   "D3": 0.16377,
+   "gain": -0.89806,
+   "gap": 4.41249,
+   "auc_fused": 75.89735,
+   "pair": "CLIP probe + w/o motion",
+   "set": "UCF"
+  },
+  {
+   "D1": 0.11229,
+   "D2": 0.00542,
+   "D3": 0.14615,
+   "gain": 0.21105,
+   "gap": 2.08481,
+   "auc_fused": 95.15385,
+   "pair": "CLIP probe + w/o motion",
+   "set": "SCFD"
+  },
+  {
+   "D1": 0.0924,
+   "D2": 0.00539,
+   "D3": 0.12657,
+   "gain": 0.36291,
+   "gap": 1.02191,
+   "auc_fused": 89.80774,
+   "pair": "CLIP probe + w/o motion",
+   "set": "SCVD"
+  },
+  {
+   "D1": 0.24444,
+   "D2": 0.00504,
+   "D3": 0.09567,
+   "gain": 0.14322,
+   "gap": 1.8681,
+   "auc_fused": 79.92583,
+   "pair": "CLIP probe + w/o motion",
+   "set": "VioPeru"
+  },
+  {
+   "D1": 0.08218,
+   "D2": 0.01431,
+   "D3": 0.31732,
+   "gain": -0.60435,
+   "gap": 2.2047,
+   "auc_fused": 84.34066,
+   "pair": "CLIP probe + w/o motion",
+   "set": "AIRTLab"
+  },
+  {
+   "D1": 0.16277,
+   "D2": 0.00671,
+   "D3": 0.16255,
+   "gain": -1.03782,
+   "gap": 5.24065,
+   "auc_fused": 80.34277,
+   "pair": "CLIP probe + w/o motion",
+   "set": "CCTV-F"
+  },
+  {
+   "D1": 1.00246,
+   "D2": 0.0082,
+   "D3": 0.00498,
+   "gain": -15.64356,
+   "gap": 68.20132,
+   "auc_fused": 82.17822,
+   "pair": "CLIP probe + w/o motion",
+   "set": "Movies"
+  },
+  {
+   "D1": 0.19766,
+   "D2": 0.00443,
+   "D3": 0.07274,
+   "gain": 0.30733,
+   "gap": 1.15341,
+   "auc_fused": 91.89855,
+   "pair": "CLIP probe + w/o motion",
+   "set": "UBI-Fights"
+  },
+  {
+   "D1": 0.40272,
+   "D2": 0.01565,
+   "D3": 0.19965,
+   "gain": -1.23863,
+   "gap": 10.80096,
+   "auc_fused": 88.82914,
+   "pair": "CLIP probe + Motion probe",
+   "set": "XD"
+  },
+  {
+   "D1": 0.57876,
+   "D2": 0.0169,
+   "D3": 0.2194,
+   "gain": 1.79011,
+   "gap": 3.31282,
+   "auc_fused": 77.48585,
+   "pair": "CLIP probe + Motion probe",
+   "set": "UCF"
+  },
+  {
+   "D1": 0.21923,
+   "D2": 0.01268,
+   "D3": 0.17051,
+   "gain": 1.14793,
+   "gap": 2.38462,
+   "auc_fused": 96.39053,
+   "pair": "CLIP probe + Motion probe",
+   "set": "SCFD"
+  },
+  {
+   "D1": 0.27301,
+   "D2": 0.01426,
+   "D3": 0.21136,
+   "gain": 2.30893,
+   "gap": 1.36466,
+   "auc_fused": 91.75376,
+   "pair": "CLIP probe + Motion probe",
+   "set": "SCVD"
+  },
+  {
+   "D1": 0.46046,
+   "D2": 0.01364,
+   "D3": 0.14502,
+   "gain": 3.59939,
+   "gap": 0.72796,
+   "auc_fused": 83.382,
+   "pair": "CLIP probe + Motion probe",
+   "set": "VioPeru"
+  },
+  {
+   "D1": 0.37223,
+   "D2": 0.02353,
+   "D3": 0.38836,
+   "gain": -5.51232,
+   "gap": 13.69948,
+   "auc_fused": 79.43269,
+   "pair": "CLIP probe + Motion probe",
+   "set": "AIRTLab"
+  },
+  {
+   "D1": 0.39896,
+   "D2": 0.01714,
+   "D3": 0.25819,
+   "gain": 0.58209,
+   "gap": 7.2024,
+   "auc_fused": 83.92444,
+   "pair": "CLIP probe + Motion probe",
+   "set": "CCTV-F"
+  },
+  {
+   "D1": 0.62122,
+   "D2": 0.00999,
+   "D3": 0.0,
+   "gain": -6.9901,
+   "gap": 35.58086,
+   "auc_fused": 90.83168,
+   "pair": "CLIP probe + Motion probe",
+   "set": "Movies"
+  },
+  {
+   "D1": 0.54007,
+   "D2": 0.0121,
+   "D3": 0.12482,
+   "gain": 0.0946,
+   "gap": 7.41248,
+   "auc_fused": 91.68582,
+   "pair": "CLIP probe + Motion probe",
+   "set": "UBI-Fights"
+  },
+  {
+   "D1": 0.43123,
+   "D2": 0.02355,
+   "D3": 0.20441,
+   "gain": 0.76854,
+   "gap": 9.34921,
+   "auc_fused": 90.8363,
+   "pair": "CLIP probe + VideoMAE-B FT (tuned)",
+   "set": "XD"
+  },
+  {
+   "D1": 0.59904,
+   "D2": 0.02511,
+   "D3": 0.22252,
+   "gain": 0.94475,
+   "gap": 8.47906,
+   "auc_fused": 81.80673,
+   "pair": "CLIP probe + VideoMAE-B FT (tuned)",
+   "set": "UCF"
+  },
+  {
+   "D1": 0.27143,
+   "D2": 0.02121,
+   "D3": 0.19744,
+   "gain": 1.42604,
+   "gap": 3.28008,
+   "auc_fused": 97.5641,
+   "pair": "CLIP probe + VideoMAE-B FT (tuned)",
+   "set": "SCFD"
+  },
+  {
+   "D1": 0.30199,
+   "D2": 0.0232,
+   "D3": 0.21596,
+   "gain": 3.00853,
+   "gap": 0.94846,
+   "auc_fused": 93.30642,
+   "pair": "CLIP probe + VideoMAE-B FT (tuned)",
+   "set": "SCVD"
+  },
+  {
+   "D1": 0.51759,
+   "D2": 0.01631,
+   "D3": 0.11596,
+   "gain": 2.24792,
+   "gap": 2.04858,
+   "auc_fused": 84.07911,
+   "pair": "CLIP probe + VideoMAE-B FT (tuned)",
+   "set": "VioPeru"
+  },
+  {
+   "D1": 0.31125,
+   "D2": 0.03191,
+   "D3": 0.34032,
+   "gain": -2.6775,
+   "gap": 7.23382,
+   "auc_fused": 82.26751,
+   "pair": "CLIP probe + VideoMAE-B FT (tuned)",
+   "set": "AIRTLab"
+  },
+  {
+   "D1": 0.45758,
+   "D2": 0.02807,
+   "D3": 0.27713,
+   "gain": 1.11447,
+   "gap": 8.5782,
+   "auc_fused": 85.83262,
+   "pair": "CLIP probe + VideoMAE-B FT (tuned)",
+   "set": "CCTV-F"
+  },
+  {
+   "D1": 0.63355,
+   "D2": 0.00936,
+   "D3": 0.00498,
+   "gain": -2.9934,
+   "gap": 27.25743,
+   "auc_fused": 94.82838,
+   "pair": "CLIP probe + VideoMAE-B FT (tuned)",
+   "set": "Movies"
+  },
+  {
+   "D1": 0.64383,
+   "D2": 0.01627,
+   "D3": 0.11451,
+   "gain": 0.44181,
+   "gap": 9.95844,
+   "auc_fused": 92.03304,
+   "pair": "CLIP probe + VideoMAE-B FT (tuned)",
+   "set": "UBI-Fights"
+  },
+  {
+   "D1": 0.41717,
+   "D2": 0.02017,
+   "D3": 0.20149,
+   "gain": 0.60467,
+   "gap": 7.82663,
+   "auc_fused": 90.67244,
+   "pair": "CLIP probe + VideoMAE-B LoRA",
+   "set": "XD"
+  },
+  {
+   "D1": 0.52556,
+   "D2": 0.02104,
+   "D3": 0.2065,
+   "gain": 0.7205,
+   "gap": 9.11573,
+   "auc_fused": 82.21916,
+   "pair": "CLIP probe + VideoMAE-B LoRA",
+   "set": "UCF"
+  },
+  {
+   "D1": 0.31914,
+   "D2": 0.0176,
+   "D3": 0.18205,
+   "gain": 2.21696,
+   "gap": 1.82643,
+   "auc_fused": 96.90138,
+   "pair": "CLIP probe + VideoMAE-B LoRA",
+   "set": "SCFD"
+  },
+  {
+   "D1": 0.28459,
+   "D2": 0.01764,
+   "D3": 0.19616,
+   "gain": 2.89361,
+   "gap": 0.76154,
+   "auc_fused": 93.09999,
+   "pair": "CLIP probe + VideoMAE-B LoRA",
+   "set": "SCVD"
+  },
+  {
+   "D1": 0.49062,
+   "D2": 0.01374,
+   "D3": 0.10263,
+   "gain": 1.6138,
+   "gap": 2.68234,
+   "auc_fused": 84.07876,
+   "pair": "CLIP probe + VideoMAE-B LoRA",
+   "set": "VioPeru"
+  },
+  {
+   "D1": 0.37587,
+   "D2": 0.03162,
+   "D3": 0.40087,
+   "gain": -3.57292,
+   "gap": 9.68185,
+   "auc_fused": 81.37209,
+   "pair": "CLIP probe + VideoMAE-B LoRA",
+   "set": "AIRTLab"
+  },
+  {
+   "D1": 0.44546,
+   "D2": 0.02278,
+   "D3": 0.26285,
+   "gain": 1.03657,
+   "gap": 8.55902,
+   "auc_fused": 85.73554,
+   "pair": "CLIP probe + VideoMAE-B LoRA",
+   "set": "CCTV-F"
+  },
+  {
+   "D1": 0.33143,
+   "D2": 0.00427,
+   "D3": 0.00166,
+   "gain": -0.9934,
+   "gap": 11.13531,
+   "auc_fused": 96.82838,
+   "pair": "CLIP probe + VideoMAE-B LoRA",
+   "set": "Movies"
+  },
+  {
+   "D1": 0.55644,
+   "D2": 0.01345,
+   "D3": 0.10969,
+   "gain": 0.81467,
+   "gap": 6.66759,
+   "auc_fused": 92.40589,
+   "pair": "CLIP probe + VideoMAE-B LoRA",
+   "set": "UBI-Fights"
+  },
+  {
+   "D1": 0.12679,
+   "D2": 0.00851,
+   "D3": 0.11702,
+   "gain": -0.49255,
+   "gap": 2.72882,
+   "auc_fused": 89.57521,
+   "pair": "CLIP probe + CLIP-FT",
+   "set": "XD"
+  },
+  {
+   "D1": 0.26004,
+   "D2": 0.01455,
+   "D3": 0.17579,
+   "gain": -0.66179,
+   "gap": 5.92636,
+   "auc_fused": 77.6475,
+   "pair": "CLIP probe + CLIP-FT",
+   "set": "UCF"
+  },
+  {
+   "D1": 0.16697,
+   "D2": 0.01048,
+   "D3": 0.11795,
+   "gain": 0.14596,
+   "gap": 1.12032,
+   "auc_fused": 93.78501,
+   "pair": "CLIP probe + CLIP-FT",
+   "set": "SCFD"
+  },
+  {
+   "D1": 0.17751,
+   "D2": 0.01351,
+   "D3": 0.13897,
+   "gain": 1.21897,
+   "gap": 1.00559,
+   "auc_fused": 91.08609,
+   "pair": "CLIP probe + CLIP-FT",
+   "set": "SCVD"
+  },
+  {
+   "D1": 0.27751,
+   "D2": 0.01072,
+   "D3": 0.12564,
+   "gain": -0.31997,
+   "gap": 2.14743,
+   "auc_fused": 81.56048,
+   "pair": "CLIP probe + CLIP-FT",
+   "set": "VioPeru"
+  },
+  {
+   "D1": 0.13399,
+   "D2": 0.02645,
+   "D3": 0.34381,
+   "gain": -1.76693,
+   "gap": 4.3813,
+   "auc_fused": 83.17808,
+   "pair": "CLIP probe + CLIP-FT",
+   "set": "AIRTLab"
+  },
+  {
+   "D1": 0.24299,
+   "D2": 0.01489,
+   "D3": 0.15727,
+   "gain": 0.42065,
+   "gap": 2.22975,
+   "auc_fused": 78.66352,
+   "pair": "CLIP probe + CLIP-FT",
+   "set": "CCTV-F"
+  },
+  {
+   "D1": 0.19885,
+   "D2": 0.00544,
+   "D3": 0.00995,
+   "gain": -3.08251,
+   "gap": 5.85479,
+   "auc_fused": 94.73927,
+   "pair": "CLIP probe + CLIP-FT",
+   "set": "Movies"
+  },
+  {
+   "D1": 0.25549,
+   "D2": 0.00869,
+   "D3": 0.08662,
+   "gain": 0.20074,
+   "gap": 2.1643,
+   "auc_fused": 91.79196,
+   "pair": "CLIP probe + CLIP-FT",
+   "set": "UBI-Fights"
+  },
+  {
+   "D1": 0.13505,
+   "D2": 0.01774,
+   "D3": 0.13069,
+   "gain": -0.22311,
+   "gap": 2.38468,
+   "auc_fused": 90.0576,
+   "pair": "CLIP probe + VadCLIP",
+   "set": "XD"
+  },
+  {
+   "D1": 0.20267,
+   "D2": 0.01892,
+   "D3": 0.16867,
+   "gain": 0.1482,
+   "gap": 1.85236,
+   "auc_fused": 74.38349,
+   "pair": "CLIP probe + VadCLIP",
+   "set": "UCF"
+  },
+  {
+   "D1": 0.09397,
+   "D2": 0.01498,
+   "D3": 0.12179,
+   "gain": -0.31953,
+   "gap": 2.22781,
+   "auc_fused": 92.53846,
+   "pair": "CLIP probe + VadCLIP",
+   "set": "SCFD"
+  },
+  {
+   "D1": 0.09698,
+   "D2": 0.01657,
+   "D3": 0.13537,
+   "gain": 0.29725,
+   "gap": 1.36641,
+   "auc_fused": 90.70314,
+   "pair": "CLIP probe + VadCLIP",
+   "set": "SCVD"
+  },
+  {
+   "D1": 0.1705,
+   "D2": 0.01386,
+   "D3": 0.09749,
+   "gain": -0.71154,
+   "gap": 1.69909,
+   "auc_fused": 80.54632,
+   "pair": "CLIP probe + VadCLIP",
+   "set": "VioPeru"
+  },
+  {
+   "D1": 0.05856,
+   "D2": 0.02145,
+   "D3": 0.24309,
+   "gain": -1.11033,
+   "gap": 2.64108,
+   "auc_fused": 84.79762,
+   "pair": "CLIP probe + VadCLIP",
+   "set": "AIRTLab"
+  },
+  {
+   "D1": 0.15101,
+   "D2": 0.01698,
+   "D3": 0.16535,
+   "gain": -0.34462,
+   "gap": 2.06932,
+   "auc_fused": 77.86465,
+   "pair": "CLIP probe + VadCLIP",
+   "set": "CCTV-F"
+  },
+  {
+   "D1": 0.51508,
+   "D2": 0.01742,
+   "D3": 0.00663,
+   "gain": -2.70957,
+   "gap": 25.9703,
+   "auc_fused": 95.11221,
+   "pair": "CLIP probe + VadCLIP",
+   "set": "Movies"
+  },
+  {
+   "D1": 0.16589,
+   "D2": 0.01333,
+   "D3": 0.08744,
+   "gain": -0.51236,
+   "gap": 2.23133,
+   "auc_fused": 91.07887,
+   "pair": "CLIP probe + VadCLIP",
+   "set": "UBI-Fights"
+  },
+  {
+   "D1": 0.27041,
+   "D2": 0.01255,
+   "D3": 0.11771,
+   "gain": 0.95033,
+   "gap": 4.38689,
+   "auc_fused": 86.05577,
+   "pair": "LENS-Net + VideoMAE-B FT (tuned)",
+   "set": "XD"
+  },
+  {
+   "D1": 0.40132,
+   "D2": 0.01358,
+   "D3": 0.13218,
+   "gain": 1.04626,
+   "gap": 2.86715,
+   "auc_fused": 81.90825,
+   "pair": "LENS-Net + VideoMAE-B FT (tuned)",
+   "set": "UCF"
+  },
+  {
+   "D1": 0.16554,
+   "D2": 0.01158,
+   "D3": 0.10385,
+   "gain": 1.04142,
+   "gap": 1.27416,
+   "auc_fused": 98.18738,
+   "pair": "LENS-Net + VideoMAE-B FT (tuned)",
+   "set": "SCFD"
+  },
+  {
+   "D1": 0.19127,
+   "D2": 0.01534,
+   "D3": 0.14677,
+   "gain": 0.86176,
+   "gap": 1.85589,
+   "auc_fused": 92.32513,
+   "pair": "LENS-Net + VideoMAE-B FT (tuned)",
+   "set": "SCVD"
+  },
+  {
+   "D1": 0.36455,
+   "D2": 0.00833,
+   "D3": 0.07296,
+   "gain": 1.68879,
+   "gap": 1.85343,
+   "auc_fused": 85.26291,
+   "pair": "LENS-Net + VideoMAE-B FT (tuned)",
+   "set": "VioPeru"
+  },
+  {
+   "D1": 0.19678,
+   "D2": 0.01365,
+   "D3": 0.16769,
+   "gain": -0.16866,
+   "gap": 2.1395,
+   "auc_fused": 79.0274,
+   "pair": "LENS-Net + VideoMAE-B FT (tuned)",
+   "set": "AIRTLab"
+  },
+  {
+   "D1": 0.22187,
+   "D2": 0.01517,
+   "D3": 0.15712,
+   "gain": 1.79686,
+   "gap": 1.3528,
+   "auc_fused": 87.49439,
+   "pair": "LENS-Net + VideoMAE-B FT (tuned)",
+   "set": "CCTV-F"
+  },
+  {
+   "D1": 0.59994,
+   "D2": 0.00286,
+   "D3": 0.00663,
+   "gain": -12.59406,
+   "gap": 13.20792,
+   "auc_fused": 66.63036,
+   "pair": "LENS-Net + VideoMAE-B FT (tuned)",
+   "set": "Movies"
+  },
+  {
+   "D1": 0.54071,
+   "D2": 0.00876,
+   "D3": 0.07446,
+   "gain": 0.43972,
+   "gap": 6.80696,
+   "auc_fused": 88.87945,
+   "pair": "LENS-Net + VideoMAE-B FT (tuned)",
+   "set": "UBI-Fights"
+  },
+  {
+   "D1": 0.19491,
+   "D2": 0.00878,
+   "D3": 0.10497,
+   "gain": 0.55944,
+   "gap": 2.86431,
+   "auc_fused": 85.66488,
+   "pair": "LENS-Net + VideoMAE-B LoRA",
+   "set": "XD"
+  },
+  {
+   "D1": 0.30069,
+   "D2": 0.00902,
+   "D3": 0.10191,
+   "gain": 0.22637,
+   "gap": 3.50382,
+   "auc_fused": 81.72503,
+   "pair": "LENS-Net + VideoMAE-B LoRA",
+   "set": "UCF"
+  },
+  {
+   "D1": 0.19558,
+   "D2": 0.0091,
+   "D3": 0.08846,
+   "gain": 1.17554,
+   "gap": 2.19527,
+   "auc_fused": 98.05523,
+   "pair": "LENS-Net + VideoMAE-B LoRA",
+   "set": "SCFD"
+  },
+  {
+   "D1": 0.17954,
+   "D2": 0.01074,
+   "D3": 0.12937,
+   "gain": 1.13051,
+   "gap": 0.662,
+   "auc_fused": 91.99889,
+   "pair": "LENS-Net + VideoMAE-B LoRA",
+   "set": "SCVD"
+  },
+  {
+   "D1": 0.31675,
+   "D2": 0.0066,
+   "D3": 0.06873,
+   "gain": 1.68495,
+   "gap": 0.99867,
+   "auc_fused": 85.14857,
+   "pair": "LENS-Net + VideoMAE-B LoRA",
+   "set": "VioPeru"
+  },
+  {
+   "D1": 0.19354,
+   "D2": 0.0106,
+   "D3": 0.16419,
+   "gain": -0.57626,
+   "gap": 3.27826,
+   "auc_fused": 77.96516,
+   "pair": "LENS-Net + VideoMAE-B LoRA",
+   "set": "AIRTLab"
+  },
+  {
+   "D1": 0.21796,
+   "D2": 0.01076,
+   "D3": 0.14066,
+   "gain": 1.84114,
+   "gap": 0.62513,
+   "auc_fused": 87.16524,
+   "pair": "LENS-Net + VideoMAE-B LoRA",
+   "set": "CCTV-F"
+  },
+  {
+   "D1": 0.44421,
+   "D2": 0.00301,
+   "D3": 0.00332,
+   "gain": -5.33663,
+   "gap": 12.0099,
+   "auc_fused": 81.34983,
+   "pair": "LENS-Net + VideoMAE-B LoRA",
+   "set": "Movies"
+  },
+  {
+   "D1": 0.36953,
+   "D2": 0.00615,
+   "D3": 0.06802,
+   "gain": 0.45943,
+   "gap": 3.51611,
+   "auc_fused": 88.89917,
+   "pair": "LENS-Net + VideoMAE-B LoRA",
+   "set": "UBI-Fights"
+  }
+ ]
+}

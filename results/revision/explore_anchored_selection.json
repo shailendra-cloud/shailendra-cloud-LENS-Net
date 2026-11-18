@@ -1,0 +1,90 @@
+{
+ "tol 0.0": [
+  {
+   "members": [
+    "CLIP probe"
+   ],
+   "source_val_auc": 97.50318312479199,
+   "nine_mean": 86.11489810189886,
+   "nine_min": 72.38292303338993
+  },
+  {
+   "members": [
+    "CLIP probe",
+    "VideoMAE-B LoRA"
+   ],
+   "source_val_auc": 99.3345819602012,
+   "nine_mean": 89.25706930206542,
+   "nine_min": 81.37208662500491
+  },
+  {
+   "members": [
+    "CLIP probe",
+    "VideoMAE-B LoRA",
+    "VideoMAE-B FT (tuned)"
+   ],
+   "source_val_auc": 99.39181069164556,
+   "nine_mean": 89.39443816862702,
+   "nine_min": 80.63029008325415
+  },
+  {
+   "members": [
+    "CLIP probe",
+    "VideoMAE-B LoRA",
+    "VideoMAE-B FT (tuned)",
+    "CLIP-FT"
+   ],
+   "source_val_auc": 99.39204897921577,
+   "nine_mean": 89.56230644287889,
+   "nine_min": 81.52606402778066
+  }
+ ],
+ "tol 0.05": [
+  {
+   "members": [
+    "CLIP probe"
+   ],
+   "source_val_auc": 97.50318312479199,
+   "nine_mean": 86.11489810189886,
+   "nine_min": 72.38292303338993
+  },
+  {
+   "members": [
+    "CLIP probe",
+    "VideoMAE-B LoRA"
+   ],
+   "source_val_auc": 99.3345819602012,
+   "nine_mean": 89.25706930206542,
+   "nine_min": 81.37208662500491
+  },
+  {
+   "members": [
+    "CLIP probe",
+    "VideoMAE-B LoRA",
+    "VideoMAE-B FT (tuned)"
+   ],
+   "source_val_auc": 99.39181069164556,
+   "nine_mean": 89.39443816862702,
+   "nine_min": 80.63029008325415
+  }
+ ],
+ "tol 0.1": [
+  {
+   "members": [
+    "CLIP probe"
+   ],
+   "source_val_auc": 97.50318312479199,
+   "nine_mean": 86.11489810189886,
+   "nine_min": 72.38292303338993
+  },
+  {
+   "members": [
+    "CLIP probe",
+    "VideoMAE-B LoRA"
+   ],
+   "source_val_auc": 99.3345819602012,
+   "nine_mean": 89.25706930206542,
+   "nine_min": 81.37208662500491
+  }
+ ]
+}

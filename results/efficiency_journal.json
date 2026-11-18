@@ -1,0 +1,31 @@
+{
+  "LENS-Net": {
+    "gflops": 1930.72207744,
+    "clip": 1660.667559936,
+    "videomae": 270.054457344,
+    "params_total_frozen": 390191872
+  },
+  "L1 (L14, 8f)": {
+    "gflops": 1100.388297472,
+    "clip": 830.333779968,
+    "videomae": 270.054457344,
+    "params_total_frozen": 390191872
+  },
+  "L2 (B16, 16f)": {
+    "gflops": 630.71852416,
+    "clip": 360.664006656,
+    "videomae": 270.054457344,
+    "params_total_frozen": 172418304
+  },
+  "L3 (B16, 8f)": {
+    "gflops": 450.386520832,
+    "clip": 180.332003328,
+    "videomae": 270.054457344,
+    "params_total_frozen": 172418304
+  },
+  "LENS-AG": {
+    "gflops": 1930.722082336,
+    "head": 6.5056e-05,
+    "params_trained": 34391
+  }
+}

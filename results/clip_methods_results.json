@@ -1,0 +1,1304 @@
+{
+  "P1": {
+    "LENS-Net": {
+      "Test": {
+        "mean": 97.9373907516288,
+        "sd": 0.03840767762477184,
+        "n": 3
+      },
+      "XD": {
+        "mean": 85.10544099344403,
+        "sd": 0.9476923311536171,
+        "n": 3
+      },
+      "UCF": {
+        "mean": 77.99483588002263,
+        "sd": 0.9447437731957925,
+        "n": 3
+      },
+      "SCFD": {
+        "mean": 96.87968441814594,
+        "sd": 0.3876680554893864,
+        "n": 3
+      },
+      "SCVD": {
+        "mean": 90.86837350234897,
+        "sd": 0.8574204630762974,
+        "n": 3
+      },
+      "VioPeru": {
+        "mean": 83.46362535513019,
+        "sd": 0.6938310949049834,
+        "n": 3
+      },
+      "AIRTLab": {
+        "mean": 78.54142246451698,
+        "sd": 0.4786932868763912,
+        "n": 3
+      }
+    },
+    "LENS-Net (para)": {
+      "Test": {
+        "mean": 97.97109467113175,
+        "sd": 0.018586917884670956,
+        "n": 3
+      },
+      "XD": {
+        "mean": 84.77885365763514,
+        "sd": 1.560500806881597,
+        "n": 3
+      },
+      "UCF": {
+        "mean": 78.05531975099039,
+        "sd": 0.867033754255337,
+        "n": 3
+      },
+      "SCFD": {
+        "mean": 96.53846153846155,
+        "sd": 0.4548137006053436,
+        "n": 3
+      },
+      "SCVD": {
+        "mean": 90.40836182692574,
+        "sd": 0.8063254762148392,
+        "n": 3
+      },
+      "VioPeru": {
+        "mean": 84.02484746867867,
+        "sd": 0.4769463093605717,
+        "n": 3
+      },
+      "AIRTLab": {
+        "mean": 77.82424843537227,
+        "sd": 1.5699375128250037,
+        "n": 3
+      }
+    },
+    "LENS-Net (surv)": {
+      "Test": {
+        "mean": 98.01923752238918,
+        "sd": 0.08660962432552814,
+        "n": 3
+      },
+      "XD": {
+        "mean": 83.90214586415932,
+        "sd": 0.5432729500776231,
+        "n": 3
+      },
+      "UCF": {
+        "mean": 78.26436049801924,
+        "sd": 0.9198154566991964,
+        "n": 3
+      },
+      "SCFD": {
+        "mean": 96.86982248520711,
+        "sd": 0.48321861262069243,
+        "n": 3
+      },
+      "SCVD": {
+        "mean": 90.98329302532454,
+        "sd": 0.5133377933899067,
+        "n": 3
+      },
+      "VioPeru": {
+        "mean": 82.30927763029202,
+        "sd": 0.5672006444995636,
+        "n": 3
+      },
+      "AIRTLab": {
+        "mean": 76.31302727434566,
+        "sd": 2.0406353862982396,
+        "n": 3
+      }
+    },
+    "LENS-Net (broad)": {
+      "Test": {
+        "mean": 97.92848412796502,
+        "sd": 0.14208741491825955,
+        "n": 3
+      },
+      "XD": {
+        "mean": 84.65827916526298,
+        "sd": 1.0171027300681335,
+        "n": 3
+      },
+      "UCF": {
+        "mean": 77.86997736276173,
+        "sd": 1.3725245916863198,
+        "n": 3
+      },
+      "SCFD": {
+        "mean": 96.69033530571993,
+        "sd": 0.6015261723153087,
+        "n": 3
+      },
+      "SCVD": {
+        "mean": 91.17910655213632,
+        "sd": 0.4572911885717145,
+        "n": 3
+      },
+      "VioPeru": {
+        "mean": 83.23506124540079,
+        "sd": 0.6090144422283879,
+        "n": 3
+      },
+      "AIRTLab": {
+        "mean": 78.80510298683795,
+        "sd": 1.9575491659534066,
+        "n": 3
+      }
+    },
+    "VideoMAE-B FT": {
+      "Test": {
+        "mean": 97.26543111785975,
+        "sd": 0.46500475582335976,
+        "n": 3
+      },
+      "XD": {
+        "mean": 80.77212989234923,
+        "sd": 1.448191201789904,
+        "n": 3
+      },
+      "UCF": {
+        "mean": 73.81561262026032,
+        "sd": 2.3062686881448125,
+        "n": 3
+      },
+      "SCFD": {
+        "mean": 96.14595660749507,
+        "sd": 0.5236045604272349,
+        "n": 3
+      },
+      "SCVD": {
+        "mean": 87.8696522391794,
+        "sd": 0.6640862328515991,
+        "n": 3
+      },
+      "VioPeru": {
+        "mean": 78.14918960458293,
+        "sd": 2.422936915641139,
+        "n": 3
+      },
+      "AIRTLab": {
+        "mean": 75.90375025142707,
+        "sd": 4.974176933306379,
+        "n": 3
+      }
+    },
+    "X-CLIP FT": {
+      "Test": {
+        "mean": 89.52245587395754,
+        "sd": 2.317245772288228,
+        "n": 3
+      },
+      "XD": {
+        "mean": 68.5665034933644,
+        "sd": 0.7258685524639946,
+        "n": 3
+      },
+      "UCF": {
+        "mean": 47.96229485002829,
+        "sd": 3.1456025575872593,
+        "n": 3
+      },
+      "SCFD": {
+        "mean": 71.03353057199212,
+        "sd": 3.9453806238415225,
+        "n": 3
+      },
+      "SCVD": {
+        "mean": 65.94948989519918,
+        "sd": 2.8650247826258757,
+        "n": 3
+      },
+      "VioPeru": {
+        "mean": 56.87438871035351,
+        "sd": 4.385803867740004,
+        "n": 3
+      },
+      "AIRTLab": {
+        "mean": 59.27043379549675,
+        "sd": 3.2990997375747213,
+        "n": 3
+      }
+    },
+    "X-CLIP FT (lr 5e-6)": {
+      "Test": {
+        "mean": 95.12385896145628,
+        "sd": 0.4114527968837464,
+        "n": 3
+      },
+      "XD": {
+        "mean": 79.73395515630042,
+        "sd": 4.506233751095014,
+        "n": 3
+      },
+      "UCF": {
+        "mean": 61.975983305036785,
+        "sd": 3.5403971011781596,
+        "n": 3
+      },
+      "SCFD": {
+        "mean": 86.94082840236688,
+        "sd": 1.7781729649190592,
+        "n": 3
+      },
+      "SCVD": {
+        "mean": 80.71642620854529,
+        "sd": 1.7809881910875691,
+        "n": 3
+      },
+      "VioPeru": {
+        "mean": 68.23180103395278,
+        "sd": 0.8476587830369305,
+        "n": 3
+      },
+      "AIRTLab": {
+        "mean": 70.33669263012361,
+        "sd": 1.1736404235758153,
+        "n": 3
+      }
+    },
+    "X-CLIP zero-shot": {
+      "Test": {
+        "mean": 84.79698194937349,
+        "sd": 0.0,
+        "n": 1
+      },
+      "XD": {
+        "mean": 78.67743174313352,
+        "sd": 0.0,
+        "n": 1
+      },
+      "UCF": {
+        "mean": 54.63391341256367,
+        "sd": 0.0,
+        "n": 1
+      },
+      "SCFD": {
+        "mean": 82.08875739644971,
+        "sd": 0.0,
+        "n": 1
+      },
+      "SCVD": {
+        "mean": 73.61029105162204,
+        "sd": 0.0,
+        "n": 1
+      },
+      "VioPeru": {
+        "mean": 62.04712169903591,
+        "sd": 0.0,
+        "n": 1
+      },
+      "AIRTLab": {
+        "mean": 58.580772245226356,
+        "sd": 0.0,
+        "n": 1
+      }
+    },
+    "VadCLIP (B16)": {
+      "Test": {
+        "mean": 97.1035032065807,
+        "sd": 0.19614753710913171,
+        "n": 3
+      },
+      "XD": {
+        "mean": 85.89666795387079,
+        "sd": 0.39068035087018826,
+        "n": 3
+      },
+      "UCF": {
+        "mean": 68.2109507640068,
+        "sd": 3.3608555558206117,
+        "n": 3
+      },
+      "SCFD": {
+        "mean": 88.24161735700199,
+        "sd": 0.6738443075456725,
+        "n": 3
+      },
+      "SCVD": {
+        "mean": 81.94793317210129,
+        "sd": 2.475302881153879,
+        "n": 3
+      },
+      "VioPeru": {
+        "mean": 75.63760421033021,
+        "sd": 2.773253154579326,
+        "n": 3
+      },
+      "AIRTLab": {
+        "mean": 76.68791369867131,
+        "sd": 2.065699523541413,
+        "n": 3
+      }
+    },
+    "VadCLIP (L14)": {
+      "Test": {
+        "mean": 97.65337931819208,
+        "sd": 0.0710182032981428,
+        "n": 3
+      },
+      "XD": {
+        "mean": 88.10897393687772,
+        "sd": 2.1175581445905514,
+        "n": 3
+      },
+      "UCF": {
+        "mean": 74.235285795133,
+        "sd": 1.6049574791252263,
+        "n": 3
+      },
+      "SCFD": {
+        "mean": 90.63017751479292,
+        "sd": 1.073834083398411,
+        "n": 3
+      },
+      "SCVD": {
+        "mean": 90.0005281739082,
+        "sd": 1.6734681855087756,
+        "n": 3
+      },
+      "VioPeru": {
+        "mean": 81.03401099157003,
+        "sd": 1.8165895210108214,
+        "n": 3
+      },
+      "AIRTLab": {
+        "mean": 84.22980086976425,
+        "sd": 4.155350820468675,
+        "n": 3
+      }
+    }
+  },
+  "P1_paired": {
+    "LENS-Net - VadCLIP (L14)": {
+      "Test": {
+        "diff": 0.08804609472018399,
+        "ci": [
+          -0.7105391101455943,
+          0.9618109879556249
+        ],
+        "excludes_zero": false,
+        "better": false,
+        "worse": false,
+        "non_inferior": true
+      },
+      "XD": {
+        "diff": -3.860422891162429,
+        "ci": [
+          -5.512295329784778,
+          -2.2267707778508017
+        ],
+        "excludes_zero": true,
+        "better": false,
+        "worse": true,
+        "non_inferior": false
+      },
+      "UCF": {
+        "diff": 3.0645161290322704,
+        "ci": [
+          -4.78342508964156,
+          11.09202223156199
+        ],
+        "excludes_zero": false,
+        "better": false,
+        "worse": false,
+        "non_inferior": false
+      },
+      "SCFD": {
+        "diff": 5.698224852071007,
+        "ci": [
+          2.609019395774736,
+          9.171790925823199
+        ],
+        "excludes_zero": true,
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      },
+      "SCVD": {
+        "diff": 0.5907764156450526,
+        "ci": [
+          -1.6088354454969125,
+          2.7402969092592455
+        ],
+        "excludes_zero": false,
+        "better": false,
+        "worse": false,
+        "non_inferior": false
+      },
+      "VioPeru": {
+        "diff": 3.708606958222717,
+        "ci": [
+          -0.5759113486047344,
+          8.16145201296674
+        ],
+        "excludes_zero": false,
+        "better": false,
+        "worse": false,
+        "non_inferior": true
+      },
+      "AIRTLab": {
+        "diff": -6.438960444453713,
+        "ci": [
+          -9.077447159972689,
+          -3.8934325034460415
+        ],
+        "excludes_zero": true,
+        "better": false,
+        "worse": true,
+        "non_inferior": false
+      }
+    },
+    "LENS-Net - VadCLIP (B16)": {
+      "Test": {
+        "diff": 0.5791267192824563,
+        "ci": [
+          -0.3286371316203027,
+          1.5478753086680224
+        ],
+        "excludes_zero": false,
+        "better": false,
+        "worse": false,
+        "non_inferior": true
+      },
+      "XD": {
+        "diff": -1.7671231072682758,
+        "ci": [
+          -3.713666047753738,
+          0.26046920683173086
+        ],
+        "excludes_zero": false,
+        "better": false,
+        "worse": false,
+        "non_inferior": false
+      },
+      "UCF": {
+        "diff": 8.180178268251282,
+        "ci": [
+          -1.4797647905649713,
+          18.81370880480964
+        ],
+        "excludes_zero": false,
+        "better": false,
+        "worse": false,
+        "non_inferior": false
+      },
+      "SCFD": {
+        "diff": 8.082840236686394,
+        "ci": [
+          4.359147622463629,
+          12.40617647058822
+        ],
+        "excludes_zero": true,
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      },
+      "SCVD": {
+        "diff": 8.070552914686004,
+        "ci": [
+          4.975172624821243,
+          11.314441216860368
+        ],
+        "excludes_zero": true,
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      },
+      "VioPeru": {
+        "diff": 8.02081877881794,
+        "ci": [
+          3.140174142349054,
+          13.015041699247181
+        ],
+        "excludes_zero": true,
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      },
+      "AIRTLab": {
+        "diff": 0.8198256309952114,
+        "ci": [
+          -2.148770338072377,
+          3.802487703510856
+        ],
+        "excludes_zero": false,
+        "better": false,
+        "worse": false,
+        "non_inferior": false
+      }
+    },
+    "LENS-Net - X-CLIP FT": {
+      "Test": {
+        "diff": 7.092889807016604,
+        "ci": [
+          4.365665726316513,
+          10.115670797751513
+        ],
+        "excludes_zero": true,
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      },
+      "XD": {
+        "diff": 15.080573455811745,
+        "ci": [
+          11.794481832111977,
+          18.129919869771886
+        ],
+        "excludes_zero": true,
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      },
+      "UCF": {
+        "diff": 27.95097623089984,
+        "ci": [
+          17.40813505326377,
+          38.1668053946762
+        ],
+        "excludes_zero": true,
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      },
+      "SCFD": {
+        "diff": 23.02958579881657,
+        "ci": [
+          15.94503332452164,
+          30.165822383416604
+        ],
+        "excludes_zero": true,
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      },
+      "SCVD": {
+        "diff": 23.277124510049205,
+        "ci": [
+          18.64324757729386,
+          28.14017926287438
+        ],
+        "excludes_zero": true,
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      },
+      "VioPeru": {
+        "diff": 24.911275674165175,
+        "ci": [
+          19.29387384393759,
+          30.566368754230375
+        ],
+        "excludes_zero": true,
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      },
+      "AIRTLab": {
+        "diff": 16.91948091581874,
+        "ci": [
+          12.045125555980833,
+          21.73897739072481
+        ],
+        "excludes_zero": true,
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      }
+    },
+    "LENS-Net - X-CLIP FT (lr 5e-6)": {
+      "Test": {
+        "diff": 1.2306442784752107,
+        "ci": [
+          0.1427147138521004,
+          2.410245655558374
+        ],
+        "excludes_zero": true,
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      },
+      "XD": {
+        "diff": 0.7508265932124942,
+        "ci": [
+          -1.0915836659001672,
+          2.7157825840872243
+        ],
+        "excludes_zero": false,
+        "better": false,
+        "worse": false,
+        "non_inferior": false
+      },
+      "UCF": {
+        "diff": 14.771859083191849,
+        "ci": [
+          5.670022572918379,
+          25.255047983885813
+        ],
+        "excludes_zero": true,
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      },
+      "SCFD": {
+        "diff": 7.455621301775153,
+        "ci": [
+          4.2406088088114124,
+          11.090735725898908
+        ],
+        "excludes_zero": true,
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      },
+      "SCVD": {
+        "diff": 8.332749562171628,
+        "ci": [
+          5.523599597379826,
+          11.342807126513197
+        ],
+        "excludes_zero": true,
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      },
+      "VioPeru": {
+        "diff": 14.586418890596633,
+        "ci": [
+          9.760161246936315,
+          19.45426864596135
+        ],
+        "excludes_zero": true,
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      },
+      "AIRTLab": {
+        "diff": 7.681183545225636,
+        "ci": [
+          3.434123896448824,
+          11.73261204493847
+        ],
+        "excludes_zero": true,
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      }
+    },
+    "LENS-Net - X-CLIP zero-shot": {
+      "Test": {
+        "diff": 13.213859020310636,
+        "ci": [
+          10.441601535010205,
+          16.321694762988876
+        ],
+        "excludes_zero": true,
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      },
+      "XD": {
+        "diff": 6.618746280171251,
+        "ci": [
+          4.215169699618436,
+          9.039486478885053
+        ],
+        "excludes_zero": true,
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      },
+      "UCF": {
+        "diff": 23.665110356536502,
+        "ci": [
+          10.725377114144614,
+          36.98571951749109
+        ],
+        "excludes_zero": true,
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      },
+      "SCFD": {
+        "diff": 14.994082840236686,
+        "ci": [
+          9.95466792866236,
+          20.26064539324039
+        ],
+        "excludes_zero": true,
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      },
+      "SCVD": {
+        "diff": 17.40763906263031,
+        "ci": [
+          13.086579574314738,
+          21.64074176170882
+        ],
+        "excludes_zero": true,
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      },
+      "VioPeru": {
+        "diff": 21.68593684504681,
+        "ci": [
+          15.903288037179408,
+          27.10328818177725
+        ],
+        "excludes_zero": true,
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      },
+      "AIRTLab": {
+        "diff": 20.030240607031615,
+        "ci": [
+          14.01296221564583,
+          25.569044819552957
+        ],
+        "excludes_zero": true,
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      }
+    },
+    "LENS-Net (broad) - LENS-Net": {
+      "Test": {
+        "diff": 0.01777401109993093,
+        "ci": [
+          -0.0887975779498749,
+          0.13635068287972094
+        ],
+        "excludes_zero": false,
+        "better": false,
+        "worse": false,
+        "non_inferior": true
+      },
+      "XD": {
+        "diff": -0.38023500184159786,
+        "ci": [
+          -0.6999483881033356,
+          -0.023166017639594104
+        ],
+        "excludes_zero": true,
+        "better": false,
+        "worse": true,
+        "non_inferior": true
+      },
+      "UCF": {
+        "diff": -0.25785229202037385,
+        "ci": [
+          -1.4166128669092124,
+          1.0135031558231757
+        ],
+        "excludes_zero": false,
+        "better": false,
+        "worse": false,
+        "non_inferior": false
+      },
+      "SCFD": {
+        "diff": -0.26627218934910957,
+        "ci": [
+          -0.7892099929402729,
+          0.22528550144829682
+        ],
+        "excludes_zero": false,
+        "better": false,
+        "worse": false,
+        "non_inferior": true
+      },
+      "SCVD": {
+        "diff": 0.3540989075139862,
+        "ci": [
+          -0.03247571511015472,
+          0.7466021195488077
+        ],
+        "excludes_zero": false,
+        "better": false,
+        "worse": false,
+        "non_inferior": true
+      },
+      "VioPeru": {
+        "diff": -0.248358250663685,
+        "ci": [
+          -0.8160369059168378,
+          0.29789198401663125
+        ],
+        "excludes_zero": false,
+        "better": false,
+        "worse": false,
+        "non_inferior": true
+      },
+      "AIRTLab": {
+        "diff": 0.35373187124162087,
+        "ci": [
+          -0.18221349866322498,
+          0.9209375676106331
+        ],
+        "excludes_zero": false,
+        "better": false,
+        "worse": false,
+        "non_inferior": true
+      }
+    },
+    "LENS-Net (para) - LENS-Net": {
+      "Test": {
+        "diff": 0.07345021805534202,
+        "ci": [
+          -0.06649560272140569,
+          0.22234602366327824
+        ],
+        "excludes_zero": false,
+        "better": false,
+        "worse": false,
+        "non_inferior": true
+      },
+      "XD": {
+        "diff": 0.018500904229028947,
+        "ci": [
+          -0.3072812583146455,
+          0.36263345238602473
+        ],
+        "excludes_zero": false,
+        "better": false,
+        "worse": false,
+        "non_inferior": true
+      },
+      "UCF": {
+        "diff": 0.06260611205432554,
+        "ci": [
+          -0.7191771167142018,
+          0.7682260449376475
+        ],
+        "excludes_zero": false,
+        "better": false,
+        "worse": false,
+        "non_inferior": true
+      },
+      "SCFD": {
+        "diff": -0.3195266272189343,
+        "ci": [
+          -0.8586273772841505,
+          0.176407690606846
+        ],
+        "excludes_zero": false,
+        "better": false,
+        "worse": false,
+        "non_inferior": true
+      },
+      "SCVD": {
+        "diff": -0.31590359436242466,
+        "ci": [
+          -0.7393917916049204,
+          0.09617476983525734
+        ],
+        "excludes_zero": false,
+        "better": false,
+        "worse": false,
+        "non_inferior": true
+      },
+      "VioPeru": {
+        "diff": 0.6553025010479132,
+        "ci": [
+          0.06519893011837433,
+          1.2663726279208782
+        ],
+        "excludes_zero": true,
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      },
+      "AIRTLab": {
+        "diff": -0.583310791596432,
+        "ci": [
+          -1.133789395041618,
+          -0.04612065094252221
+        ],
+        "excludes_zero": true,
+        "better": false,
+        "worse": true,
+        "non_inferior": false
+      }
+    },
+    "LENS-Net (surv) - LENS-Net": {
+      "Test": {
+        "diff": 0.10546697977177644,
+        "ci": [
+          -0.04953035064038751,
+          0.2748878365079431
+        ],
+        "excludes_zero": false,
+        "better": false,
+        "worse": false,
+        "non_inferior": true
+      },
+      "XD": {
+        "diff": -1.1098843258045576,
+        "ci": [
+          -1.5652336143716366,
+          -0.6634119446933109
+        ],
+        "excludes_zero": true,
+        "better": false,
+        "worse": true,
+        "non_inferior": false
+      },
+      "UCF": {
+        "diff": 0.1814516129032313,
+        "ci": [
+          -1.0922706469841583,
+          1.3966610477358825
+        ],
+        "excludes_zero": false,
+        "better": false,
+        "worse": false,
+        "non_inferior": false
+      },
+      "SCFD": {
+        "diff": -0.10059171597632144,
+        "ci": [
+          -0.643843719382102,
+          0.4093087796064299
+        ],
+        "excludes_zero": false,
+        "better": false,
+        "worse": false,
+        "non_inferior": true
+      },
+      "SCVD": {
+        "diff": 0.12542740388624907,
+        "ci": [
+          -0.4148379378906199,
+          0.6945215235838754
+        ],
+        "excludes_zero": false,
+        "better": false,
+        "worse": false,
+        "non_inferior": true
+      },
+      "VioPeru": {
+        "diff": -1.2424898700572982,
+        "ci": [
+          -1.8935072949322074,
+          -0.6495265876612147
+        ],
+        "excludes_zero": true,
+        "better": false,
+        "worse": true,
+        "non_inferior": false
+      },
+      "AIRTLab": {
+        "diff": -2.158111210525945,
+        "ci": [
+          -2.8313955112940605,
+          -1.5383989976000383
+        ],
+        "excludes_zero": true,
+        "better": false,
+        "worse": true,
+        "non_inferior": false
+      }
+    }
+  },
+  "P3": {
+    "LENS-Net": {
+      "rwf_acc": {
+        "mean": 88.52596314907873,
+        "sd": 0.5802515268237424
+      },
+      "HockeyFights": {
+        "mean": 98.85539906103286,
+        "sd": 0.04347628706578636
+      },
+      "RLVS": {
+        "mean": 98.35953596800327,
+        "sd": 0.0735587241416794
+      },
+      "BusViolence": {
+        "mean": 84.00337071621853,
+        "sd": 1.0021085683019135
+      },
+      "VID": {
+        "mean": 87.37109102005326,
+        "sd": 0.6112060129098084
+      },
+      "XD-test": {
+        "mean": 87.23075449278848,
+        "sd": 0.14167513201691925
+      },
+      "UCF-test": {
+        "mean": 79.20698924731182,
+        "sd": 0.7096939938811037
+      },
+      "mean_transfer": {
+        "mean": 89.1711900842347,
+        "sd": 0.22604746039469034
+      }
+    },
+    "LENS-Net (para)": {
+      "rwf_acc": {
+        "mean": 89.27973199329983,
+        "sd": 1.0154401719415496
+      },
+      "HockeyFights": {
+        "mean": 98.56968477531858,
+        "sd": 0.09166427284458471
+      },
+      "RLVS": {
+        "mean": 98.23226043401134,
+        "sd": 0.05476515863490868
+      },
+      "BusViolence": {
+        "mean": 83.7667949259381,
+        "sd": 0.9157864309749449
+      },
+      "VID": {
+        "mean": 87.60067618291505,
+        "sd": 0.5946658357467708
+      },
+      "XD-test": {
+        "mean": 87.7767046356483,
+        "sd": 0.299613366698453
+      },
+      "UCF-test": {
+        "mean": 79.64841539332203,
+        "sd": 0.8129889379462542
+      },
+      "mean_transfer": {
+        "mean": 89.2657560578589,
+        "sd": 0.26057964741179884
+      }
+    },
+    "LENS-Net (surv)": {
+      "rwf_acc": {
+        "mean": 89.27973199329983,
+        "sd": 0.7676006189205765
+      },
+      "HockeyFights": {
+        "mean": 98.61730382293763,
+        "sd": 0.09468206585282961
+      },
+      "RLVS": {
+        "mean": 97.96155517949016,
+        "sd": 0.11109626573002308
+      },
+      "BusViolence": {
+        "mean": 84.84389908185132,
+        "sd": 0.2667309432145281
+      },
+      "VID": {
+        "mean": 86.26739577763736,
+        "sd": 0.49637069210712814
+      },
+      "XD-test": {
+        "mean": 85.5997330432097,
+        "sd": 0.3205306399871055
+      },
+      "UCF-test": {
+        "mean": 80.2546689303905,
+        "sd": 0.22579438403614624
+      },
+      "mean_transfer": {
+        "mean": 88.92409263925278,
+        "sd": 0.018889083871330706
+      }
+    },
+    "LENS-Net (broad)": {
+      "rwf_acc": {
+        "mean": 90.20100502512564,
+        "sd": 1.329523271891752
+      },
+      "HockeyFights": {
+        "mean": 98.59302481556001,
+        "sd": 0.12072792304112755
+      },
+      "RLVS": {
+        "mean": 98.29551691438961,
+        "sd": 0.11223938395152863
+      },
+      "BusViolence": {
+        "mean": 84.99835765567077,
+        "sd": 0.3515264634964438
+      },
+      "VID": {
+        "mean": 89.03816976943892,
+        "sd": 0.15495219478367575
+      },
+      "XD-test": {
+        "mean": 87.47825099404304,
+        "sd": 0.3665606913904202
+      },
+      "UCF-test": {
+        "mean": 80.26174306734579,
+        "sd": 0.3279057069003771
+      },
+      "mean_transfer": {
+        "mean": 89.77751053607467,
+        "sd": 0.10913787715068916
+      }
+    },
+    "VadCLIP (B16)": {
+      "rwf_acc": {
+        "mean": 83.16582914572864,
+        "sd": 0.664761635945876
+      },
+      "HockeyFights": {
+        "mean": 96.00965794768611,
+        "sd": 1.7373510415887186
+      },
+      "RLVS": {
+        "mean": 97.23766295623263,
+        "sd": 0.9161984579409747
+      },
+      "BusViolence": {
+        "mean": 64.24010292024464,
+        "sd": 1.6266119614221328
+      },
+      "VID": {
+        "mean": 53.89537527611702,
+        "sd": 1.3771829170442256
+      },
+      "XD-test": {
+        "mean": 87.51974881252234,
+        "sd": 2.4204185900390045
+      },
+      "UCF-test": {
+        "mean": 68.1349037917374,
+        "sd": 0.37381777246135683
+      },
+      "mean_transfer": {
+        "mean": 77.83957528409002,
+        "sd": 0.3068470207315882
+      }
+    },
+    "VadCLIP (L14)": {
+      "rwf_acc": {
+        "mean": 87.26968174204355,
+        "sd": 0.9512409289447713
+      },
+      "HockeyFights": {
+        "mean": 99.06841046277668,
+        "sd": 0.26212199796256513
+      },
+      "RLVS": {
+        "mean": 97.7060107052916,
+        "sd": 0.1321127323661272
+      },
+      "BusViolence": {
+        "mean": 74.51179359642124,
+        "sd": 2.5397834568633586
+      },
+      "VID": {
+        "mean": 79.03513558763645,
+        "sd": 0.7422424031121205
+      },
+      "XD-test": {
+        "mean": 89.24594760810142,
+        "sd": 2.8770410686814305
+      },
+      "UCF-test": {
+        "mean": 78.36799660441427,
+        "sd": 1.5464545961674865
+      },
+      "mean_transfer": {
+        "mean": 86.32254909410695,
+        "sd": 0.45689654288056974
+      }
+    }
+  },
+  "P3_paired": {
+    "LENS-Net - VadCLIP (L14)": {
+      "diff": 2.3711290510198446,
+      "ci": [
+        0.702827877173153,
+        4.4667900090525885
+      ],
+      "excludes_zero": true,
+      "better": true,
+      "worse": false,
+      "non_inferior": true
+    },
+    "LENS-Net - VadCLIP (B16)": {
+      "diff": 10.29629785089953,
+      "ci": [
+        8.23894224968837,
+        13.54528421401551
+      ],
+      "excludes_zero": true,
+      "better": true,
+      "worse": false,
+      "non_inferior": true
+    },
+    "LENS-Net (broad) - LENS-Net": {
+      "diff": 0.592526717226337,
+      "ci": [
+        0.2782094925725316,
+        1.0851533333991437
+      ],
+      "excludes_zero": true,
+      "better": true,
+      "worse": false,
+      "non_inferior": true
+    },
+    "LENS-Net (para) - LENS-Net": {
+      "diff": 0.11194888835019394,
+      "ci": [
+        -0.036470531029861655,
+        0.29303196435328843
+      ],
+      "excludes_zero": false,
+      "better": false,
+      "worse": false,
+      "non_inferior": true
+    },
+    "LENS-Net (surv) - LENS-Net": {
+      "diff": -0.2634454796275823,
+      "ci": [
+        -0.6637539750890957,
+        -0.021860031509950122
+      ],
+      "excludes_zero": true,
+      "better": false,
+      "worse": true,
+      "non_inferior": true
+    }
+  },
+  "prompt_spread_P1": {
+    "Test": 0.08184677076037872,
+    "XD": 1.2032951292847116,
+    "UCF": 0.2695246179966091,
+    "SCFD": 0.3412228796843948,
+    "SCVD": 0.5749311983988008,
+    "VioPeru": 1.7155698383866564,
+    "AIRTLab": 2.2283951901713266
+  },
+  "category_recall": {
+    "LENS-Net": {
+      "XD-test|Abuse": 53.57142857142858,
+      "XD-test|Car accident": 12.5,
+      "XD-test|Explosion": 9.848484848484848,
+      "XD-test|Fighting": 80.6872037914692,
+      "XD-test|Riot": 39.692435577722364,
+      "XD-test|Shooting": 29.10394265232975,
+      "UCF-test|Fighting": 87.5,
+      "UCF-test|Robbery": 46.15384615384615,
+      "UCF-test|Shooting": 56.639566395663955
+    },
+    "LENS-Net (broad)": {
+      "XD-test|Abuse": 60.714285714285715,
+      "XD-test|Car accident": 18.75,
+      "XD-test|Explosion": 15.15151515151515,
+      "XD-test|Fighting": 81.43759873617692,
+      "XD-test|Riot": 41.770573566084785,
+      "XD-test|Shooting": 31.46953405017921,
+      "UCF-test|Fighting": 83.33333333333333,
+      "UCF-test|Robbery": 48.71794871794872,
+      "UCF-test|Shooting": 59.89159891598916
+    }
+  }
+}

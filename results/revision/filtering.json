@@ -1,0 +1,470 @@
+{
+ "XD": {
+  "n_windows_filtered": 4341,
+  "n_removed": 0,
+  "kendall_tau": 1.0,
+  "models": {
+   "LENS-Net": {
+    "filtered": 85.11,
+    "unfiltered": 85.11,
+    "change": 0.0
+   },
+   "CLIP probe": {
+    "filtered": 90.07,
+    "unfiltered": 90.07,
+    "change": 0.0
+   },
+   "w/o motion": {
+    "filtered": 89.3,
+    "unfiltered": 89.3,
+    "change": 0.0
+   },
+   "Motion probe": {
+    "filtered": 79.27,
+    "unfiltered": 79.27,
+    "change": 0.0
+   },
+   "CLIP zero-shot": {
+    "filtered": 84.03,
+    "unfiltered": 84.03,
+    "change": 0.0
+   },
+   "VadCLIP": {
+    "filtered": 88.11,
+    "unfiltered": 88.11,
+    "change": 0.0
+   },
+   "X-CLIP FT": {
+    "filtered": 79.73,
+    "unfiltered": 79.73,
+    "change": 0.0
+   },
+   "VideoMAE-B FT": {
+    "filtered": 80.77,
+    "unfiltered": 80.77,
+    "change": 0.0
+   },
+   "Video Swin-T FT": {
+    "filtered": 78.29,
+    "unfiltered": 78.29,
+    "change": 0.0
+   },
+   "R(2+1)D-18 FT": {
+    "filtered": 76.84,
+    "unfiltered": 76.84,
+    "change": 0.0
+   },
+   "CNN-BiGRU": {
+    "filtered": 76.74,
+    "unfiltered": 76.74,
+    "change": 0.0
+   },
+   "LENS-Net-A": {
+    "filtered": 90.42,
+    "unfiltered": 90.42,
+    "change": 0.0
+   }
+  },
+  "top3_filtered": [
+   "LENS-Net-A",
+   "CLIP probe",
+   "w/o motion"
+  ],
+  "top3_unfiltered": [
+   "LENS-Net-A",
+   "CLIP probe",
+   "w/o motion"
+  ],
+  "mean_change": 0.0
+ },
+ "UCF": {
+  "n_windows_filtered": 749,
+  "n_removed": 0,
+  "kendall_tau": 1.0,
+  "models": {
+   "LENS-Net": {
+    "filtered": 77.99,
+    "unfiltered": 77.99,
+    "change": 0.0
+   },
+   "CLIP probe": {
+    "filtered": 72.38,
+    "unfiltered": 72.38,
+    "change": 0.0
+   },
+   "w/o motion": {
+    "filtered": 76.8,
+    "unfiltered": 76.8,
+    "change": 0.0
+   },
+   "Motion probe": {
+    "filtered": 75.7,
+    "unfiltered": 75.7,
+    "change": 0.0
+   },
+   "CLIP zero-shot": {
+    "filtered": 69.46,
+    "unfiltered": 69.46,
+    "change": 0.0
+   },
+   "VadCLIP": {
+    "filtered": 74.24,
+    "unfiltered": 74.24,
+    "change": 0.0
+   },
+   "X-CLIP FT": {
+    "filtered": 61.98,
+    "unfiltered": 61.98,
+    "change": 0.0
+   },
+   "VideoMAE-B FT": {
+    "filtered": 73.82,
+    "unfiltered": 73.82,
+    "change": 0.0
+   },
+   "Video Swin-T FT": {
+    "filtered": 72.77,
+    "unfiltered": 72.77,
+    "change": 0.0
+   },
+   "R(2+1)D-18 FT": {
+    "filtered": 69.35,
+    "unfiltered": 69.35,
+    "change": 0.0
+   },
+   "CNN-BiGRU": {
+    "filtered": 52.46,
+    "unfiltered": 52.46,
+    "change": 0.0
+   },
+   "LENS-Net-A": {
+    "filtered": 77.67,
+    "unfiltered": 77.67,
+    "change": 0.0
+   }
+  },
+  "top3_filtered": [
+   "LENS-Net",
+   "LENS-Net-A",
+   "w/o motion"
+  ],
+  "top3_unfiltered": [
+   "LENS-Net",
+   "LENS-Net-A",
+   "w/o motion"
+  ],
+  "mean_change": 0.0
+ },
+ "SCFD": {
+  "n_windows_filtered": 260,
+  "n_removed": 59,
+  "kendall_tau": 0.97,
+  "models": {
+   "LENS-Net": {
+    "filtered": 96.88,
+    "unfiltered": 96.9,
+    "change": 0.02
+   },
+   "CLIP probe": {
+    "filtered": 92.86,
+    "unfiltered": 92.53,
+    "change": -0.33
+   },
+   "w/o motion": {
+    "filtered": 94.94,
+    "unfiltered": 95.27,
+    "change": 0.33
+   },
+   "Motion probe": {
+    "filtered": 95.24,
+    "unfiltered": 95.4,
+    "change": 0.16
+   },
+   "CLIP zero-shot": {
+    "filtered": 91.53,
+    "unfiltered": 91.47,
+    "change": -0.06
+   },
+   "VadCLIP": {
+    "filtered": 90.63,
+    "unfiltered": 91.06,
+    "change": 0.43
+   },
+   "X-CLIP FT": {
+    "filtered": 86.94,
+    "unfiltered": 86.5,
+    "change": -0.45
+   },
+   "VideoMAE-B FT": {
+    "filtered": 96.15,
+    "unfiltered": 96.03,
+    "change": -0.12
+   },
+   "Video Swin-T FT": {
+    "filtered": 92.93,
+    "unfiltered": 92.92,
+    "change": -0.01
+   },
+   "R(2+1)D-18 FT": {
+    "filtered": 92.12,
+    "unfiltered": 92.37,
+    "change": 0.25
+   },
+   "CNN-BiGRU": {
+    "filtered": 83.6,
+    "unfiltered": 84.8,
+    "change": 1.2
+   },
+   "LENS-Net-A": {
+    "filtered": 96.93,
+    "unfiltered": 96.85,
+    "change": -0.08
+   }
+  },
+  "top3_filtered": [
+   "LENS-Net-A",
+   "LENS-Net",
+   "VideoMAE-B FT"
+  ],
+  "top3_unfiltered": [
+   "LENS-Net",
+   "LENS-Net-A",
+   "VideoMAE-B FT"
+  ],
+  "mean_change": 0.11
+ },
+ "SCVD": {
+  "n_windows_filtered": 1667,
+  "n_removed": 72,
+  "kendall_tau": 1.0,
+  "models": {
+   "LENS-Net": {
+    "filtered": 90.87,
+    "unfiltered": 91.04,
+    "change": 0.17
+   },
+   "CLIP probe": {
+    "filtered": 89.44,
+    "unfiltered": 89.69,
+    "change": 0.24
+   },
+   "w/o motion": {
+    "filtered": 88.42,
+    "unfiltered": 88.61,
+    "change": 0.19
+   },
+   "Motion probe": {
+    "filtered": 88.08,
+    "unfiltered": 88.55,
+    "change": 0.47
+   },
+   "CLIP zero-shot": {
+    "filtered": 86.25,
+    "unfiltered": 86.4,
+    "change": 0.15
+   },
+   "VadCLIP": {
+    "filtered": 90.0,
+    "unfiltered": 90.17,
+    "change": 0.17
+   },
+   "X-CLIP FT": {
+    "filtered": 80.72,
+    "unfiltered": 81.5,
+    "change": 0.78
+   },
+   "VideoMAE-B FT": {
+    "filtered": 87.87,
+    "unfiltered": 88.32,
+    "change": 0.45
+   },
+   "Video Swin-T FT": {
+    "filtered": 82.22,
+    "unfiltered": 82.87,
+    "change": 0.65
+   },
+   "R(2+1)D-18 FT": {
+    "filtered": 85.07,
+    "unfiltered": 85.72,
+    "change": 0.65
+   },
+   "CNN-BiGRU": {
+    "filtered": 78.3,
+    "unfiltered": 79.18,
+    "change": 0.87
+   },
+   "LENS-Net-A": {
+    "filtered": 91.89,
+    "unfiltered": 92.06,
+    "change": 0.17
+   }
+  },
+  "top3_filtered": [
+   "LENS-Net-A",
+   "LENS-Net",
+   "VadCLIP"
+  ],
+  "top3_unfiltered": [
+   "LENS-Net-A",
+   "LENS-Net",
+   "VadCLIP"
+  ],
+  "mean_change": 0.41
+ },
+ "CCTV-F": {
+  "n_windows_filtered": 2147,
+  "n_removed": 63,
+  "kendall_tau": 1.0,
+  "models": {
+   "LENS-Net": {
+    "filtered": 85.32,
+    "unfiltered": 85.4,
+    "change": 0.08
+   },
+   "CLIP probe": {
+    "filtered": 76.14,
+    "unfiltered": 76.13,
+    "change": -0.01
+   },
+   "w/o motion": {
+    "filtered": 81.38,
+    "unfiltered": 81.32,
+    "change": -0.06
+   },
+   "Motion probe": {
+    "filtered": 83.34,
+    "unfiltered": 83.54,
+    "change": 0.19
+   },
+   "CLIP zero-shot": {
+    "filtered": 72.63,
+    "unfiltered": 72.66,
+    "change": 0.03
+   },
+   "VadCLIP": {
+    "filtered": 78.21,
+    "unfiltered": 78.37,
+    "change": 0.16
+   },
+   "X-CLIP FT": {
+    "filtered": 72.93,
+    "unfiltered": 73.15,
+    "change": 0.23
+   },
+   "VideoMAE-B FT": {
+    "filtered": 83.19,
+    "unfiltered": 83.41,
+    "change": 0.22
+   },
+   "Video Swin-T FT": {
+    "filtered": 80.19,
+    "unfiltered": 80.38,
+    "change": 0.19
+   },
+   "R(2+1)D-18 FT": {
+    "filtered": 80.49,
+    "unfiltered": 80.84,
+    "change": 0.35
+   },
+   "CNN-BiGRU": {
+    "filtered": 68.79,
+    "unfiltered": 69.26,
+    "change": 0.47
+   },
+   "LENS-Net-A": {
+    "filtered": 83.85,
+    "unfiltered": 83.9,
+    "change": 0.05
+   }
+  },
+  "top3_filtered": [
+   "LENS-Net",
+   "LENS-Net-A",
+   "Motion probe"
+  ],
+  "top3_unfiltered": [
+   "LENS-Net",
+   "LENS-Net-A",
+   "Motion probe"
+  ],
+  "mean_change": 0.16
+ },
+ "UBI-Fights": {
+  "n_windows_filtered": 7758,
+  "n_removed": 233,
+  "kendall_tau": 0.97,
+  "models": {
+   "LENS-Net": {
+    "filtered": 88.44,
+    "unfiltered": 88.36,
+    "change": -0.08
+   },
+   "CLIP probe": {
+    "filtered": 91.59,
+    "unfiltered": 91.3,
+    "change": -0.29
+   },
+   "w/o motion": {
+    "filtered": 90.44,
+    "unfiltered": 90.25,
+    "change": -0.19
+   },
+   "Motion probe": {
+    "filtered": 84.18,
+    "unfiltered": 84.36,
+    "change": 0.18
+   },
+   "CLIP zero-shot": {
+    "filtered": 86.19,
+    "unfiltered": 85.74,
+    "change": -0.45
+   },
+   "VadCLIP": {
+    "filtered": 89.36,
+    "unfiltered": 89.29,
+    "change": -0.07
+   },
+   "X-CLIP FT": {
+    "filtered": 86.1,
+    "unfiltered": 86.2,
+    "change": 0.1
+   },
+   "VideoMAE-B FT": {
+    "filtered": 83.98,
+    "unfiltered": 84.12,
+    "change": 0.14
+   },
+   "Video Swin-T FT": {
+    "filtered": 83.81,
+    "unfiltered": 84.02,
+    "change": 0.21
+   },
+   "R(2+1)D-18 FT": {
+    "filtered": 78.32,
+    "unfiltered": 78.48,
+    "change": 0.17
+   },
+   "CNN-BiGRU": {
+    "filtered": 81.02,
+    "unfiltered": 81.55,
+    "change": 0.53
+   },
+   "LENS-Net-A": {
+    "filtered": 92.03,
+    "unfiltered": 91.82,
+    "change": -0.2
+   }
+  },
+  "top3_filtered": [
+   "LENS-Net-A",
+   "CLIP probe",
+   "w/o motion"
+  ],
+  "top3_unfiltered": [
+   "LENS-Net-A",
+   "CLIP probe",
+   "w/o motion"
+  ],
+  "mean_change": 0.0
+ }
+}

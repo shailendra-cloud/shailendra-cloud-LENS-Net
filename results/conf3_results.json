@@ -1,0 +1,682 @@
+{
+  "n_videos": {
+    "XD-train": 600,
+    "AIE": 647
+  },
+  "n_windows": {
+    "XD-train": 29051,
+    "AIE": 4289
+  },
+  "n_excluded_windows": {
+    "XD-train": 42,
+    "AIE": 24
+  },
+  "models": {
+    "max": {
+      "VadCLIP-L14_audited_lr0.0001": {
+        "seeds": 3,
+        "XD-train": {
+          "mean": 84.15907407407407,
+          "sd": 1.4819098801897796
+        },
+        "AIE": {
+          "mean": 82.45373038744795,
+          "sd": 1.837921049129198
+        }
+      },
+      "ZS": {
+        "seeds": 1,
+        "XD-train": {
+          "mean": 92.65,
+          "sd": 0.0
+        },
+        "AIE": {
+          "mean": 76.24495677233429,
+          "sd": 0.0
+        }
+      },
+      "v2_audited_LENS-FG_vrex": {
+        "seeds": 3,
+        "XD-train": {
+          "mean": 89.71185185185186,
+          "sd": 0.9965677724584872
+        },
+        "AIE": {
+          "mean": 82.3727185398655,
+          "sd": 1.5754513126424685
+        }
+      },
+      "v2_audited_LENS-M_vrex": {
+        "seeds": 3,
+        "XD-train": {
+          "mean": 87.6511111111111,
+          "sd": 0.6682176403050202
+        },
+        "AIE": {
+          "mean": 81.0035222542427,
+          "sd": 0.8793673358205616
+        }
+      },
+      "v2_audited_LP": {
+        "seeds": 3,
+        "XD-train": {
+          "mean": 89.81444444444442,
+          "sd": 0.22696875294808289
+        },
+        "AIE": {
+          "mean": 80.87383925712456,
+          "sd": 0.9065538841700614
+        }
+      },
+      "v2_audited_MP": {
+        "seeds": 3,
+        "XD-train": {
+          "mean": 79.66851851851852,
+          "sd": 0.7598085637171669
+        },
+        "AIE": {
+          "mean": 79.02625680435479,
+          "sd": 0.6501171902848079
+        }
+      },
+      "v2_audited_V2b": {
+        "seeds": 3,
+        "XD-train": {
+          "mean": 88.54074074074076,
+          "sd": 0.5196061344705478
+        },
+        "AIE": {
+          "mean": 85.4716618635927,
+          "sd": 0.6686589724495613
+        }
+      },
+      "v2_std_std_rwf_LENS-FG_vrex": {
+        "seeds": 3,
+        "XD-train": {
+          "mean": 92.73481481481481,
+          "sd": 0.26132693995707074
+        },
+        "AIE": {
+          "mean": 85.78834454050593,
+          "sd": 0.2942185023718119
+        }
+      },
+      "v2_std_std_rwf_LENS-M_vrex": {
+        "seeds": 3,
+        "XD-train": {
+          "mean": 91.28666666666668,
+          "sd": 0.18962926793947218
+        },
+        "AIE": {
+          "mean": 85.82324687800191,
+          "sd": 0.33137868937345627
+        }
+      },
+      "v2_std_std_rwf_LP": {
+        "seeds": 3,
+        "XD-train": {
+          "mean": 91.41851851851851,
+          "sd": 0.40453346598629225
+        },
+        "AIE": {
+          "mean": 80.99327569644574,
+          "sd": 0.6345847791214267
+        }
+      },
+      "v2_std_std_rwf_MP": {
+        "seeds": 3,
+        "XD-train": {
+          "mean": 83.2262962962963,
+          "sd": 1.6614697990045169
+        },
+        "AIE": {
+          "mean": 81.10951008645533,
+          "sd": 0.807178837529294
+        }
+      },
+      "v2_std_std_rwf_V2b": {
+        "seeds": 3,
+        "XD-train": {
+          "mean": 90.66481481481482,
+          "sd": 0.4019970722412626
+        },
+        "AIE": {
+          "mean": 83.62920268972142,
+          "sd": 0.14511007770458823
+        }
+      },
+      "LENS-Net-A": {
+        "seeds": 3,
+        "XD-train": {
+          "mean": 90.67740740740742,
+          "sd": 0.23798623607189512
+        },
+        "AIE": {
+          "mean": 83.81588216458535,
+          "sd": 0.7371492376350888
+        }
+      },
+      "LENS-Net-A (P3)": {
+        "seeds": 3,
+        "XD-train": {
+          "mean": 92.7088888888889,
+          "sd": 0.20191979828206083
+        },
+        "AIE": {
+          "mean": 86.05955811719501,
+          "sd": 0.5441940034613529
+        }
+      }
+    },
+    "top3": {
+      "VadCLIP-L14_audited_lr0.0001": {
+        "seeds": 3,
+        "XD-train": {
+          "mean": 83.88814814814815,
+          "sd": 1.4873426188486711
+        },
+        "AIE": {
+          "mean": 82.41850784502081,
+          "sd": 1.6728938618638305
+        }
+      },
+      "ZS": {
+        "seeds": 1,
+        "XD-train": {
+          "mean": 93.25111111111111,
+          "sd": 0.0
+        },
+        "AIE": {
+          "mean": 75.65417867435158,
+          "sd": 0.0
+        }
+      },
+      "v2_audited_LENS-FG_vrex": {
+        "seeds": 3,
+        "XD-train": {
+          "mean": 90.82962962962962,
+          "sd": 0.9381570674080003
+        },
+        "AIE": {
+          "mean": 81.84630163304514,
+          "sd": 1.631073285410547
+        }
+      },
+      "v2_audited_LENS-M_vrex": {
+        "seeds": 3,
+        "XD-train": {
+          "mean": 87.0411111111111,
+          "sd": 0.6005028756831194
+        },
+        "AIE": {
+          "mean": 80.577009285943,
+          "sd": 0.9767021486281275
+        }
+      },
+      "v2_audited_LP": {
+        "seeds": 3,
+        "XD-train": {
+          "mean": 91.00407407407407,
+          "sd": 0.2858155611218936
+        },
+        "AIE": {
+          "mean": 80.38712776176753,
+          "sd": 0.8683383895418103
+        }
+      },
+      "v2_audited_MP": {
+        "seeds": 3,
+        "XD-train": {
+          "mean": 78.77407407407408,
+          "sd": 0.9582998920627951
+        },
+        "AIE": {
+          "mean": 78.930195325008,
+          "sd": 0.7298911090766199
+        }
+      },
+      "v2_audited_V2b": {
+        "seeds": 3,
+        "XD-train": {
+          "mean": 89.07925925925925,
+          "sd": 0.7166187178906808
+        },
+        "AIE": {
+          "mean": 86.55267371117515,
+          "sd": 0.6754470094810515
+        }
+      },
+      "v2_std_std_rwf_LENS-FG_vrex": {
+        "seeds": 3,
+        "XD-train": {
+          "mean": 93.82037037037037,
+          "sd": 0.3070817105506849
+        },
+        "AIE": {
+          "mean": 85.20461095100865,
+          "sd": 0.12046814246736907
+        }
+      },
+      "v2_std_std_rwf_LENS-M_vrex": {
+        "seeds": 3,
+        "XD-train": {
+          "mean": 91.40592592592593,
+          "sd": 0.1254735884526097
+        },
+        "AIE": {
+          "mean": 85.23887287864233,
+          "sd": 0.1593240764264798
+        }
+      },
+      "v2_std_std_rwf_LP": {
+        "seeds": 3,
+        "XD-train": {
+          "mean": 92.21037037037037,
+          "sd": 0.43996679635286245
+        },
+        "AIE": {
+          "mean": 80.52097342299072,
+          "sd": 0.638393640093483
+        }
+      },
+      "v2_std_std_rwf_MP": {
+        "seeds": 3,
+        "XD-train": {
+          "mean": 84.23814814814814,
+          "sd": 1.3031037655798106
+        },
+        "AIE": {
+          "mean": 80.87447966698687,
+          "sd": 0.8397962053615385
+        }
+      },
+      "v2_std_std_rwf_V2b": {
+        "seeds": 3,
+        "XD-train": {
+          "mean": 92.3837037037037,
+          "sd": 0.13696144061010007
+        },
+        "AIE": {
+          "mean": 84.07236631444125,
+          "sd": 0.08806450636168275
+        }
+      },
+      "LENS-Net-A": {
+        "seeds": 3,
+        "XD-train": {
+          "mean": 90.77481481481482,
+          "sd": 0.2864735209217439
+        },
+        "AIE": {
+          "mean": 83.26352865834133,
+          "sd": 0.7778028242814199
+        }
+      },
+      "LENS-Net-A (P3)": {
+        "seeds": 3,
+        "XD-train": {
+          "mean": 93.2548148148148,
+          "sd": 0.1875453305971868
+        },
+        "AIE": {
+          "mean": 85.29138648735191,
+          "sd": 0.49021701750851654
+        }
+      }
+    }
+  },
+  "claims_max": {
+    "claims": {
+      "K1 A - LENS-Net on XD-train (better)": {
+        "diff": 2.795555555555538,
+        "ci": [
+          1.7911281213064085,
+          3.8204737715972144
+        ],
+        "better": true,
+        "worse": false,
+        "non_inferior": true,
+        "n_clusters": 318
+      },
+      "K2 A - LENS-Net on AIE (non-inferior)": {
+        "diff": 2.5283381364073136,
+        "ci": [
+          1.2840006691889645,
+          3.872075513402788
+        ],
+        "better": true,
+        "worse": false,
+        "non_inferior": true,
+        "n_clusters": 647
+      },
+      "K3 A - probe on XD-train (non-inferior)": {
+        "diff": 0.8900000000000006,
+        "ci": [
+          -0.5995195355245457,
+          2.4495309955186184
+        ],
+        "better": false,
+        "worse": false,
+        "non_inferior": true,
+        "n_clusters": 318
+      },
+      "K4 A - probe on AIE (better)": {
+        "diff": 3.033621517771394,
+        "ci": [
+          0.925392956746613,
+          4.994218650633064
+        ],
+        "better": true,
+        "worse": false,
+        "non_inferior": true,
+        "n_clusters": 647
+      }
+    },
+    "holds": {
+      "K1 A - LENS-Net on XD-train (better)": true,
+      "K2 A - LENS-Net on AIE (non-inferior)": true,
+      "K3 A - probe on XD-train (non-inferior)": true,
+      "K4 A - probe on AIE (better)": true
+    },
+    "confirmed": true
+  },
+  "vs_others_max": {
+    "A - v2_audited_V2b": {
+      "XD-train": {
+        "diff": 1.9144444444444275,
+        "ci": [
+          0.20666505282376557,
+          3.8412144182228665
+        ],
+        "better": true,
+        "worse": false,
+        "non_inferior": true,
+        "n_clusters": 318
+      },
+      "AIE": {
+        "diff": -1.663784822286246,
+        "ci": [
+          -3.9414492738984923,
+          0.5559377173158064
+        ],
+        "better": false,
+        "worse": false,
+        "non_inferior": false,
+        "n_clusters": 647
+      }
+    },
+    "A - v2_audited_MP": {
+      "XD-train": {
+        "diff": 10.644444444444446,
+        "ci": [
+          8.238128861834424,
+          13.076406144595143
+        ],
+        "better": true,
+        "worse": false,
+        "non_inferior": true,
+        "n_clusters": 318
+      },
+      "AIE": {
+        "diff": 4.347742555235371,
+        "ci": [
+          2.026973450095305,
+          6.87572628698593
+        ],
+        "better": true,
+        "worse": false,
+        "non_inferior": true,
+        "n_clusters": 647
+      }
+    },
+    "A - ZS": {
+      "XD-train": {
+        "diff": -1.9255555555555617,
+        "ci": [
+          -4.059167884184658,
+          0.07495355310344026
+        ],
+        "better": false,
+        "worse": false,
+        "non_inferior": false,
+        "n_clusters": 318
+      },
+      "AIE": {
+        "diff": 7.699327569644595,
+        "ci": [
+          4.901325030548503,
+          10.396908926475673
+        ],
+        "better": true,
+        "worse": false,
+        "non_inferior": true,
+        "n_clusters": 647
+      }
+    },
+    "A - v2_audited_LENS-FG_vrex": {
+      "XD-train": {
+        "diff": 0.6566666666666663,
+        "ci": [
+          -0.4565597331802856,
+          1.864201256890909
+        ],
+        "better": false,
+        "worse": false,
+        "non_inferior": true,
+        "n_clusters": 318
+      },
+      "AIE": {
+        "diff": 0.9702209414025305,
+        "ci": [
+          -0.3001947182670179,
+          2.306848487091315
+        ],
+        "better": false,
+        "worse": false,
+        "non_inferior": true,
+        "n_clusters": 647
+      }
+    },
+    "A - VadCLIP-L14_audited_lr0.0001": {
+      "XD-train": {
+        "diff": 5.733333333333334,
+        "ci": [
+          3.5514243740304225,
+          8.168779913416001
+        ],
+        "better": true,
+        "worse": false,
+        "non_inferior": true,
+        "n_clusters": 318
+      },
+      "AIE": {
+        "diff": 0.6013448607108813,
+        "ci": [
+          -1.535055412810307,
+          2.6173897583758956
+        ],
+        "better": false,
+        "worse": false,
+        "non_inferior": false,
+        "n_clusters": 647
+      }
+    }
+  },
+  "claims_top3": {
+    "claims": {
+      "K1 A - LENS-Net on XD-train (better)": {
+        "diff": 3.6455555555555605,
+        "ci": [
+          2.5739183606743583,
+          4.713020312328021
+        ],
+        "better": true,
+        "worse": false,
+        "non_inferior": true,
+        "n_clusters": 318
+      },
+      "K2 A - LENS-Net on AIE (non-inferior)": {
+        "diff": 2.412103746397676,
+        "ci": [
+          1.103229610865186,
+          3.800272041595048
+        ],
+        "better": true,
+        "worse": false,
+        "non_inferior": true,
+        "n_clusters": 647
+      },
+      "K3 A - probe on XD-train (non-inferior)": {
+        "diff": -0.13333333333333997,
+        "ci": [
+          -1.5110668416210262,
+          1.2275634701479983
+        ],
+        "better": false,
+        "worse": false,
+        "non_inferior": false,
+        "n_clusters": 318
+      },
+      "K4 A - probe on AIE (better)": {
+        "diff": 2.9769452449567666,
+        "ci": [
+          1.037932012158412,
+          4.836163301931217
+        ],
+        "better": true,
+        "worse": false,
+        "non_inferior": true,
+        "n_clusters": 647
+      }
+    },
+    "holds": {
+      "K1 A - LENS-Net on XD-train (better)": true,
+      "K2 A - LENS-Net on AIE (non-inferior)": true,
+      "K3 A - probe on XD-train (non-inferior)": false,
+      "K4 A - probe on AIE (better)": true
+    },
+    "confirmed": false
+  },
+  "vs_others_top3": {
+    "A - v2_audited_V2b": {
+      "XD-train": {
+        "diff": 1.6299999999999812,
+        "ci": [
+          -0.019278923767785016,
+          3.4127311674873693
+        ],
+        "better": false,
+        "worse": false,
+        "non_inferior": true,
+        "n_clusters": 318
+      },
+      "AIE": {
+        "diff": -3.2814601344860677,
+        "ci": [
+          -5.330866836598489,
+          -1.2479785243149417
+        ],
+        "better": false,
+        "worse": true,
+        "non_inferior": false,
+        "n_clusters": 647
+      }
+    },
+    "A - v2_audited_MP": {
+      "XD-train": {
+        "diff": 11.835555555555558,
+        "ci": [
+          9.470597171268459,
+          14.416124146249226
+        ],
+        "better": true,
+        "worse": false,
+        "non_inferior": true,
+        "n_clusters": 318
+      },
+      "AIE": {
+        "diff": 3.9932756964457354,
+        "ci": [
+          1.4873498521660138,
+          6.5895152709761255
+        ],
+        "better": true,
+        "worse": false,
+        "non_inferior": true,
+        "n_clusters": 647
+      }
+    },
+    "A - ZS": {
+      "XD-train": {
+        "diff": -2.378888888888895,
+        "ci": [
+          -4.555059694733604,
+          -0.36202165692808524
+        ],
+        "better": false,
+        "worse": true,
+        "non_inferior": false,
+        "n_clusters": 318
+      },
+      "AIE": {
+        "diff": 7.768491834774252,
+        "ci": [
+          5.243044795196382,
+          10.441949712952528
+        ],
+        "better": true,
+        "worse": false,
+        "non_inferior": true,
+        "n_clusters": 647
+      }
+    },
+    "A - v2_audited_LENS-FG_vrex": {
+      "XD-train": {
+        "diff": -0.37222222222224843,
+        "ci": [
+          -1.4045281863205337,
+          0.655071482328277
+        ],
+        "better": false,
+        "worse": false,
+        "non_inferior": false,
+        "n_clusters": 318
+      },
+      "AIE": {
+        "diff": 0.8991354466858752,
+        "ci": [
+          -0.42921966100353864,
+          2.295384645521588
+        ],
+        "better": false,
+        "worse": false,
+        "non_inferior": true,
+        "n_clusters": 647
+      }
+    },
+    "A - VadCLIP-L14_audited_lr0.0001": {
+      "XD-train": {
+        "diff": 6.123333333333335,
+        "ci": [
+          3.8320272986096215,
+          8.667122553126683
+        ],
+        "better": true,
+        "worse": false,
+        "non_inferior": true,
+        "n_clusters": 318
+      },
+      "AIE": {
+        "diff": -0.035542747358306315,
+        "ci": [
+          -2.1161335569532542,
+          1.9348255468488496
+        ],
+        "better": false,
+        "worse": false,
+        "non_inferior": false,
+        "n_clusters": 647
+      }
+    }
+  }
+}

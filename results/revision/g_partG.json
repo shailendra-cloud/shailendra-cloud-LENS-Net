@@ -1,0 +1,662 @@
+{
+ "weights_info": {
+  "caruana": [
+   {
+    "CLIP probe": 0.1111111111111111,
+    "LENS-Net": 0.0,
+    "w/o motion": 0.1111111111111111,
+    "Motion probe": 0.0,
+    "VideoMAE-B FT (tuned)": 0.1111111111111111,
+    "VideoMAE-B LoRA": 0.5,
+    "CLIP-FT": 0.1111111111111111,
+    "VadCLIP": 0.05555555555555555
+   },
+   {
+    "CLIP probe": 0.058823529411764705,
+    "LENS-Net": 0.0,
+    "w/o motion": 0.17647058823529413,
+    "Motion probe": 0.0,
+    "VideoMAE-B FT (tuned)": 0.23529411764705882,
+    "VideoMAE-B LoRA": 0.35294117647058826,
+    "CLIP-FT": 0.058823529411764705,
+    "VadCLIP": 0.11764705882352941
+   },
+   {
+    "CLIP probe": 0.10526315789473684,
+    "LENS-Net": 0.0,
+    "w/o motion": 0.05263157894736842,
+    "Motion probe": 0.0,
+    "VideoMAE-B FT (tuned)": 0.3157894736842105,
+    "VideoMAE-B LoRA": 0.47368421052631576,
+    "CLIP-FT": 0.05263157894736842,
+    "VadCLIP": 0.0
+   }
+  ],
+  "likelihood": [
+   {
+    "CLIP probe": 4.601431627913028e-106,
+    "LENS-Net": 2.5440737906355564e-36,
+    "w/o motion": 4.600385376219495e-65,
+    "Motion probe": 1.4811209239748206e-51,
+    "VideoMAE-B FT (tuned)": 2.0512895296646419e-16,
+    "VideoMAE-B LoRA": 0.9999999999999998,
+    "CLIP-FT": 2.5799702430506584e-40,
+    "VadCLIP": 1.056231290627423e-60
+   },
+   {
+    "CLIP probe": 1.7490817836556917e-99,
+    "LENS-Net": 8.434454268271085e-25,
+    "w/o motion": 6.562293763152681e-59,
+    "Motion probe": 8.795294507255736e-40,
+    "VideoMAE-B FT (tuned)": 1.8298806202246321e-06,
+    "VideoMAE-B LoRA": 0.9999981701193796,
+    "CLIP-FT": 2.4965084583915873e-34,
+    "VadCLIP": 1.5808551333737947e-49
+   },
+   {
+    "CLIP probe": 1.1905878881692278e-103,
+    "LENS-Net": 7.02580201338678e-27,
+    "w/o motion": 2.2650580214189604e-65,
+    "Motion probe": 2.5478914618732584e-44,
+    "VideoMAE-B FT (tuned)": 1.0031998711121834e-14,
+    "VideoMAE-B LoRA": 0.99999999999999,
+    "CLIP-FT": 8.009804688788184e-43,
+    "VadCLIP": 5.529725817508834e-29
+   }
+  ],
+  "best_single": [
+   "VideoMAE-B LoRA",
+   "VideoMAE-B LoRA",
+   "VideoMAE-B LoRA"
+  ]
+ },
+ "development": {
+  "AES (anchor + LoRA + tuned, equal)": {
+   "XD": 90.14216879310241,
+   "UCF": 83.47693831352575,
+   "SCFD": 97.85601577909271,
+   "SCVD": 93.28451894476412,
+   "VioPeru": 85.7859438312142,
+   "AIRTLab": 80.63029008325415,
+   "CCTV-F": 87.14761266825572,
+   "Movies": 94.16501650165016,
+   "UBI-Fights": 92.06143860278395,
+   "mean9": 89.39443816862702,
+   "min9": 80.63029008325415
+  },
+  "AES-bal (1/2, 1/4, 1/4)": {
+   "XD": 91.10855605575732,
+   "UCF": 82.76032823995472,
+   "SCFD": 97.6844181459566,
+   "SCVD": 93.54660439774274,
+   "VioPeru": 84.74966233524289,
+   "AIRTLab": 82.01678030014033,
+   "CCTV-F": 86.5949858204151,
+   "Movies": 96.25742574257426,
+   "UBI-Fights": 92.5129276054097,
+   "mean9": 89.69240984924373,
+   "min9": 82.01678030014033
+  },
+  "LENS-Net-A (anchor + LENS-Net)": {
+   "XD": 90.41549788106943,
+   "UCF": 77.66977928692698,
+   "SCFD": 96.93096646942801,
+   "SCVD": 91.89453201011868,
+   "VioPeru": 83.68485398910157,
+   "AIRTLab": 82.10636925445806,
+   "CCTV-F": 83.85359941077881,
+   "Movies": 89.88448844884488,
+   "UBI-Fights": 92.02720257885322,
+   "mean9": 87.60747659217552,
+   "min9": 77.66977928692698
+  },
+  "Mean of all eight candidates": {
+   "XD": 90.57799855193076,
+   "UCF": 83.3347481607244,
+   "SCFD": 98.0276134122288,
+   "SCVD": 93.52742334528675,
+   "VioPeru": 85.24637883657026,
+   "AIRTLab": 82.08070635399544,
+   "CCTV-F": 86.84917445238965,
+   "Movies": 81.62706270627064,
+   "UBI-Fights": 92.43658058226532,
+   "mean9": 88.18974293351802,
+   "min9": 81.62706270627064
+  },
+  "Caruana selection with replacement": {
+   "XD": 89.46611757285696,
+   "UCF": 84.73189020939445,
+   "SCFD": 97.75739644970413,
+   "SCVD": 93.2620020570984,
+   "VioPeru": 85.93521494108332,
+   "AIRTLab": 80.53434320314612,
+   "CCTV-F": 87.46141935034886,
+   "Movies": 80.45874587458745,
+   "UBI-Fights": 91.89634003338529,
+   "mean9": 87.94482996573389,
+   "min9": 80.45874587458745
+  },
+  "Best single candidate (source val)": {
+   "XD": 82.24113213355713,
+   "UCF": 81.4986559139785,
+   "SCFD": 94.68441814595661,
+   "SCVD": 90.20637700497595,
+   "VioPeru": 82.464952726934,
+   "AIRTLab": 75.26316032839264,
+   "CCTV-F": 84.698966543139,
+   "Movies": 86.68646864686468,
+   "UBI-Fights": 84.92362711014847,
+   "mean9": 84.74086206154966,
+   "min9": 75.26316032839264
+  },
+  "Likelihood weights (softmax of val log-lik.)": {
+   "XD": 82.24115691471472,
+   "UCF": 81.4986559139785,
+   "SCFD": 94.68441814595661,
+   "SCVD": 90.20637700497595,
+   "VioPeru": 82.46495272693399,
+   "AIRTLab": 75.26316032839264,
+   "CCTV-F": 84.69898104169204,
+   "Movies": 86.68646864686468,
+   "UBI-Fights": 84.92362998422706,
+   "mean9": 84.74086674530402,
+   "min9": 75.26316032839264
+  },
+  "Majority vote at 0.5": {
+   "XD": 85.58620961149234,
+   "UCF": 80.41772778720996,
+   "SCFD": 95.12228796844181,
+   "SCVD": 91.98815778500541,
+   "VioPeru": 81.70130641330167,
+   "AIRTLab": 81.3690232607605,
+   "CCTV-F": 84.54264314421421,
+   "Movies": 47.68976897689769,
+   "UBI-Fights": 90.09898901412207,
+   "mean9": 82.05734599571618,
+   "min9": 47.68976897689769
+  },
+  "Stacking of all eight (logistic)": {
+   "XD": 89.6491370422088,
+   "UCF": 84.20911148839842,
+   "SCFD": 96.70414201183432,
+   "SCVD": 93.5163594918411,
+   "VioPeru": 84.90731684597829,
+   "AIRTLab": 81.51277018294643,
+   "CCTV-F": 86.80564979615036,
+   "Movies": 82.4158415841584,
+   "UBI-Fights": 91.72131439660444,
+   "mean9": 87.93796031556894,
+   "min9": 81.51277018294643
+  }
+ },
+ "n_videos": {
+  "XD sample A": 600,
+  "AIE": 647,
+  "XD sample B": 326,
+  "UCF-train": 388,
+  "HMDB51": 765
+ },
+ "n_violent": {
+  "XD sample A": 300,
+  "AIE": 347,
+  "XD sample B": 163,
+  "UCF-train": 205,
+  "HMDB51": 383
+ },
+ "n_clusters": {
+  "XD sample A": 318,
+  "AIE": 647,
+  "XD sample B": 205,
+  "UCF-train": 388,
+  "HMDB51": 187
+ },
+ "n_windows_excluded": {
+  "XD sample A": 42,
+  "AIE": 24,
+  "XD sample B": 19,
+  "UCF-train": 3990,
+  "HMDB51": 0
+ },
+ "confirmation_auc_max": {
+  "AES (anchor + LoRA + tuned, equal)": {
+   "XD sample A": 89.37333333333333,
+   "AIE": 86.45821325648416,
+   "XD sample B": 90.34338263891503,
+   "UCF-train": 95.98471722422141,
+   "HMDB51": 91.06370666046962
+  },
+  "AES-bal (1/2, 1/4, 1/4)": {
+   "XD sample A": 90.60703703703705,
+   "AIE": 86.78290105667628,
+   "XD sample B": 91.3533315769004,
+   "UCF-train": 96.73108534364032,
+   "HMDB51": 92.16436783180457
+  },
+  "LENS-Net-A (anchor + LENS-Net)": {
+   "XD sample A": 90.67740740740742,
+   "AIE": 83.81588216458533,
+   "XD sample B": 91.10115799114256,
+   "UCF-train": 97.19667688480165,
+   "HMDB51": 93.17913596617136
+  },
+  "Mean of all eight candidates": {
+   "XD sample A": 88.82259259259258,
+   "AIE": 87.8533461415306,
+   "XD sample B": 89.94818522839903,
+   "UCF-train": 97.70136389888489,
+   "HMDB51": 91.46811021648689
+  },
+  "Caruana selection with replacement": {
+   "XD sample A": 88.32111111111112,
+   "AIE": 87.59013768812041,
+   "XD sample B": 89.69475704768716,
+   "UCF-train": 96.3392420809454,
+   "HMDB51": 90.70327487138827
+  },
+  "Best single candidate (source val)": {
+   "XD sample A": 83.70555555555556,
+   "AIE": 81.84854306756324,
+   "XD sample B": 84.81061889169082,
+   "UCF-train": 93.63632324847839,
+   "HMDB51": 84.90287479665905
+  },
+  "Likelihood weights (softmax of val log-lik.)": {
+   "XD sample A": 83.70555555555556,
+   "AIE": 81.84854306756324,
+   "XD sample B": 84.81061889169082,
+   "UCF-train": 93.63632324847839,
+   "HMDB51": 84.90287479665905
+  },
+  "Majority vote at 0.5": {
+   "XD sample A": 87.35685185185184,
+   "AIE": 86.47102145373039,
+   "XD sample B": 88.22499905905379,
+   "UCF-train": 96.90968057221556,
+   "HMDB51": 91.1977863746759
+  },
+  "Stacking of all eight (logistic)": {
+   "XD sample A": 87.9348148148148,
+   "AIE": 88.25136087095741,
+   "XD sample B": 89.3484888403779,
+   "UCF-train": 96.97365498245146,
+   "HMDB51": 89.49986102187653
+  },
+  "CLIP probe": {
+   "XD sample A": 89.81444444444445,
+   "AIE": 80.87383925712457,
+   "XD sample B": 92.37582646442597,
+   "UCF-train": 95.88164734106357,
+   "HMDB51": 92.09009427729097
+  },
+  "CLIP zero-shot": {
+   "XD sample A": 92.65,
+   "AIE": 76.24495677233429,
+   "XD sample B": 94.18871617298355,
+   "UCF-train": 91.65667066506731,
+   "HMDB51": 96.33986302680682
+  }
+ },
+ "claims_max": {
+  "G1": {
+   "diff": -1.2119596605802343,
+   "ci": [
+    -2.5109228241239836,
+    -0.04796099290781327
+   ],
+   "better": false,
+   "worse": true,
+   "non_inferior": false,
+   "p_one_sided": 0.9805097451274363,
+   "p_two_sided": 0.0399800099950025,
+   "p": 0.9805097451274363,
+   "delta0": 0.0,
+   "contrast": "AES (anchor + LoRA + tuned, equal) - LENS-Net-A (anchor + LENS-Net) on UCF-train",
+   "holm_threshold": 0.05,
+   "holds_after_holm": false
+  },
+  "G2": {
+   "diff": -2.1154293057017384,
+   "ci": [
+    -4.374487194469296,
+    -0.010822964667432187
+   ],
+   "better": false,
+   "worse": true,
+   "non_inferior": false,
+   "p_one_sided": 0.9760119940029985,
+   "p_two_sided": 0.04897551224387806,
+   "p": 0.9760119940029985,
+   "delta0": 0.0,
+   "contrast": "AES (anchor + LoRA + tuned, equal) - LENS-Net-A (anchor + LENS-Net) on HMDB51",
+   "holm_threshold": 0.025,
+   "holds_after_holm": false
+  },
+  "G3": {
+   "diff": -0.4655915411613307,
+   "ci": [
+    -1.6370334596466503,
+    0.5401073374505327
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.8100949525237381,
+   "p_two_sided": 0.3818090954522739,
+   "p": 0.8100949525237381,
+   "delta0": 0.0,
+   "contrast": "AES-bal (1/2, 1/4, 1/4) - LENS-Net-A (anchor + LENS-Net) on UCF-train",
+   "holm_threshold": 0.0125,
+   "holds_after_holm": false
+  },
+  "G4": {
+   "diff": -1.0147681343667898,
+   "ci": [
+    -2.657132232255796,
+    0.4942839482756383
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.9130434782608695,
+   "p_two_sided": 0.17491254372813594,
+   "p": 0.9130434782608695,
+   "delta0": 0.0,
+   "contrast": "AES-bal (1/2, 1/4, 1/4) - LENS-Net-A (anchor + LENS-Net) on HMDB51",
+   "holm_threshold": 0.016666666666666666,
+   "holds_after_holm": false
+  },
+  "G5": {
+   "diff": 0.10306988315784338,
+   "ci": [
+    -1.4702822159064208,
+    1.8613165978522048
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.095952023988006,
+   "p_two_sided": 0.191904047976012,
+   "p": 0.095952023988006,
+   "delta0": -1.0,
+   "contrast": "AES (anchor + LoRA + tuned, equal) - CLIP probe on UCF-train",
+   "holm_threshold": 0.0071428571428571435,
+   "holds_after_holm": false
+  },
+  "G6": {
+   "diff": -1.0263876168213528,
+   "ci": [
+    -4.1649246560310935,
+    1.7388544193244229
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.4572713643178411,
+   "p_two_sided": 0.9145427286356822,
+   "p": 0.4572713643178411,
+   "delta0": -1.0,
+   "contrast": "AES (anchor + LoRA + tuned, equal) - CLIP probe on HMDB51",
+   "holm_threshold": 0.01,
+   "holds_after_holm": false
+  },
+  "G7": {
+   "diff": 0.849438002576747,
+   "ci": [
+    -0.4915932577845744,
+    2.37325156032968
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0034982508745627187,
+   "p_two_sided": 0.0069965017491254375,
+   "p": 0.0034982508745627187,
+   "delta0": -1.0,
+   "contrast": "AES-bal (1/2, 1/4, 1/4) - CLIP probe on UCF-train",
+   "holm_threshold": 0.00625,
+   "holds_after_holm": true
+  },
+  "G8": {
+   "diff": 0.07427355451359574,
+   "ci": [
+    -2.413010557915548,
+    2.268502354814346
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.1619190404797601,
+   "p_two_sided": 0.3238380809595202,
+   "p": 0.1619190404797601,
+   "delta0": -1.0,
+   "contrast": "AES-bal (1/2, 1/4, 1/4) - CLIP probe on HMDB51",
+   "holm_threshold": 0.008333333333333333,
+   "holds_after_holm": false
+  }
+ },
+ "decisions_max": {
+  "AES confirmed beyond AIE (G1 and G2)": false,
+  "AES-bal confirmed (G3 and G4)": false
+ },
+ "confirmation_auc_top3": {
+  "AES (anchor + LoRA + tuned, equal)": {
+   "XD sample A": 89.15518518518519,
+   "AIE": 86.50464297150177,
+   "XD sample B": 89.95571279812312,
+   "UCF-train": 96.5471589142121,
+   "HMDB51": 92.4086047963401
+  },
+  "AES-bal (1/2, 1/4, 1/4)": {
+   "XD sample A": 90.6077777777778,
+   "AIE": 86.43900096061479,
+   "XD sample B": 91.11997691545285,
+   "UCF-train": 97.19312275089965,
+   "HMDB51": 93.35957969370133
+  },
+  "LENS-Net-A (anchor + LENS-Net)": {
+   "XD sample A": 90.77481481481482,
+   "AIE": 83.26352865834134,
+   "XD sample B": 90.90293198840754,
+   "UCF-train": 97.33884224088142,
+   "HMDB51": 94.22169972523342
+  },
+  "Mean of all eight candidates": {
+   "XD sample A": 88.69740740740741,
+   "AIE": 87.71853986551393,
+   "XD sample B": 89.67468352842285,
+   "UCF-train": 97.93593673641654,
+   "HMDB51": 92.5822135341909
+  },
+  "Caruana selection with replacement": {
+   "XD sample A": 87.89037037037036,
+   "AIE": 87.88792827409543,
+   "XD sample B": 89.09756984957407,
+   "UCF-train": 96.90968057221556,
+   "HMDB51": 92.0374648567614
+  },
+  "Best single candidate (source val)": {
+   "XD sample A": 83.30740740740741,
+   "AIE": 81.71918027537625,
+   "XD sample B": 83.94369377846363,
+   "UCF-train": 93.90910302545649,
+   "HMDB51": 86.87613631703418
+  },
+  "Likelihood weights (softmax of val log-lik.)": {
+   "XD sample A": 83.30740740740741,
+   "AIE": 81.71918027537625,
+   "XD sample B": 83.94369377846363,
+   "UCF-train": 93.90910302545649,
+   "HMDB51": 86.87613631703418
+  },
+  "Majority vote at 0.5": {
+   "XD sample A": 87.66296296296296,
+   "AIE": 87.0480307396734,
+   "XD sample B": 88.30842962349605,
+   "UCF-train": 97.3854902483451,
+   "HMDB51": 92.56945488678979
+  },
+  "Stacking of all eight (logistic)": {
+   "XD sample A": 87.49259259259259,
+   "AIE": 88.27057316682676,
+   "XD sample B": 88.72370055327637,
+   "UCF-train": 97.4285841219068,
+   "HMDB51": 90.74382914348466
+  },
+  "CLIP probe": {
+   "XD sample A": 91.00407407407408,
+   "AIE": 80.38712776176753,
+   "XD sample B": 92.34320699562146,
+   "UCF-train": 96.24861166644455,
+   "HMDB51": 93.00689422625639
+  },
+  "CLIP zero-shot": {
+   "XD sample A": 93.25111111111111,
+   "AIE": 75.65417867435158,
+   "XD sample B": 94.23388159132824,
+   "UCF-train": 91.80594428895108,
+   "HMDB51": 96.72535644471176
+  }
+ },
+ "claims_top3": {
+  "G1": {
+   "diff": -0.7916833266693146,
+   "ci": [
+    -1.9694510621388506,
+    0.2845826135054913
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.9265367316341829,
+   "p_two_sided": 0.14792603698150925,
+   "p": 0.9265367316341829,
+   "delta0": 0.0,
+   "contrast": "AES (anchor + LoRA + tuned, equal) - LENS-Net-A (anchor + LENS-Net) on UCF-train",
+   "holm_threshold": 0.025,
+   "holds_after_holm": false
+  },
+  "G2": {
+   "diff": -1.813094928893321,
+   "ci": [
+    -4.013404825927874,
+    0.14275397780944832
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.9655172413793104,
+   "p_two_sided": 0.06996501749125437,
+   "p": 0.9655172413793104,
+   "delta0": 0.0,
+   "contrast": "AES (anchor + LoRA + tuned, equal) - LENS-Net-A (anchor + LENS-Net) on HMDB51",
+   "holm_threshold": 0.05,
+   "holds_after_holm": false
+  },
+  "G3": {
+   "diff": -0.1457194899817722,
+   "ci": [
+    -1.1254110097589127,
+    0.7981991588681544
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.6266866566716641,
+   "p_two_sided": 0.750624687656172,
+   "p": 0.6266866566716641,
+   "delta0": 0.0,
+   "contrast": "AES-bal (1/2, 1/4, 1/4) - LENS-Net-A (anchor + LENS-Net) on UCF-train",
+   "holm_threshold": 0.0125,
+   "holds_after_holm": false
+  },
+  "G4": {
+   "diff": -0.8621200315320863,
+   "ci": [
+    -2.507900099257381,
+    0.5247362346790811
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.889055472263868,
+   "p_two_sided": 0.223888055972014,
+   "p": 0.889055472263868,
+   "delta0": 0.0,
+   "contrast": "AES-bal (1/2, 1/4, 1/4) - LENS-Net-A (anchor + LENS-Net) on HMDB51",
+   "holm_threshold": 0.016666666666666666,
+   "holds_after_holm": false
+  },
+  "G5": {
+   "diff": 0.2985472477675586,
+   "ci": [
+    -1.1483219998581025,
+    1.887085032695077
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.0399800099950025,
+   "p_two_sided": 0.079960019990005,
+   "p": 0.0399800099950025,
+   "delta0": -1.0,
+   "contrast": "AES (anchor + LoRA + tuned, equal) - CLIP probe on UCF-train",
+   "holm_threshold": 0.0071428571428571435,
+   "holds_after_holm": false
+  },
+  "G6": {
+   "diff": -0.5982894299162922,
+   "ci": [
+    -3.450439021377058,
+    1.9226372999715082
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.3488255872063968,
+   "p_two_sided": 0.6976511744127936,
+   "p": 0.3488255872063968,
+   "delta0": -1.0,
+   "contrast": "AES (anchor + LoRA + tuned, equal) - CLIP probe on HMDB51",
+   "holm_threshold": 0.01,
+   "holds_after_holm": false
+  },
+  "G7": {
+   "diff": 0.944511084455101,
+   "ci": [
+    -0.23566272530002727,
+    2.353257741878454
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0009995002498750624,
+   "p_two_sided": 0.001999000499750125,
+   "p": 0.0009995002498750624,
+   "delta0": -1.0,
+   "contrast": "AES-bal (1/2, 1/4, 1/4) - CLIP probe on UCF-train",
+   "holm_threshold": 0.00625,
+   "holds_after_holm": true
+  },
+  "G8": {
+   "diff": 0.35268546744494245,
+   "ci": [
+    -1.9474721479667927,
+    2.360979484638248
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.10344827586206896,
+   "p_two_sided": 0.20689655172413793,
+   "p": 0.10344827586206896,
+   "delta0": -1.0,
+   "contrast": "AES-bal (1/2, 1/4, 1/4) - CLIP probe on HMDB51",
+   "holm_threshold": 0.008333333333333333,
+   "holds_after_holm": false
+  }
+ },
+ "decisions_top3": {
+  "AES confirmed beyond AIE (G1 and G2)": false,
+  "AES-bal confirmed (G3 and G4)": false
+ }
+}

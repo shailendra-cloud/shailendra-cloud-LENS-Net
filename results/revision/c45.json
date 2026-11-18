@@ -1,0 +1,350 @@
+{
+ "C5": {
+  "auc": {
+   "VideoMAE-B LoRA": {
+    "Test": 97.62126446590666,
+    "XD": 82.24113213355713,
+    "UCF": 81.4986559139785,
+    "SCFD": 94.68441814595661,
+    "SCVD": 90.20637700497595,
+    "VioPeru": 82.46495272693402,
+    "AIRTLab": 75.26316032839264,
+    "CCTV-F": 84.698966543139,
+    "Movies": 86.68646864686468,
+    "UBI-Fights": 84.92362711014847,
+    "mean9": 84.74086206154966,
+    "min9": 75.26316032839264
+   },
+   "VideoMAE-B FT": {
+    "Test": 97.26543111785975,
+    "XD": 80.77212989234924,
+    "UCF": 73.81561262026032,
+    "SCFD": 96.14595660749507,
+    "SCVD": 87.86965223917939,
+    "VioPeru": 78.14918960458293,
+    "AIRTLab": 75.90375025142707,
+    "CCTV-F": 83.19156648166512,
+    "Movies": 49.13201320132013,
+    "UBI-Fights": 83.9804033826755,
+    "mean9": 78.77336380899497,
+    "min9": 49.13201320132013
+   },
+   "CLIP probe": {
+    "Test": 96.98371500373725,
+    "XD": 90.06776159733396,
+    "UCF": 72.38292303338993,
+    "SCFD": 92.85798816568047,
+    "SCVD": 89.44483362521892,
+    "VioPeru": 79.78261375809231,
+    "AIRTLab": 84.94500972184653,
+    "CCTV-F": 76.13994873311644,
+    "Movies": 97.82178217821782,
+    "UBI-Fights": 91.59122210419339,
+    "mean9": 86.11489810189886,
+    "min9": 72.38292303338993
+   },
+   "LENS-Net": {
+    "Test": 97.9373907516288,
+    "XD": 85.10544099344403,
+    "UCF": 77.99483588002263,
+    "SCFD": 96.87968441814594,
+    "SCVD": 90.86837350234897,
+    "VioPeru": 83.46362535513019,
+    "AIRTLab": 78.541422464517,
+    "CCTV-F": 85.32410065475466,
+    "Movies": 74.67656765676567,
+    "UBI-Fights": 88.43973747016707,
+    "mean9": 84.58819871058846,
+    "min9": 74.67656765676567
+   },
+   "LENS-Net-A": {
+    "Test": 98.2716441744992,
+    "XD": 90.41549788106943,
+    "UCF": 77.669779286927,
+    "SCFD": 96.93096646942801,
+    "SCVD": 91.89453201011871,
+    "VioPeru": 83.68485398910157,
+    "AIRTLab": 82.10636925445807,
+    "CCTV-F": 83.85359941077881,
+    "Movies": 89.88448844884489,
+    "UBI-Fights": 92.02720257885322,
+    "mean9": 87.60747659217552,
+    "min9": 77.669779286927
+   }
+  },
+  "tests": {
+   "VideoMAE-B LoRA - VideoMAE-B FT (nine-set mean)": {
+    "diff": 5.967498252554692,
+    "ci": [
+     3.4338246759657878,
+     8.213439224552486
+    ],
+    "better": true,
+    "worse": false,
+    "non_inferior": true,
+    "p_one_sided": 0.0004997501249375312,
+    "p_two_sided": 0.0009995002498750624
+   },
+   "CLIP probe - VideoMAE-B LoRA (nine-set mean)": {
+    "diff": 1.3740360403491962,
+    "ci": [
+     -0.5136811189271949,
+     3.2581007493553336
+    ],
+    "better": false,
+    "worse": false,
+    "non_inferior": true,
+    "p_one_sided": 0.07646176911544228,
+    "p_two_sided": 0.15292353823088456
+   },
+   "LENS-Net - VideoMAE-B LoRA (nine-set mean)": {
+    "diff": -0.15266335096120226,
+    "ci": [
+     -1.6907970852351761,
+     1.5173863385105366
+    ],
+    "better": false,
+    "worse": false,
+    "non_inferior": false,
+    "p_one_sided": 0.5662168915542228,
+    "p_two_sided": 0.8685657171414293
+   },
+   "LENS-Net-A - VideoMAE-B LoRA (nine-set mean)": {
+    "diff": 2.8666145306258577,
+    "ci": [
+     1.2724851819092962,
+     4.504986169206488
+    ],
+    "better": true,
+    "worse": false,
+    "non_inferior": true,
+    "p_one_sided": 0.0004997501249375312,
+    "p_two_sided": 0.0009995002498750624
+   }
+  },
+  "trained_params": 296450
+ },
+ "C4": {
+  "auc": {
+   "VideoMAE-B FT": {
+    "Test": 97.26543111785975,
+    "XD": 80.77212989234924,
+    "UCF": 73.81561262026032,
+    "SCFD": 96.14595660749507,
+    "SCVD": 87.86965223917939,
+    "VioPeru": 78.14918960458293,
+    "AIRTLab": 75.90375025142707,
+    "CCTV-F": 83.19156648166512,
+    "Movies": 49.13201320132013,
+    "UBI-Fights": 83.9804033826755,
+    "mean9": 78.77336380899497,
+    "min9": 49.13201320132013
+   },
+   "VideoMAE-B FT (tuned)": {
+    "Test": 97.51703342730411,
+    "XD": 80.7185494894586,
+    "UCF": 80.86198358800226,
+    "SCFD": 96.13806706114399,
+    "SCVD": 90.20248519723124,
+    "VioPeru": 81.83119090866751,
+    "AIRTLab": 77.71119295495583,
+    "CCTV-F": 84.71814812881675,
+    "Movies": 70.56435643564356,
+    "UBI-Fights": 81.63278128032152,
+    "mean9": 82.70875056047126,
+    "min9": 70.56435643564356
+   },
+   "R(2+1)D-18 FT": {
+    "Test": 96.24152252257555,
+    "XD": 76.83731396607983,
+    "UCF": 69.34670345217883,
+    "SCFD": 92.11834319526628,
+    "SCVD": 85.06996914352432,
+    "VioPeru": 72.14067812398119,
+    "AIRTLab": 70.95988495622278,
+    "CCTV-F": 80.48517957907801,
+    "Movies": 64.71287128712872,
+    "UBI-Fights": 78.31604000257516,
+    "mean9": 76.66522041178168,
+    "min9": 64.71287128712872
+   },
+   "R(2+1)D-18 FT (tuned)": {
+    "Test": 96.7165359119382,
+    "XD": 76.41581479667344,
+    "UCF": 73.42246745897,
+    "SCFD": 93.39644970414201,
+    "SCVD": 86.2879937731076,
+    "VioPeru": 78.26743048763448,
+    "AIRTLab": 74.79764456189268,
+    "CCTV-F": 80.54743636585069,
+    "Movies": 84.54455445544555,
+    "UBI-Fights": 79.96274906764891,
+    "mean9": 80.84917118570726,
+    "min9": 73.42246745897
+   }
+  },
+  "claims": {
+   "H1 CLIP probe - VideoMAE-B FT": {
+    "original": {
+     "diff": 7.341534292903889,
+     "ci": [
+      4.865569557439802,
+      9.770501080618846
+     ],
+     "better": true,
+     "worse": false,
+     "non_inferior": true,
+     "p_one_sided": 0.0004997501249375312,
+     "p_two_sided": 0.0009995002498750624
+    },
+    "tuned": {
+     "diff": 3.4061475414276114,
+     "ci": [
+      0.9441110306879564,
+      5.84089450165329
+     ],
+     "better": true,
+     "worse": false,
+     "non_inferior": true,
+     "p_one_sided": 0.005997001499250375,
+     "p_two_sided": 0.01199400299850075
+    }
+   },
+   "H3 LENS-Net - VideoMAE-B FT": {
+    "original": {
+     "diff": 5.814834901593489,
+     "ci": [
+      3.407191851492127,
+      8.159526064324018
+     ],
+     "better": true,
+     "worse": false,
+     "non_inferior": true,
+     "p_one_sided": 0.0004997501249375312,
+     "p_two_sided": 0.0009995002498750624
+    },
+    "tuned": {
+     "diff": 1.879448150117213,
+     "ci": [
+      -0.40755116854803924,
+      4.148030966904104
+     ],
+     "better": false,
+     "worse": false,
+     "non_inferior": true,
+     "p_one_sided": 0.057971014492753624,
+     "p_two_sided": 0.11594202898550725
+    }
+   }
+  },
+  "tests": {
+   "LENS-Net-A - VideoMAE-B FT (tuned) (nine-set mean)": {
+    "diff": 4.898726031704273,
+    "ci": [
+     2.611343013515912,
+     7.132987275732367
+    ],
+    "better": true,
+    "worse": false,
+    "non_inferior": true,
+    "p_one_sided": 0.0004997501249375312,
+    "p_two_sided": 0.0009995002498750624
+   },
+   "CLIP probe - R(2+1)D-18 FT (tuned) (nine-set mean)": {
+    "diff": 5.265726916191598,
+    "ci": [
+     3.49310271259856,
+     7.343647350932058
+    ],
+    "better": true,
+    "worse": false,
+    "non_inferior": true,
+    "p_one_sided": 0.0004997501249375312,
+    "p_two_sided": 0.0009995002498750624
+   },
+   "LENS-Net - R(2+1)D-18 FT (tuned) (nine-set mean)": {
+    "diff": 3.7390275248811995,
+    "ci": [
+     1.8943289967866248,
+     5.8851720960503515
+    ],
+    "better": true,
+    "worse": false,
+    "non_inferior": true,
+    "p_one_sided": 0.0004997501249375312,
+    "p_two_sided": 0.0009995002498750624
+   },
+   "VideoMAE-B LoRA - VideoMAE-B FT (tuned) (nine-set mean)": {
+    "diff": 2.032111501078415,
+    "ci": [
+     -0.23698128245400385,
+     4.393935386868011
+    ],
+    "better": false,
+    "worse": false,
+    "non_inferior": true,
+    "p_one_sided": 0.044977511244377814,
+    "p_two_sided": 0.08995502248875563
+   },
+   "VideoMAE-B FT (tuned) - VideoMAE-B FT (nine-set mean)": {
+    "diff": 3.9353867514762766,
+    "ci": [
+     0.971098994586195,
+     6.563944969066105
+    ],
+    "better": true,
+    "worse": false,
+    "non_inferior": true,
+    "p_one_sided": 0.00399800099950025,
+    "p_two_sided": 0.0079960019990005
+   }
+  },
+  "holm_with_tuned": {
+   "K1 LENS-Net-A - LENS-Net on XD-train (better)": {
+    "p": 0.0004997501249375312,
+    "threshold": 0.005555555555555556,
+    "holds": true
+   },
+   "K2 LENS-Net-A - LENS-Net on AIE (non-inferior)": {
+    "p": 0.0004997501249375312,
+    "threshold": 0.00625,
+    "holds": true
+   },
+   "K4 LENS-Net-A - CLIP probe on AIE (better)": {
+    "p": 0.004997501249375313,
+    "threshold": 0.0071428571428571435,
+    "holds": true
+   },
+   "H1 CLIP probe - VideoMAE-B FT (nine-set mean)": {
+    "p": 0.01199400299850075,
+    "threshold": 0.008333333333333333,
+    "holds": false
+   },
+   "H5 LENS-Net - w/o motion on SCVD (better)": {
+    "p": 0.015992003998001,
+    "threshold": 0.01,
+    "holds": false
+   },
+   "K3 LENS-Net-A - CLIP probe on XD-train (non-inferior)": {
+    "p": 0.01999000499750125,
+    "threshold": 0.0125,
+    "holds": false
+   },
+   "H2 CLIP probe - LENS-Net (nine-set mean)": {
+    "p": 0.028985507246376812,
+    "threshold": 0.016666666666666666,
+    "holds": false
+   },
+   "H4 LENS-Net - w/o motion on SCFD (better)": {
+    "p": 0.03298350824587706,
+    "threshold": 0.025,
+    "holds": false
+   },
+   "H3 LENS-Net - VideoMAE-B FT (nine-set mean)": {
+    "p": 0.11594202898550725,
+    "threshold": 0.05,
+    "holds": false
+   }
+  }
+ }
+}

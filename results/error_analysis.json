@@ -1,0 +1,352 @@
+{
+  "external_per_category": {
+    "LENS-Net": {
+      "UCF-test|Fighting": {
+        "n_pos": 8,
+        "auc": 94.80050933786077,
+        "recall": 87.5
+      },
+      "UCF-test|Robbery": {
+        "n_pos": 26,
+        "auc": 66.25745505202212,
+        "recall": 46.15384615384615
+      },
+      "UCF-test|Shooting": {
+        "n_pos": 123,
+        "auc": 79.00488172963225,
+        "recall": 56.639566395663955
+      },
+      "XD-test|Abuse": {
+        "n_pos": 56,
+        "auc": 82.65024552867504,
+        "recall": 53.57142857142858
+      },
+      "XD-test|Car accident": {
+        "n_pos": 16,
+        "auc": 66.67750709555345,
+        "recall": 12.5
+      },
+      "XD-test|Explosion": {
+        "n_pos": 44,
+        "auc": 65.58764083598521,
+        "recall": 9.848484848484848
+      },
+      "XD-test|Fighting": {
+        "n_pos": 844,
+        "auc": 94.81897557993726,
+        "recall": 80.6872037914692
+      },
+      "XD-test|Riot": {
+        "n_pos": 802,
+        "auc": 81.56970786530992,
+        "recall": 39.692435577722364
+      },
+      "XD-test|Shooting": {
+        "n_pos": 465,
+        "auc": 76.349647172121,
+        "recall": 29.10394265232975
+      }
+    },
+    "VideoMAE-B FT": {
+      "UCF-test|Fighting": {
+        "n_pos": 8,
+        "auc": 90.59139784946235,
+        "recall": 83.33333333333333
+      },
+      "UCF-test|Robbery": {
+        "n_pos": 26,
+        "auc": 63.880545035044186,
+        "recall": 39.743589743589745
+      },
+      "UCF-test|Shooting": {
+        "n_pos": 123,
+        "auc": 74.69667481055116,
+        "recall": 57.72357723577236
+      },
+      "XD-test|Abuse": {
+        "n_pos": 56,
+        "auc": 68.65919380997433,
+        "recall": 50.595238095238095
+      },
+      "XD-test|Car accident": {
+        "n_pos": 16,
+        "auc": 55.3009697256386,
+        "recall": 29.166666666666668
+      },
+      "XD-test|Explosion": {
+        "n_pos": 44,
+        "auc": 70.0556893437688,
+        "recall": 28.03030303030303
+      },
+      "XD-test|Fighting": {
+        "n_pos": 844,
+        "auc": 87.63281276855867,
+        "recall": 80.56872037914691
+      },
+      "XD-test|Riot": {
+        "n_pos": 802,
+        "auc": 80.40227403739154,
+        "recall": 62.926018287614305
+      },
+      "XD-test|Shooting": {
+        "n_pos": 465,
+        "auc": 72.30674153874325,
+        "recall": 50.0358422939068
+      }
+    }
+  },
+  "airtlab": {
+    "LENS-Net": {
+      "false_alarm|friendly punch": {
+        "n_windows": 6,
+        "rate": 16.666666666666664
+      },
+      "false_alarm|greet": {
+        "n_windows": 199,
+        "rate": 44.556113902847564
+      },
+      "false_alarm|handgestures": {
+        "n_windows": 112,
+        "rate": 16.964285714285715
+      },
+      "false_alarm|handshake": {
+        "n_windows": 8,
+        "rate": 33.333333333333336
+      },
+      "false_alarm|highfive": {
+        "n_windows": 38,
+        "rate": 59.649122807017555
+      },
+      "false_alarm|hug": {
+        "n_windows": 88,
+        "rate": 66.2878787878788
+      },
+      "false_alarm|jump": {
+        "n_windows": 54,
+        "rate": 86.41975308641975
+      },
+      "false_alarm|walk": {
+        "n_windows": 12,
+        "rate": 25.0
+      },
+      "miss|choke": {
+        "n_windows": 116,
+        "rate": 7.758620689655172
+      },
+      "miss|club": {
+        "n_windows": 227,
+        "rate": 12.775330396475772
+      },
+      "miss|fight": {
+        "n_windows": 367,
+        "rate": 6.811989100817439
+      },
+      "miss|gunshot": {
+        "n_windows": 102,
+        "rate": 39.86928104575164
+      },
+      "miss|jump": {
+        "n_windows": 14,
+        "rate": 14.285714285714285
+      },
+      "miss|kick": {
+        "n_windows": 154,
+        "rate": 11.904761904761903
+      },
+      "miss|punch": {
+        "n_windows": 174,
+        "rate": 8.812260536398467
+      },
+      "miss|push": {
+        "n_windows": 164,
+        "rate": 5.894308943089431
+      },
+      "miss|slap": {
+        "n_windows": 106,
+        "rate": 35.53459119496855
+      },
+      "miss|stab": {
+        "n_windows": 102,
+        "rate": 17.647058823529413
+      },
+      "miss|walk": {
+        "n_windows": 6,
+        "rate": 66.66666666666666
+      }
+    },
+    "VideoMAE-B FT": {
+      "false_alarm|friendly punch": {
+        "n_windows": 6,
+        "rate": 55.55555555555555
+      },
+      "false_alarm|greet": {
+        "n_windows": 199,
+        "rate": 68.00670016750419
+      },
+      "false_alarm|handgestures": {
+        "n_windows": 112,
+        "rate": 51.78571428571428
+      },
+      "false_alarm|handshake": {
+        "n_windows": 8,
+        "rate": 50.0
+      },
+      "false_alarm|highfive": {
+        "n_windows": 38,
+        "rate": 76.3157894736842
+      },
+      "false_alarm|hug": {
+        "n_windows": 88,
+        "rate": 71.5909090909091
+      },
+      "false_alarm|jump": {
+        "n_windows": 54,
+        "rate": 91.35802469135803
+      },
+      "false_alarm|walk": {
+        "n_windows": 12,
+        "rate": 52.77777777777777
+      },
+      "miss|choke": {
+        "n_windows": 116,
+        "rate": 8.333333333333334
+      },
+      "miss|club": {
+        "n_windows": 227,
+        "rate": 10.279001468428781
+      },
+      "miss|fight": {
+        "n_windows": 367,
+        "rate": 4.813805631244324
+      },
+      "miss|gunshot": {
+        "n_windows": 102,
+        "rate": 25.163398692810457
+      },
+      "miss|jump": {
+        "n_windows": 14,
+        "rate": 2.380952380952381
+      },
+      "miss|kick": {
+        "n_windows": 154,
+        "rate": 4.112554112554113
+      },
+      "miss|punch": {
+        "n_windows": 174,
+        "rate": 5.363984674329502
+      },
+      "miss|push": {
+        "n_windows": 164,
+        "rate": 3.252032520325203
+      },
+      "miss|slap": {
+        "n_windows": 106,
+        "rate": 17.92452830188679
+      },
+      "miss|stab": {
+        "n_windows": 102,
+        "rate": 9.803921568627452
+      },
+      "miss|walk": {
+        "n_windows": 6,
+        "rate": 77.77777777777777
+      }
+    }
+  },
+  "viop": {
+    "LENS-Net": {
+      "false_positives_validation": {
+        "n_windows": 261,
+        "false_alarm_rate": 1.40485312899106
+      },
+      "other non-violent": {
+        "n_windows": 419,
+        "false_alarm_rate": 4.932378679395386
+      }
+    },
+    "VideoMAE-B FT": {
+      "false_positives_validation": {
+        "n_windows": 261,
+        "false_alarm_rate": 3.9591315453384417
+      },
+      "other non-violent": {
+        "n_windows": 419,
+        "false_alarm_rate": 4.614160700079554
+      }
+    }
+  },
+  "examples": {
+    "VioPeru": {
+      "false_alarms": [
+        {
+          "video": "false_positives_validation/val_nfsanj46",
+          "start_frame": 0,
+          "p": 0.9567530333333334
+        },
+        {
+          "video": "train/NonFight/nf35tala",
+          "start_frame": 0,
+          "p": 0.8380337600000001
+        },
+        {
+          "video": "val/NonFight/nf3tala",
+          "start_frame": 45,
+          "p": 0.7613465666666667
+        }
+      ],
+      "misses": [
+        {
+          "video": "train/Fight/f109and",
+          "start_frame": 45,
+          "p": 0.005580422733333333
+        },
+        {
+          "video": "train/Fight/f109and",
+          "start_frame": 0,
+          "p": 0.0071625253333333335
+        },
+        {
+          "video": "train/Fight/f110and",
+          "start_frame": 0,
+          "p": 0.013264487333333333
+        }
+      ]
+    },
+    "AIRTLab": {
+      "false_alarms": [
+        {
+          "video": "non-violent/cam2/58",
+          "start_frame": 90,
+          "p": 0.9570435666666666
+        },
+        {
+          "video": "non-violent/cam2/58",
+          "start_frame": 45,
+          "p": 0.9537343100000001
+        },
+        {
+          "video": "non-violent/cam1/33",
+          "start_frame": 45,
+          "p": 0.9484331333333333
+        }
+      ],
+      "misses": [
+        {
+          "video": "violent/cam1/6",
+          "start_frame": 0,
+          "p": 0.02440013066666667
+        },
+        {
+          "video": "violent/cam2/68",
+          "start_frame": 45,
+          "p": 0.02831823166666667
+        },
+        {
+          "video": "violent/cam2/103",
+          "start_frame": 0,
+          "p": 0.035483832
+        }
+      ]
+    }
+  }
+}

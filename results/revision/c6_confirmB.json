@@ -1,0 +1,47 @@
+{
+ "n_videos": 326,
+ "n_violent": 163,
+ "n_clusters": 205,
+ "n_windows_kept": 16197,
+ "n_windows_excluded": 19,
+ "auc": {
+  "LENS-Net": 88.14784146938162,
+  "CLIP probe": 92.37582646442597,
+  "w/o motion": 90.20035881415686,
+  "Motion probe": 81.41693954106917,
+  "LENS-Net-A": 91.31067534846375,
+  "CLIP zero-shot": 94.18871617298355
+ },
+ "claims": {
+  "K1 LENS-Net-A - LENS-Net (better)": {
+   "diff": 3.162833879082129,
+   "ci": [
+    1.601042774011964,
+    5.073855033855027
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624,
+   "p": 0.0004997501249375312,
+   "holm_threshold": 0.025,
+   "holds_after_holm": true
+  },
+  "K3 LENS-Net-A - CLIP probe (non-inferior)": {
+   "diff": -1.0651511159622231,
+   "ci": [
+    -3.013398327694466,
+    0.735703455465435
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": false,
+   "p_one_sided": 0.5357321339330335,
+   "p_two_sided": 0.9295352323838081,
+   "p": 0.5357321339330335,
+   "holm_threshold": 0.05,
+   "holds_after_holm": false
+  }
+ }
+}

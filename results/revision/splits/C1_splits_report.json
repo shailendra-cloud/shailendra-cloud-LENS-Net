@@ -1,0 +1,38 @@
+{
+ "RWF2000_R": {
+  "videos": {
+   "train": 1368,
+   "val": 195,
+   "test": 390
+  },
+  "test_violent_share": 0.497,
+  "test_linked_pct": 54.6
+ },
+ "RWF2000_S": {
+  "videos": {
+   "train": 1367,
+   "val": 195,
+   "test": 391
+  },
+  "test_violent_share": 0.46,
+  "test_linked_pct": 0.0
+ },
+ "HockeyFights_R": {
+  "videos": {
+   "train": 698,
+   "val": 100,
+   "test": 199
+  },
+  "test_violent_share": 0.503,
+  "test_linked_pct": 46.2
+ },
+ "HockeyFights_S": {
+  "videos": {
+   "train": 698,
+   "val": 100,
+   "test": 199
+  },
+  "test_violent_share": 0.834,
+  "test_linked_pct": 0.0
+ }
+}

@@ -1,0 +1,391 @@
+{
+ "per_set": {
+  "LENS-Net": {
+   "Test": {
+    "mean": 97.97,
+    "sd": 0.13,
+    "n_seeds": 10,
+    "mean3": 97.94
+   },
+   "XD": {
+    "mean": 84.47,
+    "sd": 1.11,
+    "n_seeds": 10,
+    "mean3": 85.11
+   },
+   "UCF": {
+    "mean": 78.1,
+    "sd": 0.86,
+    "n_seeds": 10,
+    "mean3": 77.99
+   },
+   "SCFD": {
+    "mean": 96.38,
+    "sd": 0.89,
+    "n_seeds": 10,
+    "mean3": 96.88
+   },
+   "SCVD": {
+    "mean": 90.48,
+    "sd": 1.03,
+    "n_seeds": 10,
+    "mean3": 90.87
+   },
+   "VioPeru": {
+    "mean": 83.61,
+    "sd": 0.63,
+    "n_seeds": 10,
+    "mean3": 83.46
+   },
+   "AIRTLab": {
+    "mean": 78.13,
+    "sd": 1.57,
+    "n_seeds": 10,
+    "mean3": 78.54
+   },
+   "CCTV-F": {
+    "mean": 85.11,
+    "sd": 0.46,
+    "n_seeds": 10,
+    "mean3": 85.32
+   },
+   "Movies": {
+    "mean": 73.26,
+    "sd": 4.68,
+    "n_seeds": 10,
+    "mean3": 74.68
+   },
+   "UBI-Fights": {
+    "mean": 88.26,
+    "sd": 0.52,
+    "n_seeds": 10,
+    "mean3": 88.44
+   },
+   "mean9": 84.2,
+   "min9": 73.26,
+   "mean9_3seeds": 84.59
+  },
+  "CLIP probe": {
+   "Test": {
+    "mean": 96.96,
+    "sd": 0.05,
+    "n_seeds": 10,
+    "mean3": 96.98
+   },
+   "XD": {
+    "mean": 89.82,
+    "sd": 0.39,
+    "n_seeds": 10,
+    "mean3": 90.07
+   },
+   "UCF": {
+    "mean": 72.41,
+    "sd": 0.34,
+    "n_seeds": 10,
+    "mean3": 72.38
+   },
+   "SCFD": {
+    "mean": 92.91,
+    "sd": 0.18,
+    "n_seeds": 10,
+    "mean3": 92.86
+   },
+   "SCVD": {
+    "mean": 89.52,
+    "sd": 0.19,
+    "n_seeds": 10,
+    "mean3": 89.44
+   },
+   "VioPeru": {
+    "mean": 79.84,
+    "sd": 0.39,
+    "n_seeds": 10,
+    "mean3": 79.78
+   },
+   "AIRTLab": {
+    "mean": 84.84,
+    "sd": 0.37,
+    "n_seeds": 10,
+    "mean3": 84.95
+   },
+   "CCTV-F": {
+    "mean": 76.02,
+    "sd": 0.16,
+    "n_seeds": 10,
+    "mean3": 76.14
+   },
+   "Movies": {
+    "mean": 97.93,
+    "sd": 0.44,
+    "n_seeds": 10,
+    "mean3": 97.82
+   },
+   "UBI-Fights": {
+    "mean": 91.63,
+    "sd": 0.09,
+    "n_seeds": 10,
+    "mean3": 91.59
+   },
+   "mean9": 86.1,
+   "min9": 72.41,
+   "mean9_3seeds": 86.11
+  },
+  "w/o motion": {
+   "Test": {
+    "mean": 97.33,
+    "sd": 0.05,
+    "n_seeds": 10,
+    "mean3": 97.32
+   },
+   "XD": {
+    "mean": 89.03,
+    "sd": 0.73,
+    "n_seeds": 10,
+    "mean3": 89.3
+   },
+   "UCF": {
+    "mean": 76.23,
+    "sd": 0.55,
+    "n_seeds": 10,
+    "mean3": 76.8
+   },
+   "SCFD": {
+    "mean": 95.03,
+    "sd": 0.24,
+    "n_seeds": 10,
+    "mean3": 94.94
+   },
+   "SCVD": {
+    "mean": 88.2,
+    "sd": 0.28,
+    "n_seeds": 10,
+    "mean3": 88.42
+   },
+   "VioPeru": {
+    "mean": 78.19,
+    "sd": 0.43,
+    "n_seeds": 10,
+    "mean3": 77.91
+   },
+   "AIRTLab": {
+    "mean": 82.49,
+    "sd": 0.47,
+    "n_seeds": 10,
+    "mean3": 82.74
+   },
+   "CCTV-F": {
+    "mean": 81.37,
+    "sd": 0.15,
+    "n_seeds": 10,
+    "mean3": 81.38
+   },
+   "Movies": {
+    "mean": 25.26,
+    "sd": 8.48,
+    "n_seeds": 10,
+    "mean3": 29.62
+   },
+   "UBI-Fights": {
+    "mean": 90.38,
+    "sd": 0.14,
+    "n_seeds": 10,
+    "mean3": 90.44
+   },
+   "mean9": 78.46,
+   "min9": 25.26,
+   "mean9_3seeds": 79.06
+  },
+  "Motion probe": {
+   "Test": {
+    "mean": 97.54,
+    "sd": 0.08,
+    "n_seeds": 10,
+    "mean3": 97.53
+   },
+   "XD": {
+    "mean": 79.4,
+    "sd": 0.64,
+    "n_seeds": 10,
+    "mean3": 79.27
+   },
+   "UCF": {
+    "mean": 76.5,
+    "sd": 0.91,
+    "n_seeds": 10,
+    "mean3": 75.7
+   },
+   "SCFD": {
+    "mean": 95.1,
+    "sd": 0.68,
+    "n_seeds": 10,
+    "mean3": 95.24
+   },
+   "SCVD": {
+    "mean": 88.08,
+    "sd": 0.95,
+    "n_seeds": 10,
+    "mean3": 88.08
+   },
+   "VioPeru": {
+    "mean": 80.68,
+    "sd": 1.63,
+    "n_seeds": 10,
+    "mean3": 79.05
+   },
+   "AIRTLab": {
+    "mean": 71.84,
+    "sd": 2.37,
+    "n_seeds": 10,
+    "mean3": 71.25
+   },
+   "CCTV-F": {
+    "mean": 83.16,
+    "sd": 0.47,
+    "n_seeds": 10,
+    "mean3": 83.34
+   },
+   "Movies": {
+    "mean": 74.77,
+    "sd": 9.76,
+    "n_seeds": 10,
+    "mean3": 62.24
+   },
+   "UBI-Fights": {
+    "mean": 84.09,
+    "sd": 0.5,
+    "n_seeds": 10,
+    "mean3": 84.18
+   },
+   "mean9": 81.51,
+   "min9": 71.84,
+   "mean9_3seeds": 79.82
+  },
+  "LENS-Net-A": {
+   "Test": {
+    "mean": 98.33,
+    "sd": 0.12,
+    "n_seeds": 10,
+    "mean3": 98.27
+   },
+   "XD": {
+    "mean": 90.0,
+    "sd": 0.55,
+    "n_seeds": 10,
+    "mean3": 90.42
+   },
+   "UCF": {
+    "mean": 77.94,
+    "sd": 0.78,
+    "n_seeds": 10,
+    "mean3": 77.67
+   },
+   "SCFD": {
+    "mean": 96.77,
+    "sd": 0.43,
+    "n_seeds": 10,
+    "mean3": 96.93
+   },
+   "SCVD": {
+    "mean": 91.83,
+    "sd": 0.38,
+    "n_seeds": 10,
+    "mean3": 91.89
+   },
+   "VioPeru": {
+    "mean": 83.83,
+    "sd": 0.58,
+    "n_seeds": 10,
+    "mean3": 83.68
+   },
+   "AIRTLab": {
+    "mean": 81.86,
+    "sd": 1.03,
+    "n_seeds": 10,
+    "mean3": 82.11
+   },
+   "CCTV-F": {
+    "mean": 83.79,
+    "sd": 0.21,
+    "n_seeds": 10,
+    "mean3": 83.85
+   },
+   "Movies": {
+    "mean": 89.35,
+    "sd": 1.74,
+    "n_seeds": 10,
+    "mean3": 89.88
+   },
+   "UBI-Fights": {
+    "mean": 92.05,
+    "sd": 0.14,
+    "n_seeds": 10,
+    "mean3": 92.03
+   },
+   "mean9": 87.49,
+   "min9": 77.94,
+   "mean9_3seeds": 87.61
+  }
+ },
+ "tests": {
+  "H2 CLIP probe - LENS-Net (nine-set mean), 10 seeds": {
+   "diff": 1.8998541770979658,
+   "ci": [
+    0.4822405991537684,
+    3.2626632680506873
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0034982508745627187,
+   "p_two_sided": 0.0069965017491254375
+  },
+  "LENS-Net-A - CLIP probe (nine-set mean), 10 seeds": {
+   "diff": 1.3882694572638015,
+   "ci": [
+    0.5940595416717203,
+    2.221344747371298
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0014992503748125937,
+   "p_two_sided": 0.0029985007496251873
+  },
+  "LENS-Net-A - LENS-Net (nine-set mean), 10 seeds": {
+   "diff": 3.2881236343617672,
+   "ci": [
+    2.451221436653582,
+    4.137509778772916
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.0004997501249375312,
+   "p_two_sided": 0.0009995002498750624
+  },
+  "H4 LENS-Net - w/o motion on SCFD, 10 seeds": {
+   "diff": 1.3508875739644992,
+   "ci": [
+    -0.7084720836482585,
+    3.6763154509974356
+   ],
+   "better": false,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.11394302848575712,
+   "p_two_sided": 0.22788605697151423
+  },
+  "H5 LENS-Net - w/o motion on SCVD, 10 seeds": {
+   "diff": 2.2819030939871396,
+   "ci": [
+    0.21877907975863203,
+    4.338997337601207
+   ],
+   "better": true,
+   "worse": false,
+   "non_inferior": true,
+   "p_one_sided": 0.015992003998001,
+   "p_two_sided": 0.031984007996002
+  }
+ }
+}

@@ -1,0 +1,822 @@
+{
+  "n_windows": {
+    "Movies": 201,
+    "UBI-Fights": 7758
+  },
+  "n_videos": {
+    "Movies": 201,
+    "UBI-Fights": 995
+  },
+  "n_excluded_near_duplicate": {
+    "Movies": 0,
+    "UBI-Fights": 233
+  },
+  "p_raw_mean": {
+    "Movies": 0.6560471831542288,
+    "UBI-Fights": 0.9601000520619448,
+    "Movies/fights": 0.5243442548999999,
+    "Movies/noFights": 0.786446122019802
+  },
+  "models": {
+    "A1_r2plus1d_18": {
+      "seeds": 3,
+      "Movies": {
+        "mean": 64.71287128712872,
+        "sd": 9.482755645997724
+      },
+      "UBI-Fights": {
+        "mean": 78.31604000257516,
+        "sd": 3.1851724863021884
+      },
+      "Movies_mean_score_fights": 0.19836986661888653,
+      "Movies_mean_score_noFights": 0.21387775098480796
+    },
+    "A1_swin3d_t": {
+      "seeds": 3,
+      "Movies": {
+        "mean": 69.47524752475248,
+        "sd": 6.023440471541539
+      },
+      "UBI-Fights": {
+        "mean": 83.80578586505167,
+        "sd": 1.5408367532518599
+      },
+      "Movies_mean_score_fights": 0.20287189457565546,
+      "Movies_mean_score_noFights": 0.20172594959783077
+    },
+    "A1_videomae": {
+      "seeds": 3,
+      "Movies": {
+        "mean": 49.13201320132013,
+        "sd": 13.045618095299899
+      },
+      "UBI-Fights": {
+        "mean": 83.9804033826755,
+        "sd": 0.2614220456698389
+      },
+      "Movies_mean_score_fights": 0.09237219844013449,
+      "Movies_mean_score_noFights": 0.19227149772762067
+    },
+    "A1_xclip_lr5e-06": {
+      "seeds": 3,
+      "Movies": {
+        "mean": 69.86138613861387,
+        "sd": 8.815001116386426
+      },
+      "UBI-Fights": {
+        "mean": 86.10258851012367,
+        "sd": 0.7274114196241225
+      },
+      "Movies_mean_score_fights": 0.08330569641043738,
+      "Movies_mean_score_noFights": 0.1742890282555578
+    },
+    "MAST-Net": {
+      "seeds": 3,
+      "Movies": {
+        "mean": 16.56105610561056,
+        "sd": 5.408807977567292
+      },
+      "UBI-Fights": {
+        "mean": 81.01780894045369,
+        "sd": 1.5368001110781824
+      },
+      "Movies_mean_score_fights": 0.056663647443056055,
+      "Movies_mean_score_noFights": 0.23840983931233387
+    },
+    "VadCLIP-L14_audited_lr0.0001": {
+      "seeds": 3,
+      "Movies": {
+        "mean": 71.85148514851484,
+        "sd": 37.282012236838845
+      },
+      "UBI-Fights": {
+        "mean": 89.3598967171125,
+        "sd": 0.8939965407091985
+      },
+      "Movies_mean_score_fights": 0.015945941890533333,
+      "Movies_mean_score_noFights": 0.017113110637896264
+    },
+    "ZS": {
+      "seeds": 1,
+      "Movies": {
+        "mean": 84.44554455445544,
+        "sd": 0.0
+      },
+      "UBI-Fights": {
+        "mean": 86.1882044366576,
+        "sd": 0.0
+      },
+      "Movies_mean_score_fights": 0.41970694229999994,
+      "Movies_mean_score_noFights": 0.2823766937623762
+    },
+    "v2_audited_LENS-AG_vrex": {
+      "seeds": 3,
+      "Movies": {
+        "mean": 62.34983498349836,
+        "sd": 11.783177981267826
+      },
+      "UBI-Fights": {
+        "mean": 88.37991927288111,
+        "sd": 1.8668159397889366
+      },
+      "Movies_mean_score_fights": 0.06242900294333333,
+      "Movies_mean_score_noFights": 0.07575267582124423
+    },
+    "v2_audited_LENS-FG_vrex": {
+      "seeds": 3,
+      "Movies": {
+        "mean": 79.94719471947195,
+        "sd": 3.835267509350667
+      },
+      "UBI-Fights": {
+        "mean": 88.49830831735346,
+        "sd": 1.188227028118183
+      },
+      "Movies_mean_score_fights": 0.16649583281999994,
+      "Movies_mean_score_noFights": 0.08662532857854785
+    },
+    "v2_audited_LENS-FGpost_vrex": {
+      "seeds": 3,
+      "Movies": {
+        "mean": 78.37293729372938,
+        "sd": 2.2475538300848004
+      },
+      "UBI-Fights": {
+        "mean": 88.91468470208451,
+        "sd": 0.5240293586943319
+      },
+      "Movies_mean_score_fights": 0.19181203744999997,
+      "Movies_mean_score_noFights": 0.10972063762376237
+    },
+    "v2_audited_LENS-M_vrex": {
+      "seeds": 3,
+      "Movies": {
+        "mean": 74.67656765676567,
+        "sd": 3.3566741545171364
+      },
+      "UBI-Fights": {
+        "mean": 88.43973747016706,
+        "sd": 0.6108390118465863
+      },
+      "Movies_mean_score_fights": 0.10298372814999998,
+      "Movies_mean_score_noFights": 0.078279568360066
+    },
+    "v2_audited_LP": {
+      "seeds": 3,
+      "Movies": {
+        "mean": 97.82178217821782,
+        "sd": 0.333855748516577
+      },
+      "UBI-Fights": {
+        "mean": 91.59122210419339,
+        "sd": 0.1287966994071884
+      },
+      "Movies_mean_score_fights": 0.3569503780666667,
+      "Movies_mean_score_noFights": 0.13259331269306932
+    },
+    "v2_audited_MP": {
+      "seeds": 3,
+      "Movies": {
+        "mean": 62.24092409240924,
+        "sd": 4.691861119216639
+      },
+      "UBI-Fights": {
+        "mean": 84.17873779666239,
+        "sd": 0.8103496215531225
+      },
+      "Movies_mean_score_fights": 0.09640766701333332,
+      "Movies_mean_score_noFights": 0.09679382028316831
+    },
+    "v2_audited_V2b": {
+      "seeds": 3,
+      "Movies": {
+        "mean": 29.62046204620462,
+        "sd": 6.604282009575833
+      },
+      "UBI-Fights": {
+        "mean": 90.43780838863061,
+        "sd": 0.15154240212555128
+      },
+      "Movies_mean_score_fights": 0.13903956555999997,
+      "Movies_mean_score_noFights": 0.21115213720132012
+    },
+    "v2_std_std_rwf_LENS-AG_vrex": {
+      "seeds": 3,
+      "Movies": {
+        "mean": 42.052805280528055,
+        "sd": 29.229254389377413
+      },
+      "UBI-Fights": {
+        "mean": 86.08157037353824,
+        "sd": 2.6403665314299056
+      },
+      "Movies_mean_score_fights": 0.060752100787,
+      "Movies_mean_score_noFights": 0.10319068860226405
+    },
+    "v2_std_std_rwf_LENS-FG_vrex": {
+      "seeds": 3,
+      "Movies": {
+        "mean": 59.40594059405941,
+        "sd": 4.371699183341916
+      },
+      "UBI-Fights": {
+        "mean": 89.98234453534197,
+        "sd": 0.2496822316282374
+      },
+      "Movies_mean_score_fights": 0.09456870782999999,
+      "Movies_mean_score_noFights": 0.11328541719636963
+    },
+    "v2_std_std_rwf_LENS-FGpost_vrex": {
+      "seeds": 3,
+      "Movies": {
+        "mean": 63.21782178217822,
+        "sd": 5.092334378707491
+      },
+      "UBI-Fights": {
+        "mean": 89.96622670271911,
+        "sd": 0.2412728854921288
+      },
+      "Movies_mean_score_fights": 0.11999066892333332,
+      "Movies_mean_score_noFights": 0.12043428687524751
+    },
+    "v2_std_std_rwf_LENS-M_vrex": {
+      "seeds": 3,
+      "Movies": {
+        "mean": 57.049504950495056,
+        "sd": 7.410624875341827
+      },
+      "UBI-Fights": {
+        "mean": 89.59999724088459,
+        "sd": 0.268945550845297
+      },
+      "Movies_mean_score_fights": 0.06655891232666666,
+      "Movies_mean_score_noFights": 0.083549061140264
+    },
+    "v2_std_std_rwf_V2b": {
+      "seeds": 3,
+      "Movies": {
+        "mean": 2.287128712871288,
+        "sd": 1.7767519151263365
+      },
+      "UBI-Fights": {
+        "mean": 91.05573528126882,
+        "sd": 0.14203477358514052
+      },
+      "Movies_mean_score_fights": 0.045660285683333336,
+      "Movies_mean_score_noFights": 0.21501198065676563
+    }
+  },
+  "primary_LENS-FG_P1": {
+    "claims": {
+      "C1 FG - LENS-Net on Movies (better)": {
+        "diff": 5.940594059405939,
+        "ci": [
+          2.552720246118186,
+          9.741210465431934
+        ],
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      },
+      "C2 FG - LENS-Net on UBI-Fights (non-inferior)": {
+        "diff": 0.45301226426806807,
+        "ci": [
+          -0.006723436576835339,
+          0.9589892004763791
+        ],
+        "better": false,
+        "worse": false,
+        "non_inferior": true
+      },
+      "C3 FG - w/o motion on UBI-Fights (better)": {
+        "diff": -1.5001138135113905,
+        "ci": [
+          -2.782725977108216,
+          -0.30476157008464966
+        ],
+        "better": false,
+        "worse": true,
+        "non_inferior": false
+      },
+      "C4 FG - w/o motion on Movies (non-inferior)": {
+        "diff": 53.30693069306931,
+        "ci": [
+          44.574157772920145,
+          61.47456879560136
+        ],
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      }
+    },
+    "holds": {
+      "C1 FG - LENS-Net on Movies (better)": true,
+      "C2 FG - LENS-Net on UBI-Fights (non-inferior)": true,
+      "C3 FG - w/o motion on UBI-Fights (better)": false,
+      "C4 FG - w/o motion on Movies (non-inferior)": true
+    },
+    "confirmed": false
+  },
+  "secondary_LENS-FG-post_P1": {
+    "claims": {
+      "C1 FG - LENS-Net on Movies (better)": {
+        "diff": 3.2673267326732685,
+        "ci": [
+          -0.4219532206029633,
+          6.4375836581718735
+        ],
+        "better": false,
+        "worse": false,
+        "non_inferior": true
+      },
+      "C2 FG - LENS-Net on UBI-Fights (non-inferior)": {
+        "diff": 0.4669285527060083,
+        "ci": [
+          0.22136021236015146,
+          0.7529324806252506
+        ],
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      },
+      "C3 FG - w/o motion on UBI-Fights (better)": {
+        "diff": -1.4861975250734503,
+        "ci": [
+          -2.8908435362374743,
+          -0.15901530619635537
+        ],
+        "better": false,
+        "worse": true,
+        "non_inferior": false
+      },
+      "C4 FG - w/o motion on Movies (non-inferior)": {
+        "diff": 50.63366336633664,
+        "ci": [
+          41.5631939533239,
+          58.96552579365076
+        ],
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      }
+    },
+    "holds": {
+      "C1 FG - LENS-Net on Movies (better)": false,
+      "C2 FG - LENS-Net on UBI-Fights (non-inferior)": true,
+      "C3 FG - w/o motion on UBI-Fights (better)": false,
+      "C4 FG - w/o motion on Movies (non-inferior)": true
+    },
+    "confirmed": false
+  },
+  "secondary_LENS-FG_P3": {
+    "claims": {
+      "C1 FG - LENS-Net on Movies (better)": {
+        "diff": 3.7128712871287206,
+        "ci": [
+          -1.466483427652301,
+          8.814168878228033
+        ],
+        "better": false,
+        "worse": false,
+        "non_inferior": false
+      },
+      "C2 FG - LENS-Net on UBI-Fights (non-inferior)": {
+        "diff": 0.3751534757956705,
+        "ci": [
+          0.14323355774523883,
+          0.6453326493031697
+        ],
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      },
+      "C3 FG - w/o motion on UBI-Fights (better)": {
+        "diff": -1.0145094982548386,
+        "ci": [
+          -1.9503777080295255,
+          -0.054257263417463675
+        ],
+        "better": false,
+        "worse": true,
+        "non_inferior": false
+      },
+      "C4 FG - w/o motion on Movies (non-inferior)": {
+        "diff": 57.99009900990099,
+        "ci": [
+          48.99669218476838,
+          66.56430540998035
+        ],
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      }
+    },
+    "holds": {
+      "C1 FG - LENS-Net on Movies (better)": false,
+      "C2 FG - LENS-Net on UBI-Fights (non-inferior)": true,
+      "C3 FG - w/o motion on UBI-Fights (better)": false,
+      "C4 FG - w/o motion on Movies (non-inferior)": true
+    },
+    "confirmed": false
+  },
+  "lensnet_vs_P1": {
+    "LENS-Net - A1_videomae": {
+      "Movies": {
+        "diff": 34.24752475247525,
+        "ci": [
+          21.710875224777908,
+          46.42365316176896
+        ],
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      },
+      "UBI-Fights": {
+        "diff": 2.226140549339874,
+        "ci": [
+          0.4821297651610319,
+          4.0921268632474685
+        ],
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      }
+    },
+    "LENS-Net - A1_swin3d_t": {
+      "Movies": {
+        "diff": 9.485148514851488,
+        "ci": [
+          -3.141009064406838,
+          21.35897350072607
+        ],
+        "better": false,
+        "worse": false,
+        "non_inferior": false
+      },
+      "UBI-Fights": {
+        "diff": 2.193841654365599,
+        "ci": [
+          0.3687930255875081,
+          4.018193256274514
+        ],
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      }
+    },
+    "LENS-Net - A1_r2plus1d_18": {
+      "Movies": {
+        "diff": 6.059405940594061,
+        "ci": [
+          -6.693763985835541,
+          19.218310223447908
+        ],
+        "better": false,
+        "worse": false,
+        "non_inferior": false
+      },
+      "UBI-Fights": {
+        "diff": 7.095703367500377,
+        "ci": [
+          4.530174439071636,
+          9.900877302289585
+        ],
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      }
+    },
+    "LENS-Net - A1_xclip_lr5e-06": {
+      "Movies": {
+        "diff": 10.019801980198011,
+        "ci": [
+          0.5447641203446996,
+          19.113052796876328
+        ],
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      },
+      "UBI-Fights": {
+        "diff": -0.04567198256239635,
+        "ci": [
+          -1.700704464067057,
+          1.5951591879031486
+        ],
+        "better": false,
+        "worse": false,
+        "non_inferior": false
+      }
+    },
+    "LENS-Net - VadCLIP-L14_audited_lr0.0001": {
+      "Movies": {
+        "diff": -16.15841584158416,
+        "ci": [
+          -23.93224986623863,
+          -8.837786978080223
+        ],
+        "better": false,
+        "worse": true,
+        "non_inferior": false
+      },
+      "UBI-Fights": {
+        "diff": -1.2096651813428565,
+        "ci": [
+          -2.7992703310198985,
+          0.39317714631401535
+        ],
+        "better": false,
+        "worse": false,
+        "non_inferior": false
+      }
+    },
+    "LENS-Net - MAST-Net": {
+      "Movies": {
+        "diff": 67.24752475247526,
+        "ci": [
+          58.07685469647835,
+          75.91764356099218
+        ],
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      },
+      "UBI-Fights": {
+        "diff": 6.511978009850054,
+        "ci": [
+          4.051993953315809,
+          8.981463410610763
+        ],
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      }
+    },
+    "LENS-Net - v2_audited_V2b": {
+      "Movies": {
+        "diff": 47.36633663366337,
+        "ci": [
+          38.43842876956608,
+          56.24799487713528
+        ],
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      },
+      "UBI-Fights": {
+        "diff": -1.9531260777794586,
+        "ci": [
+          -3.3836731242913456,
+          -0.5718593837437734
+        ],
+        "better": false,
+        "worse": true,
+        "non_inferior": false
+      }
+    },
+    "LENS-Net - v2_audited_LP": {
+      "Movies": {
+        "diff": -22.34653465346534,
+        "ci": [
+          -29.967337312765174,
+          -15.493909222382925
+        ],
+        "better": false,
+        "worse": true,
+        "non_inferior": false
+      },
+      "UBI-Fights": {
+        "diff": -3.020869259315461,
+        "ci": [
+          -4.656814496159792,
+          -1.4571351455853594
+        ],
+        "better": false,
+        "worse": true,
+        "non_inferior": false
+      }
+    },
+    "LENS-Net - v2_audited_MP": {
+      "Movies": {
+        "diff": 12.782178217821787,
+        "ci": [
+          5.9889496652260865,
+          20.089806324181314
+        ],
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      },
+      "UBI-Fights": {
+        "diff": 3.850811179935704,
+        "ci": [
+          2.804140314603759,
+          4.986260692509425
+        ],
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      }
+    },
+    "LENS-Net - ZS": {
+      "Movies": {
+        "diff": -9.168316831683157,
+        "ci": [
+          -14.96833535042491,
+          -3.762147293160683
+        ],
+        "better": false,
+        "worse": true,
+        "non_inferior": false
+      },
+      "UBI-Fights": {
+        "diff": 2.4192527625643265,
+        "ci": [
+          0.47296503251229716,
+          4.276103363327821
+        ],
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      }
+    },
+    "LENS-Net - v2_audited_LENS-FG_vrex": {
+      "Movies": {
+        "diff": -5.940594059405939,
+        "ci": [
+          -9.741210465431934,
+          -2.552720246118187
+        ],
+        "better": false,
+        "worse": true,
+        "non_inferior": false
+      },
+      "UBI-Fights": {
+        "diff": -0.45301226426806807,
+        "ci": [
+          -0.9589892004763794,
+          0.006723436576835311
+        ],
+        "better": false,
+        "worse": false,
+        "non_inferior": true
+      }
+    }
+  },
+  "vs_baselines_P1": {
+    "LENS-FG - A1_videomae": {
+      "Movies": {
+        "diff": 40.18811881188119,
+        "ci": [
+          27.877058503516917,
+          51.717183653764536
+        ],
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      },
+      "UBI-Fights": {
+        "diff": 2.679152813607942,
+        "ci": [
+          0.9673728627011364,
+          4.504601288719766
+        ],
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      }
+    },
+    "LENS-FG - A1_swin3d_t": {
+      "Movies": {
+        "diff": 15.425742574257427,
+        "ci": [
+          3.536089360591909,
+          26.967610269409423
+        ],
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      },
+      "UBI-Fights": {
+        "diff": 2.646853918633667,
+        "ci": [
+          0.8469396579692094,
+          4.464425450578445
+        ],
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      }
+    },
+    "LENS-FG - A1_r2plus1d_18": {
+      "Movies": {
+        "diff": 12.0,
+        "ci": [
+          -0.4863370221826276,
+          24.5843858046519
+        ],
+        "better": false,
+        "worse": false,
+        "non_inferior": true
+      },
+      "UBI-Fights": {
+        "diff": 7.548715631768445,
+        "ci": [
+          5.055846953597309,
+          10.278334305061879
+        ],
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      }
+    },
+    "LENS-FG - A1_xclip_lr5e-06": {
+      "Movies": {
+        "diff": 15.96039603960395,
+        "ci": [
+          6.411493479047267,
+          25.139244840571443
+        ],
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      },
+      "UBI-Fights": {
+        "diff": 0.4073402817056717,
+        "ci": [
+          -1.1781736576396717,
+          1.9363815169727652
+        ],
+        "better": false,
+        "worse": false,
+        "non_inferior": false
+      }
+    },
+    "LENS-FG - VadCLIP-L14_audited_lr0.0001": {
+      "Movies": {
+        "diff": -10.21782178217822,
+        "ci": [
+          -16.64423982616731,
+          -4.466208826765044
+        ],
+        "better": false,
+        "worse": true,
+        "non_inferior": false
+      },
+      "UBI-Fights": {
+        "diff": -0.7566529170747884,
+        "ci": [
+          -2.1779625783228194,
+          0.6891706139213518
+        ],
+        "better": false,
+        "worse": false,
+        "non_inferior": false
+      }
+    },
+    "LENS-FG - MAST-Net": {
+      "Movies": {
+        "diff": 73.1881188118812,
+        "ci": [
+          64.66048770816812,
+          81.19494445505475
+        ],
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      },
+      "UBI-Fights": {
+        "diff": 6.964990274118122,
+        "ci": [
+          4.506907977010215,
+          9.401868218431758
+        ],
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      }
+    },
+    "LENS-FG - v2_audited_LENS-AG_vrex": {
+      "Movies": {
+        "diff": 16.594059405940598,
+        "ci": [
+          11.055763370539282,
+          22.393495531281033
+        ],
+        "better": true,
+        "worse": false,
+        "non_inferior": true
+      },
+      "UBI-Fights": {
+        "diff": -0.28370604384235776,
+        "ci": [
+          -0.7716297563703695,
+          0.2005147130587739
+        ],
+        "better": false,
+        "worse": false,
+        "non_inferior": true
+      }
+    }
+  }
+}

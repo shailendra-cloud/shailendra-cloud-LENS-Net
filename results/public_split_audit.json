@@ -1,0 +1,118 @@
+{
+ "A_matching": {
+  "train": 1544,
+  "val": 398,
+  "unmatched": 11
+ },
+ "A_label_check": {
+  "0": {
+   "Fight": 0,
+   "NonFight": 982
+  },
+  "1": {
+   "Fight": 971,
+   "NonFight": 0
+  }
+ },
+ "A_official": {
+  "cross_split_pairs": 72,
+  "cross_split_opposite_label": 9,
+  "eval_windows": 1194,
+  "eval_windows_linked_to_train": 23,
+  "eval_videos": 398,
+  "eval_videos_linked_to_train": 9,
+  "components_spanning": 8
+ },
+ "A_audited_same_videos": {
+  "cross_split_pairs": 0,
+  "cross_split_opposite_label": 0,
+  "eval_windows": 1740,
+  "eval_windows_linked_to_train": 0,
+  "eval_videos": 580,
+  "eval_videos_linked_to_train": 0,
+  "components_spanning": 0
+ },
+ "A_official_videos": {
+  "train": 1544,
+  "val": 398
+ },
+ "B_prefix": {
+  "videos": 1953,
+  "prefixes": 926,
+  "videos_per_prefix": {
+   "1": 622,
+   "2": 89,
+   "3": 50,
+   "4": 53,
+   "5": 30,
+   "6": 28,
+   "7": 22,
+   "8": 8,
+   "9": 9,
+   "10": 6,
+   "11": 4,
+   "12": 2,
+   "13": 1,
+   "16": 1,
+   "17": 1
+  },
+  "prefixes_multi": 304,
+  "span_official": 0,
+  "span_audited": 67,
+  "span_audited_videos": 369,
+  "span_audited_by_pair": {
+   "test/train/val": 10,
+   "test/train": 28,
+   "train/val": 25,
+   "test/val": 4
+  }
+ },
+ "B_agreement": {
+  "same_prefix_pairs": 3243,
+  "same_prefix_pairs_directly_linked": 1780,
+  "same_prefix_pairs_same_component": 2081,
+  "linked_video_pairs": 1836,
+  "linked_pairs_same_prefix": 1780
+ },
+ "C_random_80_20": {
+  "RLVS": {
+   "cross_pairs": {
+    "median": 1088.0,
+    "p2_5": 843.95,
+    "p97_5": 1295.1
+   },
+   "test_videos_linked_pct": {
+    "median": 24.43324937027708,
+    "p2_5": 21.15869017632242,
+    "p97_5": 27.714105793450873
+   },
+   "videos": 1985
+  },
+  "HockeyFights": {
+   "cross_pairs": {
+    "median": 2728.0,
+    "p2_5": 2369.95,
+    "p97_5": 3041.025
+   },
+   "test_videos_linked_pct": {
+    "median": 48.24120603015076,
+    "p2_5": 43.21608040201005,
+    "p97_5": 52.26130653266332
+   },
+   "videos": 997
+  },
+  "RWF2000": {
+   "cross_pairs": {
+    "median": 4171.5,
+    "p2_5": 3786.975,
+    "p97_5": 4564.275
+   },
+   "test_videos_linked_pct": {
+    "median": 55.64102564102564,
+    "p2_5": 51.282051282051285,
+    "p97_5": 60.0
+   },
+   "videos": 1953
+  }
+ }
+}

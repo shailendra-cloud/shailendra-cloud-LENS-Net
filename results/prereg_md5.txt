@@ -1,0 +1,55 @@
+96cc17eb380005cf3d337117bdee16eb  PREREG.md
+2026-09-24T18:49:56+05:30
+re-frozen: corrected baseline external numbers (naive-split values had been quoted); nothing extracted/trained yet
+f14e31465beda0306e71e622956f0fd8  PREREG.md
+2026-09-24T22:43:42+05:30
+deviation 2 appended (v2 design fixed before any v2 run)
+50600d790ec6842611ba2950057c0570  PREREG.md
+2026-09-24T22:47:22+05:30
+deviation 3 appended (QuickGELU fix)
+2026-09-25T09:57:11+05:30 Stage F launched after user 'start' (V2b selected, pilot GO)
+d6ad9a19bce4edf018bee76245168da9  PREREG.md
+2026-09-25T11:58:59+05:30
+deviation 4 appended (SOTA tracks A and B)
+751f87577582802aef1449723fb7899c  PREREG.md
+2026-09-25T12:36:01+05:30
+deviation 5 appended (R(2+1)D-18)
+274c943c61fc0abbf872159b20f65850  PREREG.md
+2026-09-25T14:18:41+05:30
+deviation 6 appended (LENS-M + fresh confirmatory sets)
+0a6a4b06c3f721154e8856c7f09b5593  PREREG.md
+2026-09-25T16:10:13+05:30
+note 7 (naming: LENS-Net = LENS-M)
+1afebf9753f839c83244ee0b6a50c0ff  PREREG_journal.md
+2026-09-26T07:42:41+05:30 PREREG_journal re-freeze (status text corrected before any run)
+b2d9968e8a67894618c056a09a7fb9df  PREREG_journal.md
+2026-09-26T07:53:01+05:30 PREREG_journal deviation 1 (E2 frame count, CLIP only)
+c2e07ce29a987deeb0028b91c2341e6f  PREREG_journal.md
+2026-09-26T08:30:19+05:30 journal checkpoints fixed before conf scoring: 0df4939c9f5f001d8688db79124b3be3
+2026-09-26T12:05:19+05:30 PREREG_journal deviation 2 (cost script name)
+2bfe8e3f2445b5cb8b72b6a557d3ea2e  PREREG_journal.md
+2026-09-26T12:06:56+05:30 PREREG_journal Sec. 5 added before any robustness/error run
+3b247b8294d643391c9d397a66df975e  PREREG_journal.md
+2026-09-27T23:02:54+05:30 PREREG_journal Sec. 6 (TCSVT additions) before any 6A/6B/6C run
+a924ef42a2c9744f44e6f8af3ebd7e11  PREREG_journal.md
+2026-09-28T09:56:19+05:30 PREREG_journal deviation 3 (data loss / re-extraction)
+a70e43855e1b1a289e5ed13a875aa2e8  PREREG_journal.md
+2026-09-28T12:51:11+05:30 PREREG_journal deviation 4 (latency GPU state)
+4c2a218760ae39601091e9b23863bf33  PREREG_journal.md
+2026-09-28T17:13:45+05:30 PREREG_journal Sec. 6D (X-CLIP lr selection) before its runs
+66286719057857f2334ddfff105c2cdc  PREREG_journal.md
+2026-09-30T15:15:02+05:30 PREREG_journal Sec. 7 (CCTV-Fights) before any window/feature/prediction
+d58b8b91dcf424047ae0953319ee367a  PREREG_journal.md
+2026-09-30T18:35:36+05:30 PREREG_journal Sec. 8 (frame-level XD/UCF protocol) before any frame-level score
+4b36c8a28f44d33bc7890bc23b1717d4  PREREG_journal.md
+2026-10-01T09:09:11+05:30 path migration to LENS-Net-Work (absolute paths rewritten only; content unchanged). Before: PREREG.md 0a6a4b06c3f721154e8856c7f09b5593, PREREG_journal.md 4b36c8a28f44d33bc7890bc23b1717d4. After:
+0a6a4b06c3f721154e8856c7f09b5593  ncc2027/lensnet/PREREG.md
+901f7b09dd71c1a5c22dea37aa9638cc  ncc2027/lensnet/PREREG_journal.md
+2026-10-01T09:15:59+05:30 PREREG_journal Sec. 8 addendum (LENS-AG frame-level, exploratory, after results)
+b4b6a2dc8b1c9959e65fe8a62ec7e790  PREREG_journal.md
+2026-10-01T11:02:12+05:30 PREREG_journal Sec. 9 (LENS-FG footage-aware gate + Movies/UBI-Fights confirmation) before any LENS-FG training or confirmation data
+276e6c752f0373c8d3bfed2a2608122b  PREREG_journal.md
+2026-10-08T11:05:55+05:30 PREREG_journal Sec. 10 (LENS-Net-A anchor fusion; XD-train subset + AIE) before any confirmation video was downloaded
+472f7399caa2e08c2bc2325b795452fe  PREREG_journal.md
+2026-10-08T11:06:02+05:30 Sec. 10 heading corrected (download had started; no video inspected or scored)
+a40894a7956bbc912f3ea25104fb58e8  PREREG_journal.md

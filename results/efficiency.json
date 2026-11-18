@@ -1,0 +1,32 @@
+{
+  "LENS-Net": {
+    "gflops": 1930.72207744,
+    "params_total": 390225334,
+    "params_trained": 31926,
+    "detail": {
+      "clip16": 1660.667559936,
+      "videomae": 270.054457344,
+      "head": 6.016e-05
+    }
+  },
+  "videomae FT": {
+    "gflops": 270.054460416,
+    "params_total": 86228738,
+    "params_trained": 86228738
+  },
+  "swin3d_t FT": {
+    "gflops": 87.763848192,
+    "params_total": 27852008,
+    "params_trained": 27852008
+  },
+  "r2plus1d_18 FT": {
+    "gflops": 81.037754368,
+    "params_total": 31301151,
+    "params_trained": 31301151
+  },
+  "CNN-BiGRU": {
+    "gflops": 9.79321344,
+    "params_total": 6107963,
+    "params_trained": 6107963
+  }
+}

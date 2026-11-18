@@ -1,0 +1,56 @@
+{
+ "labeller_count": 1,
+ "n_labelled": 199,
+ "missing": [
+  "P035"
+ ],
+ "definition": "same source = label 1 or 2",
+ "strata": {
+  "cosine_0.90-0.95": {
+   "same": 12,
+   "n": 19,
+   "rate": 0.632,
+   "wilson95": [
+    0.41,
+    0.809
+   ]
+  },
+  "cosine_removed": {
+   "same": 58,
+   "n": 61,
+   "rate": 0.951,
+   "wilson95": [
+    0.865,
+    0.983
+   ]
+  },
+  "random_pair": {
+   "same": 0,
+   "n": 17,
+   "rate": 0.0,
+   "wilson95": [
+    0.0,
+    0.184
+   ]
+  },
+  "rejected_candidate": {
+   "same": 26,
+   "n": 43,
+   "rate": 0.605,
+   "wilson95": [
+    0.456,
+    0.736
+   ]
+  },
+  "verified_edge": {
+   "same": 59,
+   "n": 59,
+   "rate": 1.0,
+   "wilson95": [
+    0.939,
+    1.0
+   ]
+  }
+ },
+ "rejected_candidate_same_crossing_train_test": 0
+}

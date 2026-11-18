@@ -1,0 +1,240 @@
+{
+  "transfer_windows": {
+    "VID": 11128,
+    "RLVS": 5688,
+    "HockeyFights": 997,
+    "BusViolence": 826
+  },
+  "excluded_linked_windows": 3,
+  "A2_r2plus1d_18_seed42": {
+    "rwf_official_video_acc": 89.9497487437186,
+    "rwf_official_video_auc": 96.16161616161617,
+    "n_test_videos": 398,
+    "BusViolence": 83.62875979541083,
+    "HockeyFights": 93.83420523138834,
+    "RLVS": 90.70017207362007,
+    "VID": 84.46535102642622,
+    "UCF-test": 70.25891341256367,
+    "XD-test": 84.14198498771634
+  },
+  "A2_r2plus1d_18_seed43": {
+    "rwf_official_video_acc": 88.44221105527639,
+    "rwf_official_video_auc": 95.49242424242424,
+    "n_test_videos": 398,
+    "BusViolence": 90.1412416123129,
+    "HockeyFights": 89.64507042253523,
+    "RLVS": 90.37963162766312,
+    "VID": 83.18342811775952,
+    "UCF-test": 72.07236842105263,
+    "XD-test": 84.18971349724865
+  },
+  "A2_r2plus1d_18_seed44": {
+    "rwf_official_video_acc": 88.69346733668341,
+    "rwf_official_video_auc": 95.44191919191918,
+    "n_test_videos": 398,
+    "BusViolence": 91.2070057716672,
+    "HockeyFights": 93.84265593561369,
+    "RLVS": 88.00102143593365,
+    "VID": 75.18655195320727,
+    "UCF-test": 67.73981324278438,
+    "XD-test": 79.95593768572593
+  },
+  "A2_swin3d_t_seed42": {
+    "rwf_official_video_acc": 89.44723618090453,
+    "rwf_official_video_auc": 96.44696969696969,
+    "n_test_videos": 398,
+    "BusViolence": 79.62261273520717,
+    "HockeyFights": 81.7983903420523,
+    "RLVS": 93.15461089906766,
+    "VID": 83.97909557834703,
+    "UCF-test": 72.81196943972836,
+    "XD-test": 78.9809336605579
+  },
+  "A2_swin3d_t_seed43": {
+    "rwf_official_video_acc": 89.44723618090453,
+    "rwf_official_video_auc": 95.16666666666667,
+    "n_test_videos": 398,
+    "BusViolence": 83.31290178780912,
+    "HockeyFights": 92.83702213279678,
+    "RLVS": 93.44512038661227,
+    "VID": 84.96546120319512,
+    "UCF-test": 75.44567062818336,
+    "XD-test": 79.40129289671482
+  },
+  "A2_swin3d_t_seed44": {
+    "rwf_official_video_acc": 91.4572864321608,
+    "rwf_official_video_auc": 95.35858585858587,
+    "n_test_videos": 398,
+    "BusViolence": 82.17293885786682,
+    "HockeyFights": 93.39114688128771,
+    "RLVS": 93.64582760115277,
+    "VID": 83.85611076005767,
+    "UCF-test": 75.65258913412565,
+    "XD-test": 78.83824729527825
+  },
+  "A2_videomae_seed42": {
+    "rwf_official_video_acc": 93.46733668341709,
+    "rwf_official_video_auc": 98.37878787878788,
+    "n_test_videos": 398,
+    "BusViolence": 89.96175683919103,
+    "HockeyFights": 92.8728370221328,
+    "RLVS": 96.52891708623653,
+    "VID": 89.6825564250879,
+    "UCF-test": 72.97856536502547,
+    "XD-test": 79.41190277233183
+  },
+  "A2_videomae_seed43": {
+    "rwf_official_video_acc": 90.95477386934674,
+    "rwf_official_video_auc": 97.18181818181819,
+    "n_test_videos": 398,
+    "BusViolence": 90.6667917976632,
+    "HockeyFights": 94.81891348088531,
+    "RLVS": 96.50220641291114,
+    "VID": 90.7874187851391,
+    "UCF-test": 77.57958404074702,
+    "XD-test": 85.76446755842015
+  },
+  "A2_videomae_seed44": {
+    "rwf_official_video_acc": 93.46733668341709,
+    "rwf_official_video_auc": 97.98737373737374,
+    "n_test_videos": 398,
+    "BusViolence": 88.87429027262917,
+    "HockeyFights": 93.00160965794768,
+    "RLVS": 95.80948488590153,
+    "VID": 89.75744584325734,
+    "UCF-test": 80.18994057724956,
+    "XD-test": 84.43918895094562
+  },
+  "A2_LENS-V2b_seed42": {
+    "rwf_official_video_acc": 85.92964824120602,
+    "rwf_official_video_auc": 95.52525252525253,
+    "n_test_videos": 398,
+    "BusViolence": 75.15602271127587,
+    "HockeyFights": 98.76418511066399,
+    "RLVS": 98.6212717124695,
+    "VID": 80.88998525575593,
+    "UCF-test": 75.26103565365025,
+    "XD-test": 90.26370267029012
+  },
+  "A2_LENS-V2b_seed43": {
+    "rwf_official_video_acc": 87.1859296482412,
+    "rwf_official_video_auc": 95.49747474747475,
+    "n_test_videos": 398,
+    "BusViolence": 75.70503495847215,
+    "HockeyFights": 98.53118712273641,
+    "RLVS": 98.52516275270801,
+    "VID": 80.50767996889127,
+    "UCF-test": 75.12945670628184,
+    "XD-test": 89.1249305950579
+  },
+  "A2_LENS-V2b_seed44": {
+    "rwf_official_video_acc": 86.4321608040201,
+    "rwf_official_video_auc": 95.56313131313131,
+    "n_test_videos": 398,
+    "BusViolence": 75.60180188634978,
+    "HockeyFights": 98.88128772635815,
+    "RLVS": 98.66483731530526,
+    "VID": 80.76443558709634,
+    "UCF-test": 75.56557724957555,
+    "XD-test": 90.06739342013536
+  },
+  "A2_LENS-LP_seed42": {
+    "rwf_official_video_acc": 83.16582914572864,
+    "rwf_official_video_auc": 93.34343434343434,
+    "n_test_videos": 398,
+    "BusViolence": 69.76971986298156,
+    "HockeyFights": 99.41086519114688,
+    "RLVS": 98.38875282796164,
+    "VID": 73.3131110354996,
+    "UCF-test": 73.35420203735143,
+    "XD-test": 91.89309918396357
+  },
+  "A2_LENS-LP_seed43": {
+    "rwf_official_video_acc": 83.66834170854271,
+    "rwf_official_video_auc": 93.39141414141413,
+    "n_test_videos": 398,
+    "BusViolence": 69.88527051757309,
+    "HockeyFights": 99.4169014084507,
+    "RLVS": 98.36561594379877,
+    "VID": 74.02350653769503,
+    "UCF-test": 73.35101867572156,
+    "XD-test": 91.28084882403495
+  },
+  "A2_LENS-LP_seed44": {
+    "rwf_official_video_acc": 82.91457286432161,
+    "rwf_official_video_auc": 93.7020202020202,
+    "n_test_videos": 398,
+    "BusViolence": 69.76033503824316,
+    "HockeyFights": 99.44507042253521,
+    "RLVS": 98.36962254479756,
+    "VID": 74.1391143732076,
+    "UCF-test": 73.99299660441426,
+    "XD-test": 92.14210733583155
+  },
+  "A2_LENS-LENS-M_vrex_seed42": {
+    "rwf_official_video_acc": 88.19095477386935,
+    "rwf_official_video_auc": 97.02020202020202,
+    "n_test_videos": 398,
+    "BusViolence": 84.62765707850404,
+    "HockeyFights": 98.80523138832997,
+    "RLVS": 98.27607335789644,
+    "VID": 87.92072943502001,
+    "UCF-test": 79.7463921901528,
+    "XD-test": 87.19498466187952
+  },
+  "A2_LENS-LENS-M_vrex_seed43": {
+    "rwf_official_video_acc": 88.19095477386935,
+    "rwf_official_video_auc": 96.93434343434345,
+    "n_test_videos": 398,
+    "BusViolence": 82.84747313593918,
+    "HockeyFights": 98.882092555332,
+    "RLVS": 98.41491939497853,
+    "VID": 87.47967238613717,
+    "UCF-test": 79.47156196943973,
+    "XD-test": 87.38688640614731
+  },
+  "A2_LENS-LENS-M_vrex_seed44": {
+    "rwf_official_video_acc": 89.19597989949749,
+    "rwf_official_video_auc": 97.07070707070706,
+    "n_test_videos": 398,
+    "BusViolence": 84.53498193421237,
+    "HockeyFights": 98.87887323943661,
+    "RLVS": 98.38761515113481,
+    "VID": 86.71287123900258,
+    "UCF-test": 78.40301358234295,
+    "XD-test": 87.11039241033858
+  },
+  "A2_LENS-MP_seed42": {
+    "rwf_official_video_acc": 88.69346733668341,
+    "rwf_official_video_auc": 96.36616161616163,
+    "n_test_videos": 398,
+    "BusViolence": 79.66191168879921,
+    "HockeyFights": 94.78430583501006,
+    "RLVS": 90.3434856563066,
+    "VID": 87.52987410683906,
+    "UCF-test": 76.55029711375214,
+    "XD-test": 80.97814981611673
+  },
+  "A2_LENS-MP_seed43": {
+    "rwf_official_video_acc": 88.19095477386935,
+    "rwf_official_video_auc": 96.31313131313132,
+    "n_test_videos": 398,
+    "BusViolence": 75.7560649429872,
+    "HockeyFights": 96.45472837022132,
+    "RLVS": 92.16974138256175,
+    "VID": 86.86745896725482,
+    "UCF-test": 74.31239388794566,
+    "XD-test": 80.930007107236
+  },
+  "A2_LENS-MP_seed44": {
+    "rwf_official_video_acc": 88.94472361809045,
+    "rwf_official_video_auc": 96.16666666666667,
+    "n_test_videos": 398,
+    "BusViolence": 76.68868190136548,
+    "HockeyFights": 94.52112676056339,
+    "RLVS": 91.1827820031892,
+    "VID": 88.5675351188451,
+    "UCF-test": 75.4064091680815,
+    "XD-test": 80.65481943244917
+  }
+}
