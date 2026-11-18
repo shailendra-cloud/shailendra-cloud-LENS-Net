@@ -1,0 +1,105 @@
+% LENS-Net architecture v4b (top-conference style, explicit grid). Real head-blurred input frames; real PPS similarity map.
+% Needs: \usetikzlibrary{positioning,arrows.meta,backgrounds,fit,calc,shadows} and \usepackage{fontawesome5,graphicx}
+\begin{tikzpicture}[font=\footnotesize, >={Latex[length=1.8mm,width=1.4mm]},
+  box/.style={draw=black!65, rounded corners=2.5pt, align=center, inner sep=2.4pt, minimum height=8mm, line width=0.5pt},
+  trn/.style={box, fill=blue!13, draw=blue!55!black},
+  op/.style={circle, draw=black!70, fill=white, inner sep=0pt, minimum size=5.2mm, line width=0.55pt},
+  arr/.style={->, line width=0.65pt, draw=black!75}, lab/.style={font=\scriptsize, text=black!70}]
+\def\frz{{\color{cyan!55!black}\faSnowflake}} \def\tr{{\color{orange!85!black}\faFire}}
+% encoder trapezoid: \enc{name}{cx}{cy}{width}{left height}{right height}{fill}{text}
+\newcommand{\enc}[9]{%
+  \draw[fill=#7, draw=black!65, line width=0.5pt, rounded corners=1.5pt]
+    ($(#2,#3)+(-#4/2,-#5/2)$) -- ($(#2,#3)+(#4/2,-#6/2)$) -- ($(#2,#3)+(#4/2,#6/2)$) -- ($(#2,#3)+(-#4/2,#5/2)$) -- cycle;
+  \node[align=center, font=\footnotesize] at (#2,#3) {#8};
+  \coordinate (#1-in) at ($(#2,#3)+(-#4/2,0)$); \coordinate (#1-out) at ($(#2,#3)+(#4/2,0)$);
+  \coordinate (#1-top) at ($(#2,#3)+(#4/2-0.12,#6/2)$);
+  \ifx r#9\node[font=\small] at ($(#2,#3)+(#4/2-0.22,#6/2+0.18)$) {\frz};\else\node[font=\small] at ($(#2,#3)+(-#4/2+0.1,#5/2+0.14)$) {\frz};\fi}
+% ================= rows (y): anchor 4.55 | PPS 3.0 | prompts 1.35 | motion -0.55 =================
+% ---- input: stack of real frames ----
+\foreach \i in {2,1,0}
+  \node[inner sep=0pt, draw=white, line width=0.8pt, drop shadow={opacity=0.25}] (f\i) at ($(1.05,1.25)+(\i*0.2,\i*0.2)$)
+    {\includegraphics[width=18mm]{figs/arch_frame\i.png}};
+\node[lab, align=center, anchor=north] at ($(f0.south)+(0.0,-0.05)$) {input: 1.5\,s window\\(16 frames)};
+% ---- encoders ----
+\enc{cl}{3.55}{3.0}{1.35}{1.9}{1.15}{blue!9}{CLIP\\ViT-L/14}{r}
+\enc{vm}{3.55}{-0.55}{1.35}{1.6}{1.0}{orange!12}{Video-\\MAE-B}{r}
+\draw[arr] ($(f2.north)+(-0.1,0)$) |- (cl-in);
+\draw[arr] ($(f0.east)+(0,-0.35)$) -- ++(0.62,0) |- (vm-in);   % leaves the stack sideways, clear of the input label
+% ---- token stack ----
+\begin{scope}[shift={(4.75,2.52)}]
+  \foreach \d in {2,1,0} {
+    \begin{scope}[shift={(\d*0.12,\d*0.12)}]
+      \draw[fill=white, draw=black!55, line width=0.35pt] (-0.08,-0.08) rectangle (1.02,0.9);
+      \draw[fill=blue!40, draw=black!60, line width=0.3pt] (0,0.28) rectangle ++(0.25,0.25);
+      \foreach \a in {0,...,3} \foreach \b in {0,...,3}
+        \draw[fill=blue!\the\numexpr 5+5*\a+4*\b\relax, draw=black!50, line width=0.22pt] ($(0.36,0.02)+(\a*0.15,\b*0.19)$) rectangle ++(0.15,0.19);
+    \end{scope}}
+\end{scope}
+\draw[arr] (cl-out) -- (4.62,3.0);
+\node[lab, align=center] at (5.3,2.12) {CLS + $4{\times}4$ grid};
+\coordinate (tokE) at (6.1,3.0);
+% ---- anchored path ----
+\node[box, fill=blue!4, minimum width=19mm] (u) at (8.95,4.55) {mean CLS $u$};
+\node[trn, minimum width=25mm] (anc) at (13.3,4.55) {\tr\ anchored cosine\\classifier $\ell^{A}$};
+\draw[arr] ($(tokE)+(-0.2,0.45)$) |- (u.west);
+\draw[arr] (u) -- node[above, lab]{init.\ $w_c = a_c$} (anc);
+% ---- PPS path ----
+\node[op] (dot) at (6.75,3.0) {$\langle\cdot,\cdot\rangle$};
+\draw[arr] (tokE) -- (dot);
+\node[inner sep=0pt, draw=black!55, line width=0.45pt] (heat) at (8.3,3.0) {\includegraphics[width=19mm,height=12.5mm]{figs/arch_pps.png}};
+\node[lab, anchor=south, inner sep=1pt] at (heat.north) {similarity $s\in[-1,1]^{16\times17\times10}$};
+\node[font=\tiny, text=black!70, align=center, anchor=north, inner sep=1pt] at (heat.south) {10 prompts $\times$ 16 frames};
+\draw[arr] (dot) -- (heat);
+\node[box, fill=blue!4, minimum height=12mm] (stat) at (11.2,3.0)
+  {\textbf{PPS} statistics $\phi\in\mathbb{R}^{120}$\\{\scriptsize space: CLS, max, top-2}\\{\scriptsize time: mean, max, std, $|\Delta|$}};
+\draw[arr] (heat) -- (stat);
+\node[trn, minimum width=15mm] (hp) at (13.8,3.0) {\tr\ PPS\\head $\delta^P$};
+\draw[arr] (stat) -- (hp);
+% ---- prompts -> text encoder -> dot ----
+\node[box, fill=yellow!10, draw=yellow!45!black, align=left, font=\scriptsize, anchor=west] (pr) at (3.0,1.3)
+  {\textbf{10 fixed prompts}\\``people fighting'', \ldots\\``walking calmly'', \ldots};
+\enc{te}{6.75}{1.3}{0.9}{1.05}{0.7}{yellow!20}{\scriptsize CLIP\\[-2pt]\scriptsize text}{l}
+\draw[arr] (pr.east) -- (te-in);
+\draw[arr] (6.75,1.72) -- node[pos=0.16, right, lab, inner sep=1.5pt]{$e_p$} (dot.south);
+% ---- motion path ----
+\node[box, fill=orange!6, minimum width=20mm] (mf) at (6.1,-0.55) {motion feature\\$m\in\mathbb{R}^{768}$};
+\draw[arr] (vm-out) -- (mf);
+\node[trn, minimum width=15mm] (hm) at (13.8,-0.55) {\tr\ motion\\head $\delta^M$};
+\draw[arr] (mf) -- (hm);
+% ---- gated fusion ----
+\node[op, fill=blue!13, draw=blue!55!black] (gp) at (15.2,3.0) {$\times$};
+\node[lab, anchor=south] at (gp.north) {$g_P$};
+\node[op, fill=blue!13, draw=blue!55!black] (gm) at (15.2,-0.55) {$\times$};
+\node[lab, anchor=north] at (gm.south) {$g_M$};
+\node[op, font=\small] (sum) at (16.0,3.0) {$+$};
+\draw[arr] (hp) -- (gp); \draw[arr] (gp) -- (sum);
+\draw[arr] (hm) -- (gm); \draw[arr] (gm) -| (sum.south);
+\draw[arr] (anc.east) -| (sum.north);
+\node[box, fill=white, anchor=west] (out) at (16.45,3.0) {$p_{\text{LENS}}$};
+\draw[arr] (sum) -- (out);
+% ---- decision-level re-anchoring (LENS-Net-A) ----
+\node[op, fill=green!14, draw=green!45!black, minimum size=7.4mm, font=\scriptsize] (avg) at (18.92,3.0) {$\tfrac{1}{2}\Sigma$};
+\draw[arr] (out) -- (avg);
+\draw[arr, draw=green!40!black] (anc.north) -- ++(0,0.62) -| node[pos=0.25, above, lab, inner sep=1.5pt]{$p_{\text{anchor}}$} (avg.north);
+\node[box, fill=green!6, draw=green!45!black, anchor=north, align=center] (outa) at ($(avg.south)+(0,-0.55)$) {$P(\text{violent})$\\{\scriptsize LENS-Net-A}};
+\draw[arr] (avg) -- (outa);
+
+
+% ---- stream bands ----
+\begin{scope}[on background layer]
+  \node[fit={(2.75,0.55) (2.75,5.3) (anc) (hp) (stat) (u)}, fill=blue!3, rounded corners=5pt, inner sep=4pt, inner ysep=8pt] (sb) {};
+  \node[fit={(2.75,-1.4) (hm) (mf)}, fill=orange!7, rounded corners=5pt, inner sep=4pt] (mb) {};
+  \node[fit={(14.85,-1.95) (14.85,3.95) (out)}, fill=violet!6, draw=violet!35, rounded corners=5pt, inner sep=2pt] (fb) {};
+  \node[fit={(17.66,0.42) (17.66,3.95) (20.22,0.42) (avg) (outa)}, fill=green!6, draw=green!35!black!40, rounded corners=5pt, inner sep=2pt] (db) {};
+\end{scope}
+\node[font=\footnotesize\bfseries, text=blue!50!black, anchor=north west, inner sep=3pt] at (sb.north west) {(A) Semantic evidence: what the scene \emph{means}};
+\node[font=\footnotesize\bfseries, text=orange!60!black, anchor=south east, inner sep=3pt] at (mb.south east) {(B) Motion evidence: how bodies \emph{move}};
+\node[font=\scriptsize\bfseries, text=violet!70!black, align=center, anchor=south, inner sep=2pt] at (fb.south) {(C) Feature-level\\fusion};
+\node[font=\scriptsize, text=violet!70!black, align=left, anchor=west] at (16.12,0.35) {$\ell=\ell^{A}$\\[-1pt]$\phantom{\ell}+g_P\,\delta^{P}$\\[-1pt]$\phantom{\ell}+g_M\,\delta^{M}$};
+\node[font=\scriptsize\bfseries, text=green!35!black, align=center, anchor=south, inner sep=2pt] at (db.south) {(D) Decision-level\\re-anchoring};
+% ---- legend ----
+\node[anchor=north west, font=\scriptsize, align=left, inner sep=1pt] at ($(mb.south west)+(0,-0.06)$)
+  {\frz\ frozen \quad \tr\ trained (31.9k parameters) \quad gates $g_P, g_M$ initialised to 0\\[1pt]
+   re-anchoring: $P_A=\tfrac12\,(p_{\text{anchor}}+p_{\text{LENS}})$, no trained parameter\\[1pt]
+   loss: $\mathrm{CE}+\lambda_A\textstyle\sum_c\|w_c{-}a_c\|^2+\beta\,\mathrm{Var}_d(R_d)$ (V-REx across source corpora)};
+\end{tikzpicture}
